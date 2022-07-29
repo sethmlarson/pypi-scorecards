@@ -1,0 +1,39 @@
+name: Cron
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v3
+
+      - name: "Setup python"
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Download latest data
+        run: python main.py
+
+      - name: Commit data to main
+        run: |
+          git checkout main
+
+          git config --global user.name "Seth Michael Larson"
+          git config --global user.email "sethmichaellarson@gmail.com"
+
+          datetime=`date "+%Y-%-m-%-d"`
+          git add README.md data/
+          git commit -m "Updated data for $datetime"
+          git push origin main --quiet
