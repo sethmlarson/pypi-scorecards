@@ -8,7 +8,14 @@ from pathlib import Path
 import urllib3
 from tqdm import tqdm
 
-http = urllib3.PoolManager(retries=urllib3.util.Retry(total=10, backoff_factor=0.5))
+http = urllib3.PoolManager(
+    retries=urllib3.util.Retry(
+        total=10,
+        backoff_factor=0.5,
+        # 5XX
+        status_forcelist=set(range(500, 600)),
+    )
+)
 thread_pool = ThreadPoolExecutor()
 top_pypi_packages_url = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages-30-days.min.json"
 today = datetime.date.today().strftime("%Y-%m-%d")
