@@ -1,6 +1,6 @@
-# OpenSSF Scorecards for top Python packages
+# OpenSSF Scorecard for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 29, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 30, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-packages-openssf-scorecard/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -255,6 +255,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-dns](https://pypi.org/project/google-cloud-dns)|203,448|[6.00/10](https://deps.dev/pypi/google-cloud-dns)|10|8|0|10|10|10|0|10|8|–|4|10|–|0|10
 [paddlepaddle](https://pypi.org/project/paddlepaddle)|77,393|[6.00/10](https://deps.dev/pypi/paddlepaddle)|10|8|0|10|10|0|0|10|10|–|2|10|–|10|10
 [numpy](https://pypi.org/project/numpy)|110,825,188|[5.93/10](https://deps.dev/pypi/numpy)|10|3|0|6|10|0|10|10|10|10|0|10|0|0|10
+[scipy](https://pypi.org/project/scipy)|42,289,187|[5.93/10](https://deps.dev/pypi/scipy)|10|3|0|9|10|0|0|10|10|–|7|10|0|10|10
 [grpc-google-iam-v1](https://pypi.org/project/grpc-google-iam-v1)|12,075,809|[5.93/10](https://deps.dev/pypi/grpc-google-iam-v1)|10|8|0|4|10|10|0|10|2|–|5|10|–|10|10
 [analytics-python](https://pypi.org/project/analytics-python)|1,058,295|[5.93/10](https://deps.dev/pypi/analytics-python)|10|6|0|8|10|10|0|10|10|–|5|0|–|10|10
 [neo4j](https://pypi.org/project/neo4j)|462,896|[5.93/10](https://deps.dev/pypi/neo4j)|10|2|0|10|10|0|0|10|10|–|7|10|–|10|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ipython-sql](https://pypi.org/project/ipython-sql)|129,151|[4.93/10](https://deps.dev/pypi/ipython-sql)|10|0|0|4|10|0|0|10|10|–|10|0|–|10|10
 [vsts-cd-manager](https://pypi.org/project/vsts-cd-manager)|118,123|[4.93/10](https://deps.dev/pypi/vsts-cd-manager)|10|0|0|4|10|0|0|10|0|–|10|10|–|10|10
 [django-classy-tags](https://pypi.org/project/django-classy-tags)|114,388|[4.93/10](https://deps.dev/pypi/django-classy-tags)|10|6|0|8|10|0|0|10|3|10|7|0|0|0|10
-[pytest-celery](https://pypi.org/project/pytest-celery)|106,895|[4.93/10](https://deps.dev/pypi/pytest-celery)|10|8|0|6|10|0|0|10|0|–|10|0|–|10|10
