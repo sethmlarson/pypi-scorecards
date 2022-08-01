@@ -21,6 +21,32 @@ top_pypi_packages_url = "https://raw.githubusercontent.com/hugovk/top-pypi-packa
 today = datetime.date.today().strftime("%Y-%m-%d")
 base_dir = Path(__file__).absolute().parent
 
+check_weights = {
+    # Critical (10.0)
+    "Dangerous-Workflow": 100,
+    # High (7.5)
+    "Binary-Artifacts": 75,
+    "Branch-Protection": 75,
+    "Code-Review": 75,
+    "Dependency-Update-Tool": 75,
+    "Maintained": 75,
+    "Signed-Releases": 75,
+    "Token-Permissions": 75,
+    "Vulnerabilities": 75,
+    "Webhooks": 75,
+    # Medium (5.0)
+    "Fuzzing": 50,
+    "Pinned-Dependencies": 50,
+    "Packaging": 50,
+    "SAST": 50,
+    "Security-Policy": 50,
+    # Low (2.5)
+    "Contributors": 25,
+    "CI-Tests": 25,
+    "CII-Best-Practices": 25,
+    "License": 25,
+}
+
 
 @dataclass
 class Package:
@@ -68,9 +94,17 @@ def fill_in_missing_checks(check_names):
     for package in packages.values():
         for check_name in check_names:
             package.checks.setdefault(check_name, None)
-        package.overall = sum(
-            check_value or 0.0 for check_value in package.checks.values()
-        ) / len(package.checks)
+
+            # Overall score is calculcated by the weight of each check.
+            total_score = 0
+            total_possible_score = 0
+            for check_name, check_score in package.checks.items():
+                check_weight = check_weights[check_name]
+                # Missing scores are counted as 0.
+                total_score += (check_score or 0) * check_weight
+                total_possible_score += 10 * check_weight
+
+            package.overall = (total_score * 10) / total_possible_score
 
 
 def write_packages_to_csv(check_names):
