@@ -9,7 +9,7 @@ defaults:
     shell: bash
 
 jobs:
-  deploy:
+  cron:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout repository"
