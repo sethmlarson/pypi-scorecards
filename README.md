@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 2, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 4, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -246,7 +246,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [db-dtypes](https://pypi.org/project/db-dtypes)|2,965,482|[6.39/10](https://deps.dev/pypi/db-dtypes)|10|8|0|10|10|10|0|10|7|–|4|10|–|0|10
 [google-cloud](https://pypi.org/project/google-cloud)|2,512,883|[6.39/10](https://deps.dev/pypi/google-cloud)|10|8|0|10|10|10|0|10|5|–|7|10|–|0|10
 [cachelib](https://pypi.org/project/cachelib)|2,226,510|[6.39/10](https://deps.dev/pypi/cachelib)|10|3|0|10|10|10|0|10|10|–|7|10|–|0|10
-[pytorch-lightning](https://pypi.org/project/pytorch-lightning)|1,625,944|[6.39/10](https://deps.dev/pypi/pytorch-lightning)|10|1|0|10|10|10|0|10|10|10|0|10|0|0|10
 [google-cloud-dns](https://pypi.org/project/google-cloud-dns)|244,707|[6.39/10](https://deps.dev/pypi/google-cloud-dns)|10|8|0|10|10|10|0|10|7|–|4|10|–|0|10
 [requests](https://pypi.org/project/requests)|200,641,920|[6.37/10](https://deps.dev/pypi/requests)|10|6|0|10|10|0|10|10|10|–|7|10|0|0|10
 [matplotlib](https://pypi.org/project/matplotlib)|24,114,444|[6.37/10](https://deps.dev/pypi/matplotlib)|10|6|0|10|10|10|0|10|10|–|2|10|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [phonenumberslite](https://pypi.org/project/phonenumberslite)|288,412|[5.24/10](https://deps.dev/pypi/phonenumberslite)|10|3|0|0|10|0|0|10|10|–|10|0|–|10|10
 [humbug](https://pypi.org/project/humbug)|283,446|[5.24/10](https://deps.dev/pypi/humbug)|10|8|0|9|10|0|0|10|0|10|9|0|–|0|10
 [django-waffle](https://pypi.org/project/django-waffle)|283,221|[5.24/10](https://deps.dev/pypi/django-waffle)|10|8|0|7|10|0|–|10|10|–|7|0|–|0|10
+[shrub-py](https://pypi.org/project/shrub-py)|244,871|[5.24/10](https://deps.dev/pypi/shrub-py)|10|3|0|8|10|0|0|10|2|–|10|0|–|10|10
