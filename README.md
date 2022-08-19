@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 16, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 19, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -930,6 +930,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [python-barcode](https://pypi.org/project/python-barcode)|129,115|[5.37/10](https://deps.dev/pypi/python-barcode)|10|3|0|7|10|0|0|10|10|10|7|0|0|0|10
 [kedro-viz](https://pypi.org/project/kedro-viz)|119,651|[5.37/10](https://deps.dev/pypi/kedro-viz)|10|8|0|10|10|0|0|10|10|–|5|0|–|0|10
 [crhelper](https://pypi.org/project/crhelper)|90,174|[5.37/10](https://deps.dev/pypi/crhelper)|10|0|0|3|10|0|0|10|5|–|10|10|–|10|10
+[time-machine](https://pypi.org/project/time-machine)|85,343|[5.37/10](https://deps.dev/pypi/time-machine)|10|3|0|7|10|0|0|10|10|–|7|10|–|0|10
 [fugue](https://pypi.org/project/fugue)|59,289|[5.37/10](https://deps.dev/pypi/fugue)|10|6|2|10|10|0|0|10|10|–|7|0|–|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|40,689,338|[5.34/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|0|0|10|10|10|7|10|–|0|10
 [redis](https://pypi.org/project/redis)|24,851,829|[5.34/10](https://deps.dev/pypi/redis)|10|1|0|10|10|0|0|10|10|10|5|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|187,402|[5.26/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|9|10|0|0|10|10|10|5|0|–|0|10
 [django-dirtyfields](https://pypi.org/project/django-dirtyfields)|117,945|[5.26/10](https://deps.dev/pypi/django-dirtyfields)|10|0|0|2|10|0|0|10|10|10|7|10|–|0|10
 [pdoc](https://pypi.org/project/pdoc)|94,936|[5.26/10](https://deps.dev/pypi/pdoc)|10|3|0|1|10|0|0|10|10|–|9|0|–|10|10
-[pytorch-transformers](https://pypi.org/project/pytorch-transformers)|94,245|[5.26/10](https://deps.dev/pypi/pytorch-transformers)|10|1|0|9|10|0|0|10|10|10|5|0|–|0|10
