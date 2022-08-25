@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 23, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 25, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -453,6 +453,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [aws-embedded-metrics](https://pypi.org/project/aws-embedded-metrics)|136,556|[6.24/10](https://deps.dev/pypi/aws-embedded-metrics)|10|10|0|6|10|0|0|10|5|–|7|10|–|10|10
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|86,639|[6.24/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|9|10|0|0|10|10|–|10|10|–|10|10
 [django-sekizai](https://pypi.org/project/django-sekizai)|82,949|[6.24/10](https://deps.dev/pypi/django-sekizai)|10|6|0|9|10|10|0|10|6|10|7|0|–|0|10
+[uvicorn](https://pypi.org/project/uvicorn)|7,489,200|[6.21/10](https://deps.dev/pypi/uvicorn)|10|6|0|10|10|10|0|10|10|–|9|0|–|0|10
 [flax](https://pypi.org/project/flax)|288,324|[6.21/10](https://deps.dev/pypi/flax)|10|6|0|6|10|10|0|10|10|–|5|10|0|0|10
 [botbuilder-schema](https://pypi.org/project/botbuilder-schema)|95,926|[6.21/10](https://deps.dev/pypi/botbuilder-schema)|10|8|0|9|10|10|0|10|5|–|5|10|0|0|10
 [aqtinstall](https://pypi.org/project/aqtinstall)|71,060|[6.21/10](https://deps.dev/pypi/aqtinstall)|10|0|0|4|10|10|0|10|10|10|7|10|0|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ipyleaflet](https://pypi.org/project/ipyleaflet)|110,366|[5.39/10](https://deps.dev/pypi/ipyleaflet)|10|0|0|7|10|10|0|10|10|–|7|0|–|0|10
 [gluestick](https://pypi.org/project/gluestick)|110,297|[5.39/10](https://deps.dev/pypi/gluestick)|10|0|0|5|10|0|–|10|10|–|10|0|–|10|10
 [pysimplegui](https://pypi.org/project/pysimplegui)|107,376|[5.39/10](https://deps.dev/pypi/pysimplegui)|10|0|0|5|10|0|–|10|10|–|10|0|–|10|10
-[evdev](https://pypi.org/project/evdev)|102,205|[5.39/10](https://deps.dev/pypi/evdev)|10|0|0|5|10|0|0|10|10|–|10|0|0|10|10
