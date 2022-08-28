@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 25, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 28, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -718,6 +718,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [statham-schema](https://pypi.org/project/statham-schema)|55,779|[5.79/10](https://deps.dev/pypi/statham-schema)|10|8|0|2|10|10|0|10|0|–|10|0|–|10|10
 [awscli](https://pypi.org/project/awscli)|116,222,870|[5.76/10](https://deps.dev/pypi/awscli)|10|6|0|9|10|0|0|10|10|–|7|10|0|0|10
 [itsdangerous](https://pypi.org/project/itsdangerous)|31,632,889|[5.76/10](https://deps.dev/pypi/itsdangerous)|10|3|0|6|10|10|0|10|6|–|7|10|–|0|10
+[llvmlite](https://pypi.org/project/llvmlite)|6,960,278|[5.76/10](https://deps.dev/pypi/llvmlite)|10|3|0|10|10|0|0|10|10|–|5|0|–|10|10
 [pytest-xdist](https://pypi.org/project/pytest-xdist)|5,494,457|[5.76/10](https://deps.dev/pypi/pytest-xdist)|10|6|0|9|10|0|0|10|10|10|7|0|–|0|10
 [pika](https://pypi.org/project/pika)|3,371,184|[5.76/10](https://deps.dev/pypi/pika)|10|8|2|3|10|10|–|10|10|–|7|0|0|0|10
 [qtpy](https://pypi.org/project/qtpy)|2,934,188|[5.76/10](https://deps.dev/pypi/qtpy)|10|6|0|9|10|0|0|10|10|–|7|10|–|0|10
@@ -891,6 +892,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cx-oracle](https://pypi.org/project/cx-oracle)|3,097,995|[5.53/10](https://deps.dev/pypi/cx-oracle)|10|0|0|0|10|0|0|10|10|–|10|10|–|10|10
 [smdebug-rulesconfig](https://pypi.org/project/smdebug-rulesconfig)|2,592,731|[5.53/10](https://deps.dev/pypi/smdebug-rulesconfig)|10|1|0|9|10|0|0|10|0|–|10|10|0|10|10
 [jupyterlab-server](https://pypi.org/project/jupyterlab-server)|1,653,517|[5.53/10](https://deps.dev/pypi/jupyterlab-server)|10|3|0|9|10|0|0|10|10|–|7|10|0|0|10
+[firebase-admin](https://pypi.org/project/firebase-admin)|848,114|[5.53/10](https://deps.dev/pypi/firebase-admin)|10|8|0|10|10|0|0|10|4|–|7|10|0|0|10
 [questionary](https://pypi.org/project/questionary)|721,246|[5.53/10](https://deps.dev/pypi/questionary)|10|1|0|9|10|10|0|10|10|–|5|0|–|0|10
 [pymdown-extensions](https://pypi.org/project/pymdown-extensions)|650,758|[5.53/10](https://deps.dev/pypi/pymdown-extensions)|10|1|0|1|10|10|0|10|10|10|7|0|–|0|10
 [pygame](https://pypi.org/project/pygame)|478,907|[5.53/10](https://deps.dev/pypi/pygame)|10|10|0|10|10|0|0|10|10|–|5|0|0|0|10
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [sphinxcontrib-httpdomain](https://pypi.org/project/sphinxcontrib-httpdomain)|122,551|[5.39/10](https://deps.dev/pypi/sphinxcontrib-httpdomain)|10|8|0|7|10|0|0|10|0|–|10|0|–|10|10
 [codeowners](https://pypi.org/project/codeowners)|110,696|[5.39/10](https://deps.dev/pypi/codeowners)|10|3|0|8|10|0|0|10|4|–|10|0|–|10|10
 [ipyleaflet](https://pypi.org/project/ipyleaflet)|110,366|[5.39/10](https://deps.dev/pypi/ipyleaflet)|10|0|0|7|10|10|0|10|10|–|7|0|–|0|10
-[gluestick](https://pypi.org/project/gluestick)|110,297|[5.39/10](https://deps.dev/pypi/gluestick)|10|0|0|5|10|0|–|10|10|–|10|0|–|10|10
-[pysimplegui](https://pypi.org/project/pysimplegui)|107,376|[5.39/10](https://deps.dev/pypi/pysimplegui)|10|0|0|5|10|0|–|10|10|–|10|0|–|10|10
