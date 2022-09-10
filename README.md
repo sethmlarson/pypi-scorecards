@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 7, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 10, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -356,7 +356,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [async-timeout](https://pypi.org/project/async-timeout)|47,697,834|[6.16/10](https://deps.dev/pypi/async-timeout)|10|3|0|10|10|10|0|10|7|–|7|10|0|0|10
 [identify](https://pypi.org/project/identify)|5,678,563|[6.16/10](https://deps.dev/pypi/identify)|10|0|0|8|10|0|0|10|10|–|10|10|–|10|10
 [pybind11](https://pypi.org/project/pybind11)|3,107,309|[6.16/10](https://deps.dev/pypi/pybind11)|10|1|0|9|10|10|0|10|10|10|7|0|–|0|10
-[pandas-profiling](https://pypi.org/project/pandas-profiling)|1,154,452|[6.16/10](https://deps.dev/pypi/pandas-profiling)|10|1|0|9|10|10|0|10|10|10|7|0|–|0|10
 [bidict](https://pypi.org/project/bidict)|736,477|[6.16/10](https://deps.dev/pypi/bidict)|10|3|5|0|10|10|0|10|10|10|5|10|–|0|10
 [ml-metadata](https://pypi.org/project/ml-metadata)|503,091|[6.16/10](https://deps.dev/pypi/ml-metadata)|10|0|0|10|10|0|0|10|10|–|7|10|0|10|10
 [eth-account](https://pypi.org/project/eth-account)|452,160|[6.16/10](https://deps.dev/pypi/eth-account)|10|0|0|8|10|10|0|10|10|–|5|0|–|10|10
@@ -742,7 +741,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure](https://pypi.org/project/azure)|1,708,377|[5.63/10](https://deps.dev/pypi/azure)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
 [azure-storage](https://pypi.org/project/azure-storage)|1,668,546|[5.63/10](https://deps.dev/pypi/azure-storage)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
 [azure-mgmt-hdinsight](https://pypi.org/project/azure-mgmt-hdinsight)|1,650,313|[5.63/10](https://deps.dev/pypi/azure-mgmt-hdinsight)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
-[wandb](https://pypi.org/project/wandb)|1,620,390|[5.63/10](https://deps.dev/pypi/wandb)|9|0|0|9|10|10|0|10|10|–|0|10|–|0|10
 [azure-mgmt-privatedns](https://pypi.org/project/azure-mgmt-privatedns)|1,617,014|[5.63/10](https://deps.dev/pypi/azure-mgmt-privatedns)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
 [azure-mgmt-sqlvirtualmachine](https://pypi.org/project/azure-mgmt-sqlvirtualmachine)|1,611,634|[5.63/10](https://deps.dev/pypi/azure-mgmt-sqlvirtualmachine)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
 [azure-mgmt-apimanagement](https://pypi.org/project/azure-mgmt-apimanagement)|1,603,162|[5.63/10](https://deps.dev/pypi/azure-mgmt-apimanagement)|10|8|0|10|10|–|0|10|10|–|0|10|–|0|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytest-html](https://pypi.org/project/pytest-html)|2,323,884|[5.37/10](https://deps.dev/pypi/pytest-html)|10|6|0|10|10|0|0|10|4|10|7|0|–|0|10
 [mypy-boto3-s3](https://pypi.org/project/mypy-boto3-s3)|1,922,055|[5.37/10](https://deps.dev/pypi/mypy-boto3-s3)|10|0|0|0|10|10|0|10|10|–|7|10|–|0|10
 [graphene](https://pypi.org/project/graphene)|1,376,416|[5.37/10](https://deps.dev/pypi/graphene)|10|1|0|9|10|0|0|10|10|10|7|0|–|0|10
+[mypy-boto3-rds](https://pypi.org/project/mypy-boto3-rds)|1,206,190|[5.37/10](https://deps.dev/pypi/mypy-boto3-rds)|10|0|0|0|10|10|0|10|10|–|7|10|–|0|10
+[mypy-boto3-dynamodb](https://pypi.org/project/mypy-boto3-dynamodb)|1,032,195|[5.37/10](https://deps.dev/pypi/mypy-boto3-dynamodb)|10|0|0|0|10|10|0|10|10|–|7|10|–|0|10
