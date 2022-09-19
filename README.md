@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 16, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 19, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -827,6 +827,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-core](https://pypi.org/project/azure-core)|50,701,770|[5.20/10](https://deps.dev/pypi/azure-core)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
 [azure-storage-blob](https://pypi.org/project/azure-storage-blob)|38,521,731|[5.20/10](https://deps.dev/pypi/azure-storage-blob)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
 [azure-common](https://pypi.org/project/azure-common)|32,799,787|[5.20/10](https://deps.dev/pypi/azure-common)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
+[joblib](https://pypi.org/project/joblib)|21,173,809|[5.20/10](https://deps.dev/pypi/joblib)|10|3|0|8|10|0|0|10|5|–|10|0|0|–|10|10
 [azure-identity](https://pypi.org/project/azure-identity)|20,491,680|[5.20/10](https://deps.dev/pypi/azure-identity)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
 [azure-nspkg](https://pypi.org/project/azure-nspkg)|10,750,750|[5.20/10](https://deps.dev/pypi/azure-nspkg)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
 [azure-mgmt-resource](https://pypi.org/project/azure-mgmt-resource)|10,523,084|[5.20/10](https://deps.dev/pypi/azure-mgmt-resource)|8|8|0|10|10|–|0|10|10|–|0|0|10|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [argon2-cffi](https://pypi.org/project/argon2-cffi)|7,597,074|[5.12/10](https://deps.dev/pypi/argon2-cffi)|10|1|0|4|10|0|0|10|10|–|7|8|10|–|0|10
 [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy)|7,158,557|[5.12/10](https://deps.dev/pypi/fuzzywuzzy)|10|6|0|9|10|0|0|10|0|–|10|0|0|–|10|10
 [pyperclip](https://pypi.org/project/pyperclip)|3,674,621|[5.12/10](https://deps.dev/pypi/pyperclip)|10|0|0|5|10|10|0|10|0|–|10|–|0|–|10|10
-[opentracing](https://pypi.org/project/opentracing)|1,504,560|[5.12/10](https://deps.dev/pypi/opentracing)|10|8|0|7|10|0|0|10|0|–|10|0|0|–|10|10
