@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 25, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -609,7 +609,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [redshift-connector](https://pypi.org/project/redshift-connector)|15,606,616|[5.80/10](https://deps.dev/pypi/redshift-connector)|10|6|0|2|10|10|0|10|10|–|9|0|10|–|0|10
 [sphinx-rtd-theme](https://pypi.org/project/sphinx-rtd-theme)|2,529,887|[5.80/10](https://deps.dev/pypi/sphinx-rtd-theme)|10|8|0|8|10|0|–|10|10|–|7|–|0|–|10|10
 [docker-compose](https://pypi.org/project/docker-compose)|1,585,084|[5.80/10](https://deps.dev/pypi/docker-compose)|10|4|0|10|10|10|0|10|10|10|–|0|0|0|0|10
-[dynaconf](https://pypi.org/project/dynaconf)|1,427,073|[5.80/10](https://deps.dev/pypi/dynaconf)|10|8|0|8|10|10|0|10|10|–|7|–|0|–|0|10
 [whitenoise](https://pypi.org/project/whitenoise)|1,089,235|[5.80/10](https://deps.dev/pypi/whitenoise)|10|0|0|8|10|10|0|10|10|–|9|0|10|–|0|10
 [mobly](https://pypi.org/project/mobly)|393,800|[5.80/10](https://deps.dev/pypi/mobly)|10|8|0|10|10|0|0|10|10|–|9|0|10|–|0|10
 [tensorflowonspark](https://pypi.org/project/tensorflowonspark)|255,263|[5.80/10](https://deps.dev/pypi/tensorflowonspark)|9|6|0|9|10|10|0|10|0|–|10|0|0|–|10|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyyaml](https://pypi.org/project/pyyaml)|154,251,234|[5.15/10](https://deps.dev/pypi/pyyaml)|10|3|0|1|10|0|10|10|10|–|7|0|10|–|0|10
 [elasticsearch](https://pypi.org/project/elasticsearch)|15,881,251|[5.15/10](https://deps.dev/pypi/elasticsearch)|10|3|0|9|10|0|0|10|10|–|5|0|10|0|0|10
 [billiard](https://pypi.org/project/billiard)|4,836,827|[5.15/10](https://deps.dev/pypi/billiard)|10|3|0|2|10|–|0|10|9|–|7|10|10|–|0|10
+[papermill](https://pypi.org/project/papermill)|800,145|[5.15/10](https://deps.dev/pypi/papermill)|10|6|0|7|10|0|0|10|9|–|7|8|0|–|0|10
