@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 7, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 10, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -579,7 +579,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [certbot-apache](https://pypi.org/project/certbot-apache)|132,842|[5.70/10](https://deps.dev/pypi/certbot-apache)|10|8|0|10|10|–|–|10|10|–|2|–|0|0|10|10
 [letsencrypt](https://pypi.org/project/letsencrypt)|130,756|[5.70/10](https://deps.dev/pypi/letsencrypt)|10|8|0|10|10|–|–|10|10|–|2|–|0|0|10|10
 [certbot-nginx](https://pypi.org/project/certbot-nginx)|127,090|[5.70/10](https://deps.dev/pypi/certbot-nginx)|10|8|0|10|10|–|–|10|10|–|2|–|0|0|10|10
-[retworkx](https://pypi.org/project/retworkx)|124,070|[5.70/10](https://deps.dev/pypi/retworkx)|10|8|0|10|10|10|0|10|10|–|2|0|0|–|0|10
 [aws-secretsmanager-caching](https://pypi.org/project/aws-secretsmanager-caching)|109,058|[5.70/10](https://deps.dev/pypi/aws-secretsmanager-caching)|10|6|0|10|10|0|0|10|0|–|10|–|10|–|10|10
 [tensorstore](https://pypi.org/project/tensorstore)|65,364|[5.70/10](https://deps.dev/pypi/tensorstore)|10|0|0|10|10|0|0|10|10|10|9|0|10|–|0|10
 [atc-dataplatform](https://pypi.org/project/atc-dataplatform)|64,187|[5.70/10](https://deps.dev/pypi/atc-dataplatform)|10|8|0|10|10|0|0|10|10|10|7|0|0|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mypy-boto3-logs](https://pypi.org/project/mypy-boto3-logs)|76,890|[5.10/10](https://deps.dev/pypi/mypy-boto3-logs)|10|0|0|0|10|10|0|10|10|–|7|0|10|–|0|10
 [fugue-sql-antlr](https://pypi.org/project/fugue-sql-antlr)|71,457|[5.10/10](https://deps.dev/pypi/fugue-sql-antlr)|10|6|2|10|10|0|0|10|10|–|7|0|0|–|0|10
 [rocketchat-api](https://pypi.org/project/rocketchat-api)|70,676|[5.10/10](https://deps.dev/pypi/rocketchat-api)|10|0|0|0|10|10|0|10|10|–|7|10|0|–|0|10
+[mypy-boto3-route53](https://pypi.org/project/mypy-boto3-route53)|68,043|[5.10/10](https://deps.dev/pypi/mypy-boto3-route53)|10|0|0|0|10|10|0|10|10|–|7|0|10|–|0|10
