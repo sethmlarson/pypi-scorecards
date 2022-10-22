@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 19, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 22, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -516,7 +516,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [tendo](https://pypi.org/project/tendo)|156,315|[5.85/10](https://deps.dev/pypi/tendo)|10|8|0|2|10|10|0|10|10|10|7|0|0|0|0|10
 [cloudflare](https://pypi.org/project/cloudflare)|118,348|[5.85/10](https://deps.dev/pypi/cloudflare)|10|0|0|0|10|0|0|10|10|–|10|–|10|8|10|10
 [pybind11-global](https://pypi.org/project/pybind11-global)|112,305|[5.85/10](https://deps.dev/pypi/pybind11-global)|10|1|0|9|10|10|0|10|10|10|7|–|0|–|0|10
-[charset-normalizer](https://pypi.org/project/charset-normalizer)|169,294,743|[5.83/10](https://deps.dev/pypi/charset-normalizer)|10|1|0|2|10|10|10|10|10|–|7|10|0|0|0|10
 [sqlalchemy](https://pypi.org/project/sqlalchemy)|55,100,611|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
 [yarl](https://pypi.org/project/yarl)|47,335,528|[5.83/10](https://deps.dev/pypi/yarl)|10|3|0|0|10|10|0|10|10|–|7|10|10|0|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|45,659,143|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|–|10|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [wslink](https://pypi.org/project/wslink)|103,970|[5.10/10](https://deps.dev/pypi/wslink)|10|0|0|0|10|10|0|10|10|10|7|0|0|–|0|10
 [mypy-boto3-ssm](https://pypi.org/project/mypy-boto3-ssm)|103,353|[5.10/10](https://deps.dev/pypi/mypy-boto3-ssm)|10|0|0|0|10|10|0|10|10|–|7|0|10|–|0|10
 [mypy-boto3-cloudwatch](https://pypi.org/project/mypy-boto3-cloudwatch)|102,772|[5.10/10](https://deps.dev/pypi/mypy-boto3-cloudwatch)|10|0|0|0|10|10|0|10|10|–|7|0|10|–|0|10
+[mypy-boto3-sns](https://pypi.org/project/mypy-boto3-sns)|98,613|[5.10/10](https://deps.dev/pypi/mypy-boto3-sns)|10|0|0|0|10|10|0|10|10|–|7|0|10|–|0|10
