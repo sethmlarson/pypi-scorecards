@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 28, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 1, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -61,6 +61,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-storage](https://pypi.org/project/google-cloud-storage)|50,205,612|[7.60/10](https://deps.dev/pypi/google-cloud-storage)|10|8|0|10|10|10|10|10|10|–|5|0|10|–|10|10
 [cryptography](https://pypi.org/project/cryptography)|138,618,886|[7.55/10](https://deps.dev/pypi/cryptography)|10|8|0|10|10|10|10|10|10|–|4|–|10|–|10|10
 [googleapis-common-protos](https://pypi.org/project/googleapis-common-protos)|66,991,575|[7.38/10](https://deps.dev/pypi/googleapis-common-protos)|10|8|0|10|10|10|10|10|7|–|5|0|10|–|10|10
+[pyarrow](https://pypi.org/project/pyarrow)|66,422,025|[7.33/10](https://deps.dev/pypi/pyarrow)|10|3|0|8|10|10|10|10|10|10|–|–|10|–|10|10
 [coverage](https://pypi.org/project/coverage)|28,462,079|[7.30/10](https://deps.dev/pypi/coverage)|10|3|5|0|10|10|10|10|10|–|9|10|10|–|10|10
 [jsii](https://pypi.org/project/jsii)|909,045|[7.20/10](https://deps.dev/pypi/jsii)|10|8|0|10|10|10|0|10|10|10|–|0|10|8|0|10
 [django-axes](https://pypi.org/project/django-axes)|190,142|[7.15/10](https://deps.dev/pypi/django-axes)|10|0|0|5|10|10|0|10|10|10|7|10|10|–|9|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [datasette](https://pypi.org/project/datasette)|228,521|[5.00/10](https://deps.dev/pypi/datasette)|10|0|0|0|10|10|–|10|10|10|5|0|0|–|0|10
 [dagster-pyspark](https://pypi.org/project/dagster-pyspark)|225,001|[5.00/10](https://deps.dev/pypi/dagster-pyspark)|10|1|0|9|10|10|0|10|10|–|–|0|0|–|0|10
 [dagster-celery](https://pypi.org/project/dagster-celery)|223,651|[5.00/10](https://deps.dev/pypi/dagster-celery)|10|1|0|9|10|10|0|10|10|–|–|0|0|–|0|10
-[dagster-databricks](https://pypi.org/project/dagster-databricks)|178,403|[5.00/10](https://deps.dev/pypi/dagster-databricks)|10|1|0|9|10|10|0|10|10|–|–|0|0|–|0|10
