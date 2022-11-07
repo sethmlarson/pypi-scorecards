@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 4, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 7, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -477,7 +477,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [transformers](https://pypi.org/project/transformers)|8,128,890|[5.83/10](https://deps.dev/pypi/transformers)|10|1|0|10|10|10|0|10|10|10|5|–|0|–|0|10
 [aws-sam-cli](https://pypi.org/project/aws-sam-cli)|1,237,801|[5.83/10](https://deps.dev/pypi/aws-sam-cli)|7|4|0|10|10|10|0|10|10|–|5|–|10|0|0|10
 [pyinstaller](https://pypi.org/project/pyinstaller)|686,125|[5.83/10](https://deps.dev/pypi/pyinstaller)|0|8|0|7|10|10|0|10|10|–|5|–|10|6|0|10
-[jax](https://pypi.org/project/jax)|532,403|[5.83/10](https://deps.dev/pypi/jax)|10|3|0|8|10|10|0|10|10|–|5|–|10|–|0|10
 [jaxlib](https://pypi.org/project/jaxlib)|420,074|[5.83/10](https://deps.dev/pypi/jaxlib)|10|3|0|8|10|10|0|10|10|–|5|–|10|–|0|10
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|184,477|[5.83/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|10|10|10|0|10|10|10|5|–|0|–|0|10
 [botorch](https://pypi.org/project/botorch)|161,223|[5.83/10](https://deps.dev/pypi/botorch)|10|3|0|10|10|10|0|10|10|10|2|0|0|–|0|10
@@ -497,7 +496,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [dash-daq](https://pypi.org/project/dash-daq)|106,792|[5.80/10](https://deps.dev/pypi/dash-daq)|10|8|0|4|10|10|0|10|2|–|10|–|0|0|10|10
 [keplergl](https://pypi.org/project/keplergl)|96,628|[5.80/10](https://deps.dev/pypi/keplergl)|10|6|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [proxy-py](https://pypi.org/project/proxy-py)|80,429|[5.80/10](https://deps.dev/pypi/proxy-py)|10|4|0|0|10|10|0|10|10|10|5|–|10|0|0|10
-[dxpy](https://pypi.org/project/dxpy)|67,791|[5.80/10](https://deps.dev/pypi/dxpy)|9|0|0|5|10|10|0|10|10|–|10|–|0|–|10|10
 [awscli](https://pypi.org/project/awscli)|132,226,734|[5.78/10](https://deps.dev/pypi/awscli)|10|6|0|3|10|10|0|10|10|–|7|–|10|0|0|10
 [scipy](https://pypi.org/project/scipy)|43,003,963|[5.78/10](https://deps.dev/pypi/scipy)|10|3|0|6|10|0|0|10|10|–|7|–|10|0|10|10
 [google-cloud-spanner](https://pypi.org/project/google-cloud-spanner)|5,966,354|[5.78/10](https://deps.dev/pypi/google-cloud-spanner)|10|1|0|10|10|10|0|10|10|–|4|0|10|–|0|10
@@ -516,6 +514,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [z3-solver](https://pypi.org/project/z3-solver)|1,525,459|[5.75/10](https://deps.dev/pypi/z3-solver)|10|0|0|0|10|10|0|10|10|10|5|0|0|0|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,174,507|[5.75/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|1|10|10|0|10|10|10|7|7|0|–|0|10
 [datasette](https://pypi.org/project/datasette)|204,483|[5.75/10](https://deps.dev/pypi/datasette)|10|0|0|0|10|10|0|10|10|10|5|–|0|–|10|10
+[qiskit-terra](https://pypi.org/project/qiskit-terra)|101,504|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
 [google-cloud-pipeline-components](https://pypi.org/project/google-cloud-pipeline-components)|69,926|[5.75/10](https://deps.dev/pypi/google-cloud-pipeline-components)|10|3|0|7|10|10|0|10|10|–|–|0|0|–|10|10
 [fonttools](https://pypi.org/project/fonttools)|15,427,212|[5.72/10](https://deps.dev/pypi/fonttools)|10|3|0|2|10|10|0|10|10|–|7|–|0|–|10|10
 [kubernetes](https://pypi.org/project/kubernetes)|11,315,321|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|–|10|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [exchange-calendars](https://pypi.org/project/exchange-calendars)|339,678|[5.00/10](https://deps.dev/pypi/exchange-calendars)|10|0|0|0|10|10|0|10|10|10|5|–|0|–|0|10
 [dagster-spark](https://pypi.org/project/dagster-spark)|322,353|[5.00/10](https://deps.dev/pypi/dagster-spark)|10|1|0|9|10|10|0|10|10|–|–|–|0|–|0|10
 [dagster-aws](https://pypi.org/project/dagster-aws)|268,591|[5.00/10](https://deps.dev/pypi/dagster-aws)|10|1|0|9|10|10|0|10|10|–|–|–|0|–|0|10
+[dagster-graphql](https://pypi.org/project/dagster-graphql)|220,221|[5.00/10](https://deps.dev/pypi/dagster-graphql)|10|1|0|9|10|10|0|10|10|–|–|–|0|–|0|10
