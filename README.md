@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 16, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 19, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -529,9 +529,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ml-metadata](https://pypi.org/project/ml-metadata)|590,622|[5.85/10](https://deps.dev/pypi/ml-metadata)|10|0|0|10|10|0|0|10|10|–|7|0|10|0|10|10
 [eth-account](https://pypi.org/project/eth-account)|482,431|[5.85/10](https://deps.dev/pypi/eth-account)|10|0|0|8|10|10|0|10|10|–|5|0|0|–|10|10
 [inquirer](https://pypi.org/project/inquirer)|442,419|[5.85/10](https://deps.dev/pypi/inquirer)|10|0|0|10|10|10|0|10|10|10|7|0|0|–|0|10
-[neo4j](https://pypi.org/project/neo4j)|411,781|[5.85/10](https://deps.dev/pypi/neo4j)|10|3|0|7|10|0|0|10|10|–|7|0|10|–|10|10
 [pulumi](https://pypi.org/project/pulumi)|410,287|[5.85/10](https://deps.dev/pypi/pulumi)|10|8|0|10|10|–|10|10|10|–|0|0|10|0|0|10
-[neo4j-driver](https://pypi.org/project/neo4j-driver)|233,717|[5.85/10](https://deps.dev/pypi/neo4j-driver)|10|3|0|7|10|0|0|10|10|–|7|0|10|–|10|10
 [segment-analytics-python](https://pypi.org/project/segment-analytics-python)|215,399|[5.85/10](https://deps.dev/pypi/segment-analytics-python)|10|6|0|7|10|10|0|10|5|–|5|0|0|–|10|10
 [dvc-render](https://pypi.org/project/dvc-render)|185,679|[5.85/10](https://deps.dev/pypi/dvc-render)|10|6|0|4|10|10|0|10|10|10|7|0|0|–|0|10
 [pyqtgraph](https://pypi.org/project/pyqtgraph)|102,623|[5.85/10](https://deps.dev/pypi/pyqtgraph)|10|3|0|7|10|10|0|10|10|–|7|10|0|–|0|10
@@ -540,7 +538,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [frozenlist](https://pypi.org/project/frozenlist)|45,499,210|[5.83/10](https://deps.dev/pypi/frozenlist)|10|3|0|0|10|10|0|10|10|–|7|10|10|0|0|10
 [aiosignal](https://pypi.org/project/aiosignal)|44,539,985|[5.83/10](https://deps.dev/pypi/aiosignal)|10|3|0|0|10|10|0|10|10|–|7|10|10|0|0|10
 [loguru](https://pypi.org/project/loguru)|3,824,681|[5.83/10](https://deps.dev/pypi/loguru)|10|3|0|0|10|10|0|10|10|–|7|10|10|–|0|10
-[kfp](https://pypi.org/project/kfp)|2,779,178|[5.83/10](https://deps.dev/pypi/kfp)|10|3|0|8|10|10|0|10|10|–|–|–|0|–|10|10
 [kfp-server-api](https://pypi.org/project/kfp-server-api)|2,632,997|[5.83/10](https://deps.dev/pypi/kfp-server-api)|10|3|0|8|10|10|0|10|10|–|–|–|0|–|10|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|2,433,830|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|–|0|–|10|10
 [aws-sam-cli](https://pypi.org/project/aws-sam-cli)|1,237,801|[5.83/10](https://deps.dev/pypi/aws-sam-cli)|7|4|0|10|10|10|0|10|10|–|5|0|10|0|0|10
@@ -617,7 +614,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [chart-studio](https://pypi.org/project/chart-studio)|163,392|[5.72/10](https://deps.dev/pypi/chart-studio)|10|1|0|2|10|10|0|10|10|–|10|0|0|–|10|10
 [pystardog](https://pypi.org/project/pystardog)|92,982|[5.72/10](https://deps.dev/pypi/pystardog)|10|6|0|9|10|0|0|10|10|–|7|0|0|–|10|10
 [torch-geometric](https://pypi.org/project/torch-geometric)|91,444|[5.72/10](https://deps.dev/pypi/torch-geometric)|10|8|0|7|10|0|0|10|10|10|5|7|0|–|0|10
-[browserstack-local](https://pypi.org/project/browserstack-local)|83,950|[5.72/10](https://deps.dev/pypi/browserstack-local)|10|6|0|9|10|0|0|10|8|–|10|0|0|–|10|10
 [pandas](https://pypi.org/project/pandas)|95,129,116|[5.70/10](https://deps.dev/pypi/pandas)|10|3|0|9|10|0|10|10|10|–|0|7|9|0|0|10
 [debugpy](https://pypi.org/project/debugpy)|9,416,728|[5.70/10](https://deps.dev/pypi/debugpy)|0|3|0|8|10|0|0|10|10|–|9|10|10|–|9|10
 [pre-commit](https://pypi.org/project/pre-commit)|5,591,376|[5.70/10](https://deps.dev/pypi/pre-commit)|10|0|0|8|10|0|0|10|10|–|7|0|10|0|10|10
@@ -789,7 +785,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [llvmlite](https://pypi.org/project/llvmlite)|8,508,750|[5.47/10](https://deps.dev/pypi/llvmlite)|10|3|0|10|10|0|0|10|10|–|5|0|0|–|10|10
 [djangorestframework](https://pypi.org/project/djangorestframework)|4,011,925|[5.47/10](https://deps.dev/pypi/djangorestframework)|10|3|0|2|10|10|0|10|10|–|7|0|10|–|0|10
 [pysaml2](https://pypi.org/project/pysaml2)|506,260|[5.47/10](https://deps.dev/pypi/pysaml2)|10|3|0|0|10|0|0|10|10|–|10|0|10|–|10|10
-[ansible-compat](https://pypi.org/project/ansible-compat)|453,026|[5.47/10](https://deps.dev/pypi/ansible-compat)|10|3|0|2|10|10|0|10|10|10|7|0|0|–|0|10
 [versioneer-518](https://pypi.org/project/versioneer-518)|411,093|[5.47/10](https://deps.dev/pypi/versioneer-518)|10|0|0|5|10|10|0|10|10|10|7|0|0|–|0|10
 [algoliasearch](https://pypi.org/project/algoliasearch)|214,687|[5.47/10](https://deps.dev/pypi/algoliasearch)|10|8|0|6|10|0|0|10|1|–|7|0|10|–|10|10
 [aiopg](https://pypi.org/project/aiopg)|162,878|[5.47/10](https://deps.dev/pypi/aiopg)|10|3|0|1|10|10|0|10|3|–|9|10|10|0|0|10
@@ -1006,3 +1001,8 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [hive-metastore-client](https://pypi.org/project/hive-metastore-client)|62,996|[5.15/10](https://deps.dev/pypi/hive-metastore-client)|10|8|0|9|10|0|0|10|3|–|9|9|0|–|0|10
 [itsdangerous](https://pypi.org/project/itsdangerous)|34,883,774|[5.12/10](https://deps.dev/pypi/itsdangerous)|10|3|0|5|10|10|–|10|3|–|7|0|9|–|0|10
 [joblib](https://pypi.org/project/joblib)|22,068,139|[5.12/10](https://deps.dev/pypi/joblib)|10|3|0|2|10|0|0|10|10|–|10|0|0|–|10|10
+[commonmark](https://pypi.org/project/commonmark)|9,442,355|[5.12/10](https://deps.dev/pypi/commonmark)|10|0|0|5|10|10|0|10|0|–|10|–|0|0|10|10
+[fuzzywuzzy](https://pypi.org/project/fuzzywuzzy)|7,020,359|[5.12/10](https://deps.dev/pypi/fuzzywuzzy)|10|6|0|9|10|0|0|10|0|–|10|–|0|–|10|10
+[flask-caching](https://pypi.org/project/flask-caching)|3,962,059|[5.12/10](https://deps.dev/pypi/flask-caching)|10|0|0|7|10|10|0|10|10|–|7|0|0|–|0|10
+[yt-dlp](https://pypi.org/project/yt-dlp)|1,914,097|[5.12/10](https://deps.dev/pypi/yt-dlp)|10|3|0|4|10|0|0|10|10|–|7|0|0|0|10|10
+[opentracing](https://pypi.org/project/opentracing)|1,676,346|[5.12/10](https://deps.dev/pypi/opentracing)|10|8|0|7|10|0|0|10|0|–|10|0|0|–|10|10
