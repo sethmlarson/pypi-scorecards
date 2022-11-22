@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 19, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 22, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -75,10 +75,10 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [matplotlib](https://pypi.org/project/matplotlib)|28,037,576|[7.05/10](https://deps.dev/pypi/matplotlib)|10|6|0|10|10|10|10|10|10|–|2|10|10|–|0|10
 [google-api-python-client](https://pypi.org/project/google-api-python-client)|25,932,831|[7.05/10](https://deps.dev/pypi/google-api-python-client)|10|8|0|10|10|10|10|10|10|–|9|–|10|–|0|10
 [google-crc32c](https://pypi.org/project/google-crc32c)|19,910,467|[7.05/10](https://deps.dev/pypi/google-crc32c)|10|8|0|9|10|10|10|10|9|10|2|0|10|–|0|10
+[ansible-lint](https://pypi.org/project/ansible-lint)|849,471|[7.05/10](https://deps.dev/pypi/ansible-lint)|10|8|2|4|10|10|0|10|10|10|7|10|10|–|0|10
 [trufflehog](https://pypi.org/project/trufflehog)|121,841|[7.03/10](https://deps.dev/pypi/trufflehog)|10|6|0|9|10|10|0|10|10|10|5|9|9|0|0|10
 [google-auth](https://pypi.org/project/google-auth)|67,167,738|[7.00/10](https://deps.dev/pypi/google-auth)|10|0|0|10|10|10|10|10|10|–|5|–|10|–|10|10
 [pillow](https://pypi.org/project/pillow)|42,521,213|[7.00/10](https://deps.dev/pypi/pillow)|10|0|2|8|10|10|10|10|10|–|7|0|10|–|10|10
-[ansible-lint](https://pypi.org/project/ansible-lint)|849,471|[7.00/10](https://deps.dev/pypi/ansible-lint)|10|8|0|4|10|10|0|10|10|10|7|10|10|–|0|10
 [edk2-pytool-library](https://pypi.org/project/edk2-pytool-library)|68,774|[6.97/10](https://deps.dev/pypi/edk2-pytool-library)|10|8|0|8|10|10|0|10|10|–|9|8|0|–|9|10
 [google-cloud-aiplatform](https://pypi.org/project/google-cloud-aiplatform)|1,636,499|[6.95/10](https://deps.dev/pypi/google-cloud-aiplatform)|10|8|0|8|10|10|0|10|10|–|5|–|10|–|10|10
 [charset-normalizer](https://pypi.org/project/charset-normalizer)|170,194,612|[6.92/10](https://deps.dev/pypi/charset-normalizer)|10|8|0|3|10|10|10|10|10|–|7|10|10|0|0|10
@@ -911,7 +911,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mbed-ls](https://pypi.org/project/mbed-ls)|269,933|[5.28/10](https://deps.dev/pypi/mbed-ls)|10|6|0|10|10|0|0|10|1|–|10|0|0|–|10|10
 [time-machine](https://pypi.org/project/time-machine)|156,386|[5.28/10](https://deps.dev/pypi/time-machine)|10|3|0|0|10|10|0|10|10|–|7|–|9|–|0|10
 [easypost](https://pypi.org/project/easypost)|138,184|[5.28/10](https://deps.dev/pypi/easypost)|10|1|0|10|10|0|0|10|10|–|9|0|10|0|0|10
-[azure-iot-hub](https://pypi.org/project/azure-iot-hub)|123,454|[5.28/10](https://deps.dev/pypi/azure-iot-hub)|10|7|0|10|10|0|0|10|10|–|0|0|10|0|0|10
 [fasttext-wheel](https://pypi.org/project/fasttext-wheel)|107,753|[5.28/10](https://deps.dev/pypi/fasttext-wheel)|10|3|0|8|10|0|0|10|0|–|10|0|9|–|10|10
 [azure-iot-device](https://pypi.org/project/azure-iot-device)|100,654|[5.28/10](https://deps.dev/pypi/azure-iot-device)|10|7|0|10|10|0|0|10|10|–|0|0|10|0|0|10
 [seldon-core](https://pypi.org/project/seldon-core)|98,268|[5.28/10](https://deps.dev/pypi/seldon-core)|10|0|0|7|10|10|0|10|10|–|0|0|10|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [flask-caching](https://pypi.org/project/flask-caching)|3,962,059|[5.12/10](https://deps.dev/pypi/flask-caching)|10|0|0|7|10|10|0|10|10|–|7|0|0|–|0|10
 [yt-dlp](https://pypi.org/project/yt-dlp)|1,914,097|[5.12/10](https://deps.dev/pypi/yt-dlp)|10|3|0|4|10|0|0|10|10|–|7|0|0|0|10|10
 [opentracing](https://pypi.org/project/opentracing)|1,676,346|[5.12/10](https://deps.dev/pypi/opentracing)|10|8|0|7|10|0|0|10|0|–|10|0|0|–|10|10
+[codecov](https://pypi.org/project/codecov)|923,804|[5.12/10](https://deps.dev/pypi/codecov)|10|0|0|9|10|10|–|10|0|–|9|–|10|–|0|10
