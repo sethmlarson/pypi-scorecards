@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 4, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 7, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -911,7 +911,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [simpervisor](https://pypi.org/project/simpervisor)|115,058|[5.35/10](https://deps.dev/pypi/simpervisor)|10|0|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [astpretty](https://pypi.org/project/astpretty)|100,234|[5.35/10](https://deps.dev/pypi/astpretty)|10|0|0|8|10|0|0|10|10|–|10|0|0|–|10|10
 [glocaltokens](https://pypi.org/project/glocaltokens)|87,835|[5.35/10](https://deps.dev/pypi/glocaltokens)|10|1|0|9|10|10|0|10|10|–|7|0|0|–|0|10
-[py-vapid](https://pypi.org/project/py-vapid)|80,436|[5.35/10](https://deps.dev/pypi/py-vapid)|10|6|0|6|10|0|0|10|0|–|10|0|9|–|10|10
 [flask-log-request-id](https://pypi.org/project/flask-log-request-id)|71,009|[5.35/10](https://deps.dev/pypi/flask-log-request-id)|10|8|0|10|10|0|0|10|0|–|10|0|0|–|10|10
 [pyodbc](https://pypi.org/project/pyodbc)|23,040,345|[5.33/10](https://deps.dev/pypi/pyodbc)|10|0|0|7|10|0|10|10|10|–|7|9|0|–|0|10
 [faker](https://pypi.org/project/faker)|5,767,846|[5.33/10](https://deps.dev/pypi/faker)|10|0|0|3|10|10|0|10|10|10|7|0|0|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mobly](https://pypi.org/project/mobly)|359,728|[5.20/10](https://deps.dev/pypi/mobly)|10|8|0|10|10|0|0|10|2|–|9|0|10|–|0|10
 [python-string-utils](https://pypi.org/project/python-string-utils)|349,513|[5.20/10](https://deps.dev/pypi/python-string-utils)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
 [stone](https://pypi.org/project/stone)|344,208|[5.20/10](https://deps.dev/pypi/stone)|10|8|0|10|10|10|0|10|0|–|7|0|0|–|0|10
+[djangorestframework-stubs](https://pypi.org/project/djangorestframework-stubs)|259,779|[5.20/10](https://deps.dev/pypi/djangorestframework-stubs)|10|0|0|8|10|10|0|10|10|–|7|–|0|–|0|10
