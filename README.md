@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 7, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 10, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -555,7 +555,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-instrumentation-sklearn](https://pypi.org/project/opentelemetry-instrumentation-sklearn)|101,296|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-sklearn)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [plivo](https://pypi.org/project/plivo)|86,539|[5.95/10](https://deps.dev/pypi/plivo)|10|8|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [opentelemetry-instrumentation-pymongo](https://pypi.org/project/opentelemetry-instrumentation-pymongo)|83,719|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-pymongo)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
-[dowhy](https://pypi.org/project/dowhy)|82,057|[5.95/10](https://deps.dev/pypi/dowhy)|10|6|0|10|10|10|0|10|10|–|0|0|10|0|0|10
 [cocotb](https://pypi.org/project/cocotb)|74,949|[5.95/10](https://deps.dev/pypi/cocotb)|10|6|0|10|10|10|0|10|10|10|–|–|0|–|0|10
 [opentelemetry-instrumentation-django](https://pypi.org/project/opentelemetry-instrumentation-django)|69,496|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-django)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [cirq-core](https://pypi.org/project/cirq-core)|67,916|[5.95/10](https://deps.dev/pypi/cirq-core)|10|8|0|10|10|10|0|10|10|–|7|0|0|0|0|10
@@ -799,6 +798,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-play-scraper](https://pypi.org/project/google-play-scraper)|132,532|[5.53/10](https://deps.dev/pypi/google-play-scraper)|10|8|0|3|10|10|0|10|10|–|9|–|0|–|0|10
 [mediapipe](https://pypi.org/project/mediapipe)|122,819|[5.53/10](https://deps.dev/pypi/mediapipe)|9|0|0|10|10|0|0|10|10|–|2|0|10|–|10|10
 [ax-platform](https://pypi.org/project/ax-platform)|113,433|[5.53/10](https://deps.dev/pypi/ax-platform)|10|3|0|10|10|0|0|10|10|10|2|0|9|–|0|10
+[pynetbox](https://pypi.org/project/pynetbox)|101,295|[5.53/10](https://deps.dev/pypi/pynetbox)|10|2|2|3|10|0|0|10|10|–|7|0|10|–|10|10
 [pymc](https://pypi.org/project/pymc)|98,696|[5.53/10](https://deps.dev/pypi/pymc)|10|1|0|10|10|0|–|10|10|10|5|0|9|–|0|10
 [mechanicalsoup](https://pypi.org/project/mechanicalsoup)|95,136|[5.53/10](https://deps.dev/pypi/mechanicalsoup)|10|3|5|5|10|10|0|10|6|10|7|–|0|0|0|10
 [allennlp-models](https://pypi.org/project/allennlp-models)|72,315|[5.53/10](https://deps.dev/pypi/allennlp-models)|10|8|0|8|10|10|–|10|1|10|5|–|0|–|0|10
