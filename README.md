@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 31, 2022 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 1, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -430,7 +430,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [glean-parser](https://pypi.org/project/glean-parser)|152,419|[6.17/10](https://deps.dev/pypi/glean-parser)|10|3|0|6|10|10|–|10|10|–|10|0|0|–|10|10
 [blosc](https://pypi.org/project/blosc)|82,017|[6.17/10](https://deps.dev/pypi/blosc)|10|0|0|9|10|10|0|10|10|10|7|8|0|–|0|10
 [opentelemetry-exporter-gcp-trace](https://pypi.org/project/opentelemetry-exporter-gcp-trace)|78,834|[6.17/10](https://deps.dev/pypi/opentelemetry-exporter-gcp-trace)|10|1|0|10|10|10|0|10|10|–|7|0|0|–|10|10
-[rich](https://pypi.org/project/rich)|15,005,338|[6.15/10](https://deps.dev/pypi/rich)|10|6|0|8|10|10|0|10|10|–|7|–|10|–|0|10
 [applicationinsights](https://pypi.org/project/applicationinsights)|10,298,172|[6.15/10](https://deps.dev/pypi/applicationinsights)|10|8|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [confluent-kafka](https://pypi.org/project/confluent-kafka)|8,247,810|[6.15/10](https://deps.dev/pypi/confluent-kafka)|10|6|0|8|10|0|10|10|10|–|7|0|0|–|10|10
 [dask](https://pypi.org/project/dask)|7,163,055|[6.15/10](https://deps.dev/pypi/dask)|10|0|0|8|10|10|10|10|10|–|7|0|9|–|0|10
@@ -810,7 +809,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pywatchman](https://pypi.org/project/pywatchman)|238,198|[5.50/10](https://deps.dev/pypi/pywatchman)|10|3|0|1|10|10|0|10|10|10|0|0|9|0|0|10
 [httpie](https://pypi.org/project/httpie)|174,523|[5.50/10](https://deps.dev/pypi/httpie)|10|0|0|4|10|10|0|10|6|10|5|0|10|0|0|10
 [flake8-pie](https://pypi.org/project/flake8-pie)|168,624|[5.50/10](https://deps.dev/pypi/flake8-pie)|10|8|0|10|10|0|0|10|2|–|10|0|0|–|10|10
-[time-machine](https://pypi.org/project/time-machine)|162,808|[5.50/10](https://deps.dev/pypi/time-machine)|10|3|0|3|10|10|0|10|10|–|7|0|9|–|0|10
 [python-xlib](https://pypi.org/project/python-xlib)|157,840|[5.50/10](https://deps.dev/pypi/python-xlib)|10|3|0|7|10|0|0|10|10|–|10|0|0|0|10|10
 [no-manylinux](https://pypi.org/project/no-manylinux)|127,455|[5.50/10](https://deps.dev/pypi/no-manylinux)|10|0|0|10|10|–|0|10|10|–|10|0|0|–|10|10
 [captum](https://pypi.org/project/captum)|100,173|[5.50/10](https://deps.dev/pypi/captum)|10|0|0|10|10|0|0|10|10|–|10|0|0|–|10|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [djangorestframework-stubs](https://pypi.org/project/djangorestframework-stubs)|259,779|[5.20/10](https://deps.dev/pypi/djangorestframework-stubs)|10|0|0|8|10|10|0|10|10|–|7|–|0|–|0|10
 [python-quickbooks](https://pypi.org/project/python-quickbooks)|244,864|[5.20/10](https://deps.dev/pypi/python-quickbooks)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
 [mxnet-mkl](https://pypi.org/project/mxnet-mkl)|179,458|[5.20/10](https://deps.dev/pypi/mxnet-mkl)|10|1|0|10|10|0|0|10|7|–|0|0|10|8|0|10
+[gpytorch](https://pypi.org/project/gpytorch)|172,277|[5.20/10](https://deps.dev/pypi/gpytorch)|10|8|0|10|10|0|0|10|10|–|7|0|0|–|0|10
+[doc8](https://pypi.org/project/doc8)|166,495|[5.20/10](https://deps.dev/pypi/doc8)|10|8|0|5|10|10|0|10|3|10|–|0|0|–|0|10
