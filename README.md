@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 4, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 7, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -531,7 +531,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-instrumentation-wsgi](https://pypi.org/project/opentelemetry-instrumentation-wsgi)|450,232|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-wsgi)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [opentelemetry-instrumentation-requests](https://pypi.org/project/opentelemetry-instrumentation-requests)|448,152|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-requests)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [opentelemetry-instrumentation-botocore](https://pypi.org/project/opentelemetry-instrumentation-botocore)|432,164|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-botocore)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
-[openai](https://pypi.org/project/openai)|379,334|[5.95/10](https://deps.dev/pypi/openai)|10|6|0|10|10|0|0|10|10|–|10|0|0|–|10|10
 [opentelemetry-instrumentation-dbapi](https://pypi.org/project/opentelemetry-instrumentation-dbapi)|376,465|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-dbapi)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [fastai](https://pypi.org/project/fastai)|373,970|[5.95/10](https://deps.dev/pypi/fastai)|10|0|0|8|10|10|0|10|10|–|7|0|0|–|10|10
 [opentelemetry-instrumentation-logging](https://pypi.org/project/opentelemetry-instrumentation-logging)|368,488|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-logging)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
@@ -618,6 +617,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [vector](https://pypi.org/project/vector)|70,843|[5.85/10](https://deps.dev/pypi/vector)|10|3|0|7|10|10|0|10|10|10|7|0|0|–|0|10
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|61,267|[5.85/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|8|10|0|0|10|10|–|10|0|10|–|10|10
 [jsonschema](https://pypi.org/project/jsonschema)|59,133,917|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|0|10|–|0|10
+[sqlalchemy](https://pypi.org/project/sqlalchemy)|53,258,852|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
 [kfp-server-api](https://pypi.org/project/kfp-server-api)|3,406,400|[5.83/10](https://deps.dev/pypi/kfp-server-api)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|3,078,861|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,161,738|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
@@ -640,7 +640,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [humanize](https://pypi.org/project/humanize)|3,542,258|[5.80/10](https://deps.dev/pypi/humanize)|10|3|0|7|10|10|0|10|10|–|7|0|9|–|0|10
 [sphinx-rtd-theme](https://pypi.org/project/sphinx-rtd-theme)|2,701,449|[5.80/10](https://deps.dev/pypi/sphinx-rtd-theme)|10|8|0|8|10|0|0|10|10|–|7|0|0|–|10|10
 [google-ads](https://pypi.org/project/google-ads)|2,648,012|[5.80/10](https://deps.dev/pypi/google-ads)|10|8|0|10|10|0|0|10|6|–|10|0|0|–|10|10
-[pikepdf](https://pypi.org/project/pikepdf)|324,624|[5.80/10](https://deps.dev/pypi/pikepdf)|10|3|0|1|10|10|0|10|10|10|7|8|0|–|0|10
 [pytest-playwright](https://pypi.org/project/pytest-playwright)|253,912|[5.80/10](https://deps.dev/pypi/pytest-playwright)|10|8|0|5|10|10|0|10|5|–|9|–|10|–|0|10
 [pipelinewise-singer-python](https://pypi.org/project/pipelinewise-singer-python)|185,017|[5.80/10](https://deps.dev/pypi/pipelinewise-singer-python)|10|8|0|10|10|10|0|10|0|–|9|0|10|–|0|10
 [easyocr](https://pypi.org/project/easyocr)|127,430|[5.80/10](https://deps.dev/pypi/easyocr)|10|0|0|6|10|10|0|10|10|–|7|0|0|0|10|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [django-formtools](https://pypi.org/project/django-formtools)|214,282|[5.22/10](https://deps.dev/pypi/django-formtools)|10|0|0|7|10|0|0|10|8|10|7|0|10|–|0|10
 [django-constance](https://pypi.org/project/django-constance)|127,837|[5.22/10](https://deps.dev/pypi/django-constance)|10|3|0|9|10|0|0|10|3|10|7|0|10|–|0|10
 [dm-haiku](https://pypi.org/project/dm-haiku)|107,493|[5.22/10](https://deps.dev/pypi/dm-haiku)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
+[django-configurations](https://pypi.org/project/django-configurations)|67,306|[5.22/10](https://deps.dev/pypi/django-configurations)|10|3|0|7|10|0|0|10|5|10|7|0|10|–|0|10
