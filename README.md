@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 7, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 10, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -736,6 +736,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [sphinx](https://pypi.org/project/sphinx)|6,972,105|[5.65/10](https://deps.dev/pypi/sphinx)|10|3|0|1|10|10|0|10|10|–|7|–|0|–|10|10
 [pygithub](https://pypi.org/project/pygithub)|6,711,627|[5.65/10](https://deps.dev/pypi/pygithub)|10|8|0|6|10|10|0|10|10|–|7|0|0|–|0|10
 [constructs](https://pypi.org/project/constructs)|5,357,517|[5.65/10](https://deps.dev/pypi/constructs)|10|6|0|10|0|10|0|10|10|–|5|0|10|–|6|10
+[sphinxcontrib-applehelp](https://pypi.org/project/sphinxcontrib-applehelp)|4,175,829|[5.65/10](https://deps.dev/pypi/sphinxcontrib-applehelp)|10|3|0|1|10|10|0|10|10|–|7|0|0|–|10|10
 [cheroot](https://pypi.org/project/cheroot)|2,606,929|[5.65/10](https://deps.dev/pypi/cheroot)|10|8|2|2|10|0|0|10|10|10|7|10|0|0|0|10
 [python-socketio](https://pypi.org/project/python-socketio)|963,683|[5.65/10](https://deps.dev/pypi/python-socketio)|10|0|0|6|10|10|0|10|10|–|9|0|10|–|0|10
 [dparse](https://pypi.org/project/dparse)|689,739|[5.65/10](https://deps.dev/pypi/dparse)|10|6|0|0|10|10|0|10|10|10|9|0|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [django-formtools](https://pypi.org/project/django-formtools)|214,282|[5.22/10](https://deps.dev/pypi/django-formtools)|10|0|0|7|10|0|0|10|8|10|7|0|10|–|0|10
 [django-constance](https://pypi.org/project/django-constance)|127,837|[5.22/10](https://deps.dev/pypi/django-constance)|10|3|0|9|10|0|0|10|3|10|7|0|10|–|0|10
 [dm-haiku](https://pypi.org/project/dm-haiku)|107,493|[5.22/10](https://deps.dev/pypi/dm-haiku)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
-[django-configurations](https://pypi.org/project/django-configurations)|67,306|[5.22/10](https://deps.dev/pypi/django-configurations)|10|3|0|7|10|0|0|10|5|10|7|0|10|–|0|10
