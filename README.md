@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 10, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 13, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -636,10 +636,10 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-pipeline-components](https://pypi.org/project/google-cloud-pipeline-components)|74,320|[5.83/10](https://deps.dev/pypi/google-cloud-pipeline-components)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [pyopenssl](https://pypi.org/project/pyopenssl)|46,681,851|[5.80/10](https://deps.dev/pypi/pyopenssl)|10|6|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [bcrypt](https://pypi.org/project/bcrypt)|30,521,941|[5.80/10](https://deps.dev/pypi/bcrypt)|10|6|0|10|10|10|0|10|10|–|7|0|0|–|0|10
-[cachelib](https://pypi.org/project/cachelib)|5,112,460|[5.80/10](https://deps.dev/pypi/cachelib)|10|3|0|7|10|10|0|10|10|–|7|0|9|–|0|10
 [humanize](https://pypi.org/project/humanize)|3,542,258|[5.80/10](https://deps.dev/pypi/humanize)|10|3|0|7|10|10|0|10|10|–|7|0|9|–|0|10
 [sphinx-rtd-theme](https://pypi.org/project/sphinx-rtd-theme)|2,701,449|[5.80/10](https://deps.dev/pypi/sphinx-rtd-theme)|10|8|0|8|10|0|0|10|10|–|7|0|0|–|10|10
 [google-ads](https://pypi.org/project/google-ads)|2,648,012|[5.80/10](https://deps.dev/pypi/google-ads)|10|8|0|10|10|0|0|10|6|–|10|0|0|–|10|10
+[pikepdf](https://pypi.org/project/pikepdf)|324,624|[5.80/10](https://deps.dev/pypi/pikepdf)|10|3|0|1|10|10|0|10|10|10|7|8|0|–|0|10
 [pytest-playwright](https://pypi.org/project/pytest-playwright)|253,912|[5.80/10](https://deps.dev/pypi/pytest-playwright)|10|8|0|5|10|10|0|10|5|–|9|–|10|–|0|10
 [pipelinewise-singer-python](https://pypi.org/project/pipelinewise-singer-python)|185,017|[5.80/10](https://deps.dev/pypi/pipelinewise-singer-python)|10|8|0|10|10|10|0|10|0|–|9|0|10|–|0|10
 [easyocr](https://pypi.org/project/easyocr)|127,430|[5.80/10](https://deps.dev/pypi/easyocr)|10|0|0|6|10|10|0|10|10|–|7|0|0|0|10|10
@@ -698,7 +698,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-exporter-otlp-proto-http](https://pypi.org/project/opentelemetry-exporter-otlp-proto-http)|1,467,602|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp-proto-http)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-otlp-proto-grpc](https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc)|990,327|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp-proto-grpc)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-otlp](https://pypi.org/project/opentelemetry-exporter-otlp)|707,483|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
-[python-fsutil](https://pypi.org/project/python-fsutil)|584,852|[5.70/10](https://deps.dev/pypi/python-fsutil)|10|6|0|0|10|10|0|10|10|–|7|10|3|–|0|10
 [inquirer](https://pypi.org/project/inquirer)|580,055|[5.70/10](https://deps.dev/pypi/inquirer)|10|3|0|5|10|10|0|10|10|10|7|0|0|–|0|10
 [eth-account](https://pypi.org/project/eth-account)|482,204|[5.70/10](https://deps.dev/pypi/eth-account)|10|0|0|9|10|10|0|10|7|–|5|0|0|–|10|10
 [pysaml2](https://pypi.org/project/pysaml2)|455,829|[5.70/10](https://deps.dev/pypi/pysaml2)|10|3|0|3|10|0|0|10|10|–|10|0|10|–|10|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [django-formtools](https://pypi.org/project/django-formtools)|214,282|[5.22/10](https://deps.dev/pypi/django-formtools)|10|0|0|7|10|0|0|10|8|10|7|0|10|–|0|10
 [django-constance](https://pypi.org/project/django-constance)|127,837|[5.22/10](https://deps.dev/pypi/django-constance)|10|3|0|9|10|0|0|10|3|10|7|0|10|–|0|10
 [dm-haiku](https://pypi.org/project/dm-haiku)|107,493|[5.22/10](https://deps.dev/pypi/dm-haiku)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
+[django-configurations](https://pypi.org/project/django-configurations)|67,306|[5.22/10](https://deps.dev/pypi/django-configurations)|10|3|0|7|10|0|0|10|5|10|7|0|10|–|0|10
