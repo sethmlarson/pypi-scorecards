@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 13, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 16, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -97,7 +97,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud](https://pypi.org/project/google-cloud)|4,664,019|[6.85/10](https://deps.dev/pypi/google-cloud)|10|8|0|10|10|10|0|10|10|–|0|0|10|–|10|10
 [docker-compose](https://pypi.org/project/docker-compose)|1,587,003|[6.85/10](https://deps.dev/pypi/docker-compose)|10|8|0|10|10|10|0|10|10|10|–|0|0|0|10|10
 [dash](https://pypi.org/project/dash)|820,756|[6.85/10](https://deps.dev/pypi/dash)|10|8|0|10|10|10|0|10|10|–|10|0|0|–|10|10
-[gcloud](https://pypi.org/project/gcloud)|240,359|[6.85/10](https://deps.dev/pypi/gcloud)|10|8|0|10|10|10|0|10|10|–|0|0|10|–|10|10
 [google-auth-oauthlib](https://pypi.org/project/google-auth-oauthlib)|27,842,705|[6.80/10](https://deps.dev/pypi/google-auth-oauthlib)|10|8|0|10|10|10|10|10|10|–|4|0|10|–|0|10
 [google-cloud-secret-manager](https://pypi.org/project/google-cloud-secret-manager)|16,037,728|[6.80/10](https://deps.dev/pypi/google-cloud-secret-manager)|10|8|0|10|10|10|10|10|10|–|4|0|10|–|0|10
 [google-cloud-resource-manager](https://pypi.org/project/google-cloud-resource-manager)|2,743,943|[6.80/10](https://deps.dev/pypi/google-cloud-resource-manager)|10|8|0|10|10|10|10|10|10|–|4|0|10|–|0|10
@@ -462,10 +461,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [datamodel-code-generator](https://pypi.org/project/datamodel-code-generator)|138,197|[6.10/10](https://deps.dev/pypi/datamodel-code-generator)|10|3|0|5|10|10|0|10|10|10|5|10|0|–|0|10
 [rasa](https://pypi.org/project/rasa)|123,259|[6.10/10](https://deps.dev/pypi/rasa)|10|8|0|10|10|10|0|10|10|10|0|0|0|–|0|10
 [epsagon](https://pypi.org/project/epsagon)|120,780|[6.10/10](https://deps.dev/pypi/epsagon)|10|8|0|9|10|10|0|10|1|–|10|0|0|–|10|10
-[dash-daq](https://pypi.org/project/dash-daq)|107,182|[6.10/10](https://deps.dev/pypi/dash-daq)|10|8|0|10|10|10|0|10|0|–|10|0|0|0|10|10
-[datalab](https://pypi.org/project/datalab)|77,331|[6.10/10](https://deps.dev/pypi/datalab)|10|8|0|10|10|10|0|10|0|–|10|0|0|–|10|10
 [unleashclient](https://pypi.org/project/unleashclient)|73,520|[6.10/10](https://deps.dev/pypi/unleashclient)|10|8|0|6|10|10|0|10|10|–|7|9|0|–|0|10
-[factor-analyzer](https://pypi.org/project/factor-analyzer)|68,789|[6.10/10](https://deps.dev/pypi/factor-analyzer)|10|8|0|10|10|0|0|10|10|–|10|0|0|0|10|10
 [awscli](https://pypi.org/project/awscli)|177,853,158|[6.08/10](https://deps.dev/pypi/awscli)|10|6|0|7|10|10|0|10|10|–|7|–|10|0|0|10
 [scikit-learn](https://pypi.org/project/scikit-learn)|32,342,209|[6.08/10](https://deps.dev/pypi/scikit-learn)|10|3|0|10|10|0|10|10|10|10|2|0|10|0|0|10
 [websockets](https://pypi.org/project/websockets)|10,520,890|[6.08/10](https://deps.dev/pypi/websockets)|10|0|5|0|10|10|10|10|10|10|5|0|9|–|0|10
@@ -547,7 +543,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-instrumentation-psycopg2](https://pypi.org/project/opentelemetry-instrumentation-psycopg2)|234,391|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-psycopg2)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [opentelemetry-instrumentation-sqlite3](https://pypi.org/project/opentelemetry-instrumentation-sqlite3)|224,618|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-sqlite3)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [opentelemetry-instrumentation-jinja2](https://pypi.org/project/opentelemetry-instrumentation-jinja2)|219,789|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-jinja2)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
-[conda](https://pypi.org/project/conda)|219,032|[5.95/10](https://deps.dev/pypi/conda)|8|8|0|10|10|10|0|10|10|10|0|0|0|–|0|10
 [acryl-datahub-airflow-plugin](https://pypi.org/project/acryl-datahub-airflow-plugin)|205,013|[5.95/10](https://deps.dev/pypi/acryl-datahub-airflow-plugin)|0|6|0|10|10|10|0|10|10|10|5|0|10|–|0|10
 [opentelemetry-instrumentation-elasticsearch](https://pypi.org/project/opentelemetry-instrumentation-elasticsearch)|202,602|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation-elasticsearch)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [opentelemetry-propagator-aws-xray](https://pypi.org/project/opentelemetry-propagator-aws-xray)|187,589|[5.95/10](https://deps.dev/pypi/opentelemetry-propagator-aws-xray)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
@@ -618,7 +613,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|61,267|[5.85/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|8|10|0|0|10|10|–|10|0|10|–|10|10
 [jsonschema](https://pypi.org/project/jsonschema)|59,133,917|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|0|10|–|0|10
 [sqlalchemy](https://pypi.org/project/sqlalchemy)|53,258,852|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
-[kfp-server-api](https://pypi.org/project/kfp-server-api)|3,406,400|[5.83/10](https://deps.dev/pypi/kfp-server-api)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|3,078,861|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,161,738|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
 [aws-sam-cli](https://pypi.org/project/aws-sam-cli)|1,077,483|[5.83/10](https://deps.dev/pypi/aws-sam-cli)|7|4|0|10|10|10|0|10|10|–|5|0|10|0|0|10
@@ -669,7 +663,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [python-lsp-server](https://pypi.org/project/python-lsp-server)|97,801|[5.75/10](https://deps.dev/pypi/python-lsp-server)|10|6|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [ntc-templates](https://pypi.org/project/ntc-templates)|94,529|[5.75/10](https://deps.dev/pypi/ntc-templates)|10|0|0|10|10|10|0|10|10|10|5|0|0|0|0|10
 [qiskit-terra](https://pypi.org/project/qiskit-terra)|88,523|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
-[horovod](https://pypi.org/project/horovod)|76,708|[5.75/10](https://deps.dev/pypi/horovod)|10|1|0|9|0|10|0|10|10|10|0|9|4|–|8|10
 [traitlets](https://pypi.org/project/traitlets)|19,157,761|[5.72/10](https://deps.dev/pypi/traitlets)|10|3|0|6|10|10|0|10|10|–|7|0|9|–|0|10
 [kubernetes](https://pypi.org/project/kubernetes)|12,072,571|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|0|10|–|0|10
 [plotly](https://pypi.org/project/plotly)|6,490,794|[5.72/10](https://deps.dev/pypi/plotly)|10|1|0|2|10|10|0|10|10|–|10|–|0|–|10|10
@@ -698,6 +691,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-exporter-otlp-proto-http](https://pypi.org/project/opentelemetry-exporter-otlp-proto-http)|1,467,602|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp-proto-http)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-otlp-proto-grpc](https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc)|990,327|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp-proto-grpc)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-otlp](https://pypi.org/project/opentelemetry-exporter-otlp)|707,483|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
+[python-fsutil](https://pypi.org/project/python-fsutil)|584,852|[5.70/10](https://deps.dev/pypi/python-fsutil)|10|6|0|0|10|10|0|10|10|–|7|10|3|–|0|10
 [inquirer](https://pypi.org/project/inquirer)|580,055|[5.70/10](https://deps.dev/pypi/inquirer)|10|3|0|5|10|10|0|10|10|10|7|0|0|–|0|10
 [eth-account](https://pypi.org/project/eth-account)|482,204|[5.70/10](https://deps.dev/pypi/eth-account)|10|0|0|9|10|10|0|10|7|–|5|0|0|–|10|10
 [pysaml2](https://pypi.org/project/pysaml2)|455,829|[5.70/10](https://deps.dev/pypi/pysaml2)|10|3|0|3|10|0|0|10|10|–|10|0|10|–|10|10
@@ -716,13 +710,11 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytorch-forecasting](https://pypi.org/project/pytorch-forecasting)|96,953|[5.70/10](https://deps.dev/pypi/pytorch-forecasting)|10|8|0|10|10|10|0|10|10|–|2|–|0|–|0|10
 [certbot-apache](https://pypi.org/project/certbot-apache)|95,055|[5.70/10](https://deps.dev/pypi/certbot-apache)|10|8|0|10|10|0|0|10|10|–|2|0|0|0|10|10
 [opentelemetry-exporter-prometheus](https://pypi.org/project/opentelemetry-exporter-prometheus)|93,014|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-prometheus)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
-[letsencrypt](https://pypi.org/project/letsencrypt)|92,601|[5.70/10](https://deps.dev/pypi/letsencrypt)|10|8|0|10|10|0|0|10|10|–|2|0|0|0|10|10
 [grafanalib](https://pypi.org/project/grafanalib)|89,900|[5.70/10](https://deps.dev/pypi/grafanalib)|10|0|0|8|10|10|–|10|10|10|7|–|0|–|0|10
 [opentelemetry-propagator-b3](https://pypi.org/project/opentelemetry-propagator-b3)|85,384|[5.70/10](https://deps.dev/pypi/opentelemetry-propagator-b3)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [google-gax](https://pypi.org/project/google-gax)|77,603|[5.70/10](https://deps.dev/pypi/google-gax)|10|8|0|8|10|0|0|10|0|–|10|0|10|–|10|10
 [flake8-pyi](https://pypi.org/project/flake8-pyi)|73,880|[5.70/10](https://deps.dev/pypi/flake8-pyi)|10|0|0|8|10|0|0|10|10|10|7|–|0|–|10|10
 [dynamodb-encryption-sdk](https://pypi.org/project/dynamodb-encryption-sdk)|64,358|[5.70/10](https://deps.dev/pypi/dynamodb-encryption-sdk)|10|8|0|10|10|10|0|10|0|–|7|–|10|–|0|10
-[sagemaker-pyspark](https://pypi.org/project/sagemaker-pyspark)|62,193|[5.70/10](https://deps.dev/pypi/sagemaker-pyspark)|10|8|0|3|10|0|0|10|5|–|10|0|10|–|10|10
 [opentelemetry-exporter-zipkin-json](https://pypi.org/project/opentelemetry-exporter-zipkin-json)|59,867|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-zipkin-json)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-zipkin-proto-http](https://pypi.org/project/opentelemetry-exporter-zipkin-proto-http)|58,615|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-zipkin-proto-http)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [black](https://pypi.org/project/black)|12,518,263|[5.67/10](https://deps.dev/pypi/black)|10|0|0|9|10|10|0|10|10|10|5|0|0|0|0|10
@@ -753,7 +745,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [dvc-task](https://pypi.org/project/dvc-task)|74,910|[5.62/10](https://deps.dev/pypi/dvc-task)|10|3|0|4|10|10|0|10|10|10|7|0|0|–|0|10
 [tortoise-orm](https://pypi.org/project/tortoise-orm)|65,478|[5.62/10](https://deps.dev/pypi/tortoise-orm)|10|1|0|6|10|10|0|10|10|10|7|0|0|0|0|10
 [vt-py](https://pypi.org/project/vt-py)|61,680|[5.62/10](https://deps.dev/pypi/vt-py)|10|8|0|9|10|0|0|10|10|10|7|0|0|–|0|10
-[contentful](https://pypi.org/project/contentful)|60,347|[5.62/10](https://deps.dev/pypi/contentful)|10|0|0|5|10|0|0|10|10|–|10|0|10|–|10|10
 [tornado](https://pypi.org/project/tornado)|20,090,110|[5.60/10](https://deps.dev/pypi/tornado)|10|3|0|5|10|10|0|10|10|10|5|0|0|–|0|10
 [typing](https://pypi.org/project/typing)|7,445,045|[5.60/10](https://deps.dev/pypi/typing)|10|3|0|9|10|0|0|10|10|–|9|0|0|–|10|10
 [lightgbm](https://pypi.org/project/lightgbm)|5,969,439|[5.60/10](https://deps.dev/pypi/lightgbm)|10|8|0|10|10|0|0|10|10|–|5|0|10|0|0|10
@@ -794,7 +785,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [prefect](https://pypi.org/project/prefect)|347,385|[5.55/10](https://deps.dev/pypi/prefect)|10|6|0|10|0|10|0|10|10|10|5|7|0|–|0|10
 [nox-poetry](https://pypi.org/project/nox-poetry)|233,885|[5.55/10](https://deps.dev/pypi/nox-poetry)|10|3|0|9|10|10|0|10|4|10|7|0|0|–|0|10
 [aiopg](https://pypi.org/project/aiopg)|146,648|[5.55/10](https://deps.dev/pypi/aiopg)|10|3|0|2|10|10|0|10|3|–|9|10|10|0|0|10
-[betterproto](https://pypi.org/project/betterproto)|141,284|[5.55/10](https://deps.dev/pypi/betterproto)|10|6|0|10|10|10|0|0|10|–|7|0|0|–|0|10
 [symspellpy](https://pypi.org/project/symspellpy)|128,933|[5.55/10](https://deps.dev/pypi/symspellpy)|10|0|0|6|10|10|0|10|10|10|7|0|0|–|0|10
 [django-two-factor-auth](https://pypi.org/project/django-two-factor-auth)|84,265|[5.55/10](https://deps.dev/pypi/django-two-factor-auth)|10|6|0|10|10|0|0|10|10|10|7|0|0|–|0|10
 [awsiotsdk](https://pypi.org/project/awsiotsdk)|72,692|[5.55/10](https://deps.dev/pypi/awsiotsdk)|10|8|0|8|10|0|0|10|10|–|7|0|10|–|0|10
@@ -811,7 +801,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [openml](https://pypi.org/project/openml)|180,308|[5.53/10](https://deps.dev/pypi/openml)|10|7|0|10|10|0|0|10|10|10|5|0|0|–|0|10
 [sqlfluff-templater-dbt](https://pypi.org/project/sqlfluff-templater-dbt)|172,311|[5.53/10](https://deps.dev/pypi/sqlfluff-templater-dbt)|10|8|0|9|10|–|–|10|10|10|5|0|0|–|0|10
 [django-mysql](https://pypi.org/project/django-mysql)|169,782|[5.53/10](https://deps.dev/pypi/django-mysql)|10|3|0|2|10|10|0|10|10|–|9|0|9|–|0|10
-[pysolr](https://pypi.org/project/pysolr)|169,772|[5.53/10](https://deps.dev/pypi/pysolr)|10|8|0|7|10|10|0|10|0|–|9|9|0|–|0|10
 [google-play-scraper](https://pypi.org/project/google-play-scraper)|127,581|[5.53/10](https://deps.dev/pypi/google-play-scraper)|10|8|0|3|10|10|0|10|10|–|9|–|0|–|0|10
 [mediapipe](https://pypi.org/project/mediapipe)|119,555|[5.53/10](https://deps.dev/pypi/mediapipe)|9|0|0|10|10|0|0|10|10|–|2|0|10|–|10|10
 [ax-platform](https://pypi.org/project/ax-platform)|106,341|[5.53/10](https://deps.dev/pypi/ax-platform)|10|3|0|10|10|0|0|10|10|10|2|0|9|–|0|10
@@ -842,7 +831,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [llvmlite](https://pypi.org/project/llvmlite)|9,722,730|[5.47/10](https://deps.dev/pypi/llvmlite)|10|3|0|10|10|0|0|10|10|–|5|0|0|–|10|10
 [holidays](https://pypi.org/project/holidays)|4,853,851|[5.47/10](https://deps.dev/pypi/holidays)|10|1|0|4|10|10|0|10|10|10|7|0|0|0|0|10
 [pika](https://pypi.org/project/pika)|3,277,329|[5.47/10](https://deps.dev/pypi/pika)|10|8|2|3|10|10|0|10|10|–|7|–|0|0|0|10
-[idna-ssl](https://pypi.org/project/idna-ssl)|2,912,217|[5.47/10](https://deps.dev/pypi/idna-ssl)|10|3|0|0|10|10|0|10|0|–|10|0|10|–|10|10
 [py7zr](https://pypi.org/project/py7zr)|666,940|[5.47/10](https://deps.dev/pypi/py7zr)|6|3|0|0|10|10|–|10|10|10|7|9|0|–|0|10
 [coremltools](https://pypi.org/project/coremltools)|449,315|[5.47/10](https://deps.dev/pypi/coremltools)|10|6|0|9|10|0|0|10|10|–|2|0|0|0|10|10
 [aiokafka](https://pypi.org/project/aiokafka)|426,052|[5.47/10](https://deps.dev/pypi/aiokafka)|2|0|0|6|10|10|0|10|5|10|5|10|10|–|0|10
@@ -852,7 +840,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [aws-secretsmanager-caching](https://pypi.org/project/aws-secretsmanager-caching)|166,664|[5.47/10](https://deps.dev/pypi/aws-secretsmanager-caching)|10|6|0|8|10|10|0|10|1|–|7|0|10|–|0|10
 [versioneer](https://pypi.org/project/versioneer)|141,559|[5.47/10](https://deps.dev/pypi/versioneer)|10|0|0|5|10|10|0|10|10|10|7|0|0|–|0|10
 [msgraph-core](https://pypi.org/project/msgraph-core)|126,148|[5.47/10](https://deps.dev/pypi/msgraph-core)|10|2|0|4|10|10|0|10|9|–|7|0|10|–|0|10
-[b2sdk](https://pypi.org/project/b2sdk)|97,506|[5.47/10](https://deps.dev/pypi/b2sdk)|10|0|0|5|10|10|0|10|10|10|7|0|0|0|0|10
 [jupyter-server-proxy](https://pypi.org/project/jupyter-server-proxy)|96,378|[5.47/10](https://deps.dev/pypi/jupyter-server-proxy)|10|0|0|5|10|10|0|10|10|10|7|0|0|–|0|10
 [flake8-helper](https://pypi.org/project/flake8-helper)|62,695|[5.47/10](https://deps.dev/pypi/flake8-helper)|10|8|0|6|10|10|–|10|1|10|7|0|0|0|0|10
 [typer](https://pypi.org/project/typer)|7,634,608|[5.45/10](https://deps.dev/pypi/typer)|10|3|0|3|10|10|0|10|10|–|5|0|10|–|0|10
@@ -876,12 +863,9 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [bokeh](https://pypi.org/project/bokeh)|3,236,206|[5.42/10](https://deps.dev/pypi/bokeh)|10|3|0|2|10|–|0|10|10|10|5|6|10|–|0|10
 [omegaconf](https://pypi.org/project/omegaconf)|2,396,716|[5.42/10](https://deps.dev/pypi/omegaconf)|9|2|0|3|10|0|0|10|10|–|9|10|0|–|9|10
 [twilio](https://pypi.org/project/twilio)|1,859,948|[5.42/10](https://deps.dev/pypi/twilio)|10|8|0|1|10|0|0|10|10|10|5|10|0|–|0|10
-[pymsteams](https://pypi.org/project/pymsteams)|1,808,263|[5.42/10](https://deps.dev/pypi/pymsteams)|10|0|0|4|10|10|0|10|5|–|10|0|0|–|10|10
-[jwcrypto](https://pypi.org/project/jwcrypto)|825,789|[5.42/10](https://deps.dev/pypi/jwcrypto)|10|0|0|1|10|0|0|10|10|10|7|10|10|0|0|10
 [web3](https://pypi.org/project/web3)|706,866|[5.42/10](https://deps.dev/pypi/web3)|10|3|0|8|10|0|0|10|10|–|7|0|0|–|10|10
 [deltalake](https://pypi.org/project/deltalake)|672,294|[5.42/10](https://deps.dev/pypi/deltalake)|10|1|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [sql-metadata](https://pypi.org/project/sql-metadata)|550,879|[5.42/10](https://deps.dev/pypi/sql-metadata)|10|3|0|8|10|10|0|10|10|–|7|0|0|–|0|10
-[iopath](https://pypi.org/project/iopath)|526,873|[5.42/10](https://deps.dev/pypi/iopath)|10|3|0|10|10|–|0|10|0|–|10|0|9|–|10|10
 [python-can](https://pypi.org/project/python-can)|347,077|[5.42/10](https://deps.dev/pypi/python-can)|10|0|0|6|10|0|0|10|10|–|10|0|0|3|10|10
 [readthedocs-sphinx-ext](https://pypi.org/project/readthedocs-sphinx-ext)|259,683|[5.42/10](https://deps.dev/pypi/readthedocs-sphinx-ext)|10|8|0|6|10|–|0|10|5|–|10|–|0|–|10|10
 [s3path](https://pypi.org/project/s3path)|155,684|[5.42/10](https://deps.dev/pypi/s3path)|10|6|0|3|10|10|0|10|4|10|9|0|0|–|0|10
@@ -928,7 +912,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [coolname](https://pypi.org/project/coolname)|190,600|[5.35/10](https://deps.dev/pypi/coolname)|10|0|0|0|10|10|0|10|8|–|10|0|0|–|10|10
 [simple-ddl-parser](https://pypi.org/project/simple-ddl-parser)|171,997|[5.35/10](https://deps.dev/pypi/simple-ddl-parser)|10|8|0|2|10|10|0|10|10|–|7|0|0|–|0|10
 [glocaltokens](https://pypi.org/project/glocaltokens)|152,919|[5.35/10](https://deps.dev/pypi/glocaltokens)|10|1|0|9|10|10|0|10|10|–|7|0|0|–|0|10
-[proto-google-cloud-datastore-v1](https://pypi.org/project/proto-google-cloud-datastore-v1)|121,196|[5.35/10](https://deps.dev/pypi/proto-google-cloud-datastore-v1)|10|0|0|8|10|–|10|10|10|–|5|0|10|–|0|10
 [astpretty](https://pypi.org/project/astpretty)|107,278|[5.35/10](https://deps.dev/pypi/astpretty)|10|0|0|8|10|0|0|10|10|–|10|0|0|–|10|10
 [simpervisor](https://pypi.org/project/simpervisor)|89,647|[5.35/10](https://deps.dev/pypi/simpervisor)|10|0|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [flask-log-request-id](https://pypi.org/project/flask-log-request-id)|74,010|[5.35/10](https://deps.dev/pypi/flask-log-request-id)|10|8|0|10|10|0|0|10|0|–|10|0|0|–|10|10
@@ -959,7 +942,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-kusto-data](https://pypi.org/project/azure-kusto-data)|3,686,182|[5.30/10](https://deps.dev/pypi/azure-kusto-data)|10|8|0|6|10|0|0|10|10|–|7|8|0|–|0|10
 [azure-kusto-ingest](https://pypi.org/project/azure-kusto-ingest)|2,794,604|[5.30/10](https://deps.dev/pypi/azure-kusto-ingest)|10|8|0|6|10|0|0|10|10|–|7|8|0|–|0|10
 [cmdstanpy](https://pypi.org/project/cmdstanpy)|2,776,049|[5.30/10](https://deps.dev/pypi/cmdstanpy)|10|1|0|7|10|10|–|10|10|–|9|–|0|–|0|10
-[python-multipart](https://pypi.org/project/python-multipart)|2,585,413|[5.30/10](https://deps.dev/pypi/python-multipart)|10|0|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [locust](https://pypi.org/project/locust)|934,486|[5.30/10](https://deps.dev/pypi/locust)|10|3|0|1|10|0|0|10|10|10|5|0|0|–|10|10
 [django-model-utils](https://pypi.org/project/django-model-utils)|720,863|[5.30/10](https://deps.dev/pypi/django-model-utils)|10|0|0|7|10|0|0|10|9|10|7|0|10|–|0|10
 [chex](https://pypi.org/project/chex)|270,716|[5.30/10](https://deps.dev/pypi/chex)|10|3|0|5|10|10|0|10|10|–|9|–|0|–|0|10
@@ -983,8 +965,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mbed-ls](https://pypi.org/project/mbed-ls)|186,929|[5.28/10](https://deps.dev/pypi/mbed-ls)|10|6|0|10|10|0|0|10|1|–|10|0|0|–|10|10
 [flake8-typing-imports](https://pypi.org/project/flake8-typing-imports)|155,474|[5.28/10](https://deps.dev/pypi/flake8-typing-imports)|10|0|0|7|10|0|0|10|10|–|10|0|0|–|10|10
 [pytest-celery](https://pypi.org/project/pytest-celery)|109,229|[5.28/10](https://deps.dev/pypi/pytest-celery)|10|8|0|5|10|0|0|10|0|–|10|6|0|–|10|10
-[pyangbind](https://pypi.org/project/pyangbind)|97,869|[5.28/10](https://deps.dev/pypi/pyangbind)|10|8|0|9|10|–|0|10|0|–|10|–|0|–|10|10
-[pytest-black](https://pypi.org/project/pytest-black)|97,592|[5.28/10](https://deps.dev/pypi/pytest-black)|10|8|0|9|10|–|–|10|0|–|10|0|0|–|10|10
 [aspy-refactor-imports](https://pypi.org/project/aspy-refactor-imports)|88,524|[5.28/10](https://deps.dev/pypi/aspy-refactor-imports)|10|0|0|7|10|0|0|10|10|–|10|0|0|–|10|10
 [azure-iot-device](https://pypi.org/project/azure-iot-device)|88,055|[5.28/10](https://deps.dev/pypi/azure-iot-device)|10|7|0|10|10|0|0|10|10|–|0|0|10|0|0|10
 [email-validator](https://pypi.org/project/email-validator)|4,631,339|[5.25/10](https://deps.dev/pypi/email-validator)|10|0|0|0|10|0|10|10|10|–|10|0|0|–|10|10
@@ -1001,8 +981,28 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [vcrpy](https://pypi.org/project/vcrpy)|1,191,460|[5.22/10](https://deps.dev/pypi/vcrpy)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
 [daphne](https://pypi.org/project/daphne)|446,310|[5.22/10](https://deps.dev/pypi/daphne)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
 [adlfs](https://pypi.org/project/adlfs)|432,785|[5.22/10](https://deps.dev/pypi/adlfs)|10|3|0|4|10|0|0|10|10|10|5|0|9|–|0|10
-[luigi](https://pypi.org/project/luigi)|407,602|[5.22/10](https://deps.dev/pypi/luigi)|10|8|0|10|10|0|0|10|9|–|9|0|0|–|0|10
 [django-formtools](https://pypi.org/project/django-formtools)|214,282|[5.22/10](https://deps.dev/pypi/django-formtools)|10|0|0|7|10|0|0|10|8|10|7|0|10|–|0|10
 [django-constance](https://pypi.org/project/django-constance)|127,837|[5.22/10](https://deps.dev/pypi/django-constance)|10|3|0|9|10|0|0|10|3|10|7|0|10|–|0|10
 [dm-haiku](https://pypi.org/project/dm-haiku)|107,493|[5.22/10](https://deps.dev/pypi/dm-haiku)|10|0|0|7|10|10|0|10|10|–|9|0|0|–|0|10
 [django-configurations](https://pypi.org/project/django-configurations)|67,306|[5.22/10](https://deps.dev/pypi/django-configurations)|10|3|0|7|10|0|0|10|5|10|7|0|10|–|0|10
+[cycler](https://pypi.org/project/cycler)|23,636,679|[5.20/10](https://deps.dev/pypi/cycler)|10|6|0|7|10|0|0|10|5|–|2|10|10|–|0|10
+[joblib](https://pypi.org/project/joblib)|22,279,913|[5.20/10](https://deps.dev/pypi/joblib)|10|3|0|3|10|0|0|10|10|–|10|0|0|–|10|10
+[redshift-connector](https://pypi.org/project/redshift-connector)|18,697,895|[5.20/10](https://deps.dev/pypi/redshift-connector)|10|6|0|1|10|10|0|10|3|–|9|0|10|–|0|10
+[arrow](https://pypi.org/project/arrow)|9,211,699|[5.20/10](https://deps.dev/pypi/arrow)|10|8|0|10|10|0|0|10|10|–|7|–|0|–|0|10
+[keras-preprocessing](https://pypi.org/project/keras-preprocessing)|6,981,109|[5.20/10](https://deps.dev/pypi/keras-preprocessing)|10|8|0|8|10|0|0|10|0|–|10|–|0|–|10|10
+[pytest-xdist](https://pypi.org/project/pytest-xdist)|5,758,237|[5.20/10](https://deps.dev/pypi/pytest-xdist)|10|8|0|10|10|0|0|10|10|–|7|0|0|–|0|10
+[simple-salesforce](https://pypi.org/project/simple-salesforce)|4,547,169|[5.20/10](https://deps.dev/pypi/simple-salesforce)|10|6|0|2|10|0|0|10|8|–|10|0|0|–|10|10
+[dotnetcore2](https://pypi.org/project/dotnetcore2)|1,553,266|[5.20/10](https://deps.dev/pypi/dotnetcore2)|10|3|0|7|10|0|0|10|10|–|9|0|10|–|0|10
+[atlassian-jwt-auth](https://pypi.org/project/atlassian-jwt-auth)|1,167,886|[5.20/10](https://deps.dev/pypi/atlassian-jwt-auth)|10|8|0|0|10|10|0|10|4|–|9|7|0|–|0|10
+[mxnet](https://pypi.org/project/mxnet)|556,725|[5.20/10](https://deps.dev/pypi/mxnet)|10|1|0|10|10|0|0|10|7|–|0|0|10|8|0|10
+[environs](https://pypi.org/project/environs)|511,768|[5.20/10](https://deps.dev/pypi/environs)|10|3|0|3|10|10|0|10|0|–|10|0|0|–|10|10
+[stone](https://pypi.org/project/stone)|454,550|[5.20/10](https://deps.dev/pypi/stone)|10|8|0|10|10|10|0|10|0|–|7|0|0|–|0|10
+[mxnet-mkl](https://pypi.org/project/mxnet-mkl)|424,401|[5.20/10](https://deps.dev/pypi/mxnet-mkl)|10|1|0|10|10|0|0|10|7|–|0|0|10|8|0|10
+[python-string-utils](https://pypi.org/project/python-string-utils)|361,878|[5.20/10](https://deps.dev/pypi/python-string-utils)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
+[flasgger](https://pypi.org/project/flasgger)|315,509|[5.20/10](https://deps.dev/pypi/flasgger)|10|0|0|8|10|10|0|10|0|–|7|0|0|0|10|10
+[rudder-sdk-python](https://pypi.org/project/rudder-sdk-python)|304,345|[5.20/10](https://deps.dev/pypi/rudder-sdk-python)|10|6|0|6|10|0|0|10|4|–|10|0|0|–|10|10
+[djangorestframework-stubs](https://pypi.org/project/djangorestframework-stubs)|219,803|[5.20/10](https://deps.dev/pypi/djangorestframework-stubs)|10|0|0|8|10|10|0|10|10|–|7|–|0|–|0|10
+[gpytorch](https://pypi.org/project/gpytorch)|166,552|[5.20/10](https://deps.dev/pypi/gpytorch)|10|8|0|10|10|0|0|10|10|–|7|0|0|–|0|10
+[doc8](https://pypi.org/project/doc8)|142,213|[5.20/10](https://deps.dev/pypi/doc8)|10|8|0|5|10|10|0|10|3|10|–|0|0|–|0|10
+[ipyvuetify](https://pypi.org/project/ipyvuetify)|116,795|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
+[pykakasi](https://pypi.org/project/pykakasi)|106,450|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
