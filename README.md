@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 16, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 19, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -713,7 +713,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [grafanalib](https://pypi.org/project/grafanalib)|89,900|[5.70/10](https://deps.dev/pypi/grafanalib)|10|0|0|8|10|10|–|10|10|10|7|–|0|–|0|10
 [opentelemetry-propagator-b3](https://pypi.org/project/opentelemetry-propagator-b3)|85,384|[5.70/10](https://deps.dev/pypi/opentelemetry-propagator-b3)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [google-gax](https://pypi.org/project/google-gax)|77,603|[5.70/10](https://deps.dev/pypi/google-gax)|10|8|0|8|10|0|0|10|0|–|10|0|10|–|10|10
-[flake8-pyi](https://pypi.org/project/flake8-pyi)|73,880|[5.70/10](https://deps.dev/pypi/flake8-pyi)|10|0|0|8|10|0|0|10|10|10|7|–|0|–|10|10
 [dynamodb-encryption-sdk](https://pypi.org/project/dynamodb-encryption-sdk)|64,358|[5.70/10](https://deps.dev/pypi/dynamodb-encryption-sdk)|10|8|0|10|10|10|0|10|0|–|7|–|10|–|0|10
 [opentelemetry-exporter-zipkin-json](https://pypi.org/project/opentelemetry-exporter-zipkin-json)|59,867|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-zipkin-json)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
 [opentelemetry-exporter-zipkin-proto-http](https://pypi.org/project/opentelemetry-exporter-zipkin-proto-http)|58,615|[5.70/10](https://deps.dev/pypi/opentelemetry-exporter-zipkin-proto-http)|10|2|0|10|10|0|0|10|10|–|9|7|10|–|0|10
@@ -916,7 +915,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [simpervisor](https://pypi.org/project/simpervisor)|89,647|[5.35/10](https://deps.dev/pypi/simpervisor)|10|0|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [flask-log-request-id](https://pypi.org/project/flask-log-request-id)|74,010|[5.35/10](https://deps.dev/pypi/flask-log-request-id)|10|8|0|10|10|0|0|10|0|–|10|0|0|–|10|10
 [pyodbc](https://pypi.org/project/pyodbc)|23,052,208|[5.33/10](https://deps.dev/pypi/pyodbc)|10|0|0|7|10|0|10|10|10|–|7|9|0|–|0|10
-[faker](https://pypi.org/project/faker)|5,791,141|[5.33/10](https://deps.dev/pypi/faker)|10|0|0|3|10|10|0|10|10|10|7|0|0|–|0|10
 [tableauserverclient](https://pypi.org/project/tableauserverclient)|3,162,175|[5.33/10](https://deps.dev/pypi/tableauserverclient)|10|8|0|7|10|0|–|10|8|10|7|–|0|0|0|10
 [jellyfish](https://pypi.org/project/jellyfish)|1,988,416|[5.33/10](https://deps.dev/pypi/jellyfish)|10|0|0|3|10|10|0|10|10|10|7|0|0|–|0|10
 [timezonefinder](https://pypi.org/project/timezonefinder)|1,631,299|[5.33/10](https://deps.dev/pypi/timezonefinder)|10|3|0|0|10|10|0|10|10|10|7|0|0|–|0|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [doc8](https://pypi.org/project/doc8)|142,213|[5.20/10](https://deps.dev/pypi/doc8)|10|8|0|5|10|10|0|10|3|10|–|0|0|–|0|10
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|116,795|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [pykakasi](https://pypi.org/project/pykakasi)|106,450|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
+[rq-scheduler](https://pypi.org/project/rq-scheduler)|103,761|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
+[chiavdf](https://pypi.org/project/chiavdf)|87,620|[5.20/10](https://deps.dev/pypi/chiavdf)|10|6|0|10|10|0|0|10|6|–|7|9|0|–|0|10
