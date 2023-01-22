@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 19, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -915,6 +915,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [simpervisor](https://pypi.org/project/simpervisor)|89,647|[5.35/10](https://deps.dev/pypi/simpervisor)|10|0|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [flask-log-request-id](https://pypi.org/project/flask-log-request-id)|74,010|[5.35/10](https://deps.dev/pypi/flask-log-request-id)|10|8|0|10|10|0|0|10|0|–|10|0|0|–|10|10
 [pyodbc](https://pypi.org/project/pyodbc)|23,052,208|[5.33/10](https://deps.dev/pypi/pyodbc)|10|0|0|7|10|0|10|10|10|–|7|9|0|–|0|10
+[faker](https://pypi.org/project/faker)|5,791,141|[5.33/10](https://deps.dev/pypi/faker)|10|0|0|3|10|10|0|10|10|10|7|0|0|–|0|10
 [tableauserverclient](https://pypi.org/project/tableauserverclient)|3,162,175|[5.33/10](https://deps.dev/pypi/tableauserverclient)|10|8|0|7|10|0|–|10|8|10|7|–|0|0|0|10
 [jellyfish](https://pypi.org/project/jellyfish)|1,988,416|[5.33/10](https://deps.dev/pypi/jellyfish)|10|0|0|3|10|10|0|10|10|10|7|0|0|–|0|10
 [timezonefinder](https://pypi.org/project/timezonefinder)|1,631,299|[5.33/10](https://deps.dev/pypi/timezonefinder)|10|3|0|0|10|10|0|10|10|10|7|0|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|116,795|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [pykakasi](https://pypi.org/project/pykakasi)|106,450|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
 [rq-scheduler](https://pypi.org/project/rq-scheduler)|103,761|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
-[chiavdf](https://pypi.org/project/chiavdf)|87,620|[5.20/10](https://deps.dev/pypi/chiavdf)|10|6|0|10|10|0|0|10|6|–|7|9|0|–|0|10
