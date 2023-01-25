@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 25, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -304,7 +304,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-dataproc](https://pypi.org/project/google-cloud-dataproc)|2,552,109|[6.30/10](https://deps.dev/pypi/google-cloud-dataproc)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-container](https://pypi.org/project/google-cloud-container)|2,399,101|[6.30/10](https://deps.dev/pypi/google-cloud-container)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-datacatalog](https://pypi.org/project/google-cloud-datacatalog)|2,330,041|[6.30/10](https://deps.dev/pypi/google-cloud-datacatalog)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
-[google-cloud-videointelligence](https://pypi.org/project/google-cloud-videointelligence)|2,100,704|[6.30/10](https://deps.dev/pypi/google-cloud-videointelligence)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-bigquery-datatransfer](https://pypi.org/project/google-cloud-bigquery-datatransfer)|2,074,629|[6.30/10](https://deps.dev/pypi/google-cloud-bigquery-datatransfer)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-language](https://pypi.org/project/google-cloud-language)|2,040,210|[6.30/10](https://deps.dev/pypi/google-cloud-language)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-workflows](https://pypi.org/project/google-cloud-workflows)|2,020,664|[6.30/10](https://deps.dev/pypi/google-cloud-workflows)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
@@ -803,7 +802,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-play-scraper](https://pypi.org/project/google-play-scraper)|127,581|[5.53/10](https://deps.dev/pypi/google-play-scraper)|10|8|0|3|10|10|0|10|10|–|9|–|0|–|0|10
 [mediapipe](https://pypi.org/project/mediapipe)|119,555|[5.53/10](https://deps.dev/pypi/mediapipe)|9|0|0|10|10|0|0|10|10|–|2|0|10|–|10|10
 [ax-platform](https://pypi.org/project/ax-platform)|106,341|[5.53/10](https://deps.dev/pypi/ax-platform)|10|3|0|10|10|0|0|10|10|10|2|0|9|–|0|10
-[pynetbox](https://pypi.org/project/pynetbox)|90,755|[5.53/10](https://deps.dev/pypi/pynetbox)|10|2|2|3|10|0|0|10|10|–|7|0|10|–|10|10
 [pymc](https://pypi.org/project/pymc)|75,135|[5.53/10](https://deps.dev/pypi/pymc)|10|1|0|10|10|0|–|10|10|10|5|0|9|–|0|10
 [allennlp-models](https://pypi.org/project/allennlp-models)|74,329|[5.53/10](https://deps.dev/pypi/allennlp-models)|10|8|0|8|10|10|–|10|1|10|5|–|0|–|0|10
 [seqio](https://pypi.org/project/seqio)|69,797|[5.53/10](https://deps.dev/pypi/seqio)|10|3|0|6|10|0|0|10|10|10|7|0|10|–|0|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|116,795|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [pykakasi](https://pypi.org/project/pykakasi)|106,450|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
 [rq-scheduler](https://pypi.org/project/rq-scheduler)|103,761|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
+[chiavdf](https://pypi.org/project/chiavdf)|87,620|[5.20/10](https://deps.dev/pypi/chiavdf)|10|6|0|10|10|0|0|10|6|–|7|9|0|–|0|10
+[paddle2onnx](https://pypi.org/project/paddle2onnx)|85,154|[5.20/10](https://deps.dev/pypi/paddle2onnx)|10|1|0|5|10|0|0|10|10|–|10|0|0|0|10|10
