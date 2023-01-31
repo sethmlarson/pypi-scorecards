@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 28, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 31, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -660,6 +660,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|147,154|[5.75/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|9|10|10|0|10|10|10|5|0|0|–|0|10
 [python-lsp-server](https://pypi.org/project/python-lsp-server)|97,801|[5.75/10](https://deps.dev/pypi/python-lsp-server)|10|6|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [ntc-templates](https://pypi.org/project/ntc-templates)|94,529|[5.75/10](https://deps.dev/pypi/ntc-templates)|10|0|0|10|10|10|0|10|10|10|5|0|0|0|0|10
+[qiskit-terra](https://pypi.org/project/qiskit-terra)|88,523|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
 [traitlets](https://pypi.org/project/traitlets)|19,157,761|[5.72/10](https://deps.dev/pypi/traitlets)|10|3|0|6|10|10|0|10|10|–|7|0|9|–|0|10
 [kubernetes](https://pypi.org/project/kubernetes)|12,072,571|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|0|10|–|0|10
 [plotly](https://pypi.org/project/plotly)|6,490,794|[5.72/10](https://deps.dev/pypi/plotly)|10|1|0|2|10|10|0|10|10|–|10|–|0|–|10|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [chiavdf](https://pypi.org/project/chiavdf)|87,620|[5.20/10](https://deps.dev/pypi/chiavdf)|10|6|0|10|10|0|0|10|6|–|7|9|0|–|0|10
 [paddle2onnx](https://pypi.org/project/paddle2onnx)|85,154|[5.20/10](https://deps.dev/pypi/paddle2onnx)|10|1|0|5|10|0|0|10|10|–|10|0|0|0|10|10
 [cattrs](https://pypi.org/project/cattrs)|12,608,926|[5.17/10](https://deps.dev/pypi/cattrs)|10|0|0|1|10|10|0|10|10|–|7|0|10|–|0|10
-[starkbank-ecdsa](https://pypi.org/project/starkbank-ecdsa)|3,912,892|[5.17/10](https://deps.dev/pypi/starkbank-ecdsa)|10|0|0|4|10|0|10|10|5|–|10|0|0|–|10|10
