@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 31, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 1, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -660,7 +660,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|147,154|[5.75/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|9|10|10|0|10|10|10|5|0|0|–|0|10
 [python-lsp-server](https://pypi.org/project/python-lsp-server)|97,801|[5.75/10](https://deps.dev/pypi/python-lsp-server)|10|6|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [ntc-templates](https://pypi.org/project/ntc-templates)|94,529|[5.75/10](https://deps.dev/pypi/ntc-templates)|10|0|0|10|10|10|0|10|10|10|5|0|0|0|0|10
-[qiskit-terra](https://pypi.org/project/qiskit-terra)|88,523|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
 [traitlets](https://pypi.org/project/traitlets)|19,157,761|[5.72/10](https://deps.dev/pypi/traitlets)|10|3|0|6|10|10|0|10|10|–|7|0|9|–|0|10
 [kubernetes](https://pypi.org/project/kubernetes)|12,072,571|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|0|10|–|0|10
 [plotly](https://pypi.org/project/plotly)|6,490,794|[5.72/10](https://deps.dev/pypi/plotly)|10|1|0|2|10|10|0|10|10|–|10|–|0|–|10|10
@@ -724,6 +723,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [sphinx](https://pypi.org/project/sphinx)|6,972,105|[5.65/10](https://deps.dev/pypi/sphinx)|10|3|0|1|10|10|0|10|10|–|7|–|0|–|10|10
 [pygithub](https://pypi.org/project/pygithub)|6,711,627|[5.65/10](https://deps.dev/pypi/pygithub)|10|8|0|6|10|10|0|10|10|–|7|0|0|–|0|10
 [constructs](https://pypi.org/project/constructs)|5,357,517|[5.65/10](https://deps.dev/pypi/constructs)|10|6|0|10|0|10|0|10|10|–|5|0|10|–|6|10
+[sphinxcontrib-htmlhelp](https://pypi.org/project/sphinxcontrib-htmlhelp)|4,184,317|[5.65/10](https://deps.dev/pypi/sphinxcontrib-htmlhelp)|10|3|0|1|10|10|0|10|10|–|7|0|0|–|10|10
 [sphinxcontrib-applehelp](https://pypi.org/project/sphinxcontrib-applehelp)|4,175,829|[5.65/10](https://deps.dev/pypi/sphinxcontrib-applehelp)|10|3|0|1|10|10|0|10|10|–|7|0|0|–|10|10
 [cheroot](https://pypi.org/project/cheroot)|2,606,929|[5.65/10](https://deps.dev/pypi/cheroot)|10|8|2|2|10|0|0|10|10|10|7|10|0|0|0|10
 [python-socketio](https://pypi.org/project/python-socketio)|963,683|[5.65/10](https://deps.dev/pypi/python-socketio)|10|0|0|6|10|10|0|10|10|–|9|0|10|–|0|10
