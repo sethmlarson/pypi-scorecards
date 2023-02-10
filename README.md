@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 7, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 10, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -276,6 +276,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [jinja2](https://pypi.org/project/jinja2)|90,964,836|[6.40/10](https://deps.dev/pypi/jinja2)|10|3|0|7|10|10|0|10|10|–|7|0|9|8|0|10
 [uvicorn](https://pypi.org/project/uvicorn)|9,171,477|[6.40/10](https://deps.dev/pypi/uvicorn)|10|6|0|10|10|10|0|10|10|–|9|0|10|–|0|10
 [xgboost](https://pypi.org/project/xgboost)|8,779,297|[6.40/10](https://deps.dev/pypi/xgboost)|10|3|0|9|10|10|0|10|10|–|0|0|10|0|10|10
+[h2o](https://pypi.org/project/h2o)|381,736|[6.40/10](https://deps.dev/pypi/h2o)|8|8|0|6|10|10|0|10|10|–|0|0|10|–|10|10
 [mozilla-version](https://pypi.org/project/mozilla-version)|128,293|[6.40/10](https://deps.dev/pypi/mozilla-version)|10|6|0|10|10|10|0|10|6|–|10|0|0|–|10|10
 [astroid](https://pypi.org/project/astroid)|11,754,834|[6.38/10](https://deps.dev/pypi/astroid)|10|3|0|8|10|10|0|10|10|–|9|8|9|–|0|10
 [jpype1](https://pypi.org/project/jpype1)|4,213,631|[6.38/10](https://deps.dev/pypi/jpype1)|5|0|0|10|10|10|0|10|10|–|10|10|0|0|10|10
@@ -628,6 +629,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [easyocr](https://pypi.org/project/easyocr)|122,098|[5.80/10](https://deps.dev/pypi/easyocr)|10|0|0|6|10|10|0|10|10|–|7|0|0|0|10|10
 [keplergl](https://pypi.org/project/keplergl)|118,047|[5.80/10](https://deps.dev/pypi/keplergl)|10|6|0|10|10|10|0|10|10|–|7|0|0|–|0|10
 [sphinx-prompt](https://pypi.org/project/sphinx-prompt)|83,780|[5.80/10](https://deps.dev/pypi/sphinx-prompt)|10|3|0|7|10|10|0|10|10|–|7|9|0|–|0|10
+[snowflake-connector-python](https://pypi.org/project/snowflake-connector-python)|26,102,574|[5.78/10](https://deps.dev/pypi/snowflake-connector-python)|10|8|0|9|10|10|–|10|10|–|5|–|0|–|0|10
 [google-cloud-spanner](https://pypi.org/project/google-cloud-spanner)|9,319,552|[5.78/10](https://deps.dev/pypi/google-cloud-spanner)|10|1|0|10|10|10|0|10|10|–|4|–|10|–|0|10
 [terminado](https://pypi.org/project/terminado)|7,981,473|[5.78/10](https://deps.dev/pypi/terminado)|10|3|0|6|10|10|0|10|10|–|7|0|10|0|0|10
 [identify](https://pypi.org/project/identify)|6,910,989|[5.78/10](https://deps.dev/pypi/identify)|10|0|0|7|10|0|–|10|10|–|10|0|10|–|10|10
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cytoolz](https://pypi.org/project/cytoolz)|1,488,252|[5.17/10](https://deps.dev/pypi/cytoolz)|10|0|0|7|10|10|0|10|4|10|7|0|0|–|0|10
 [pygame](https://pypi.org/project/pygame)|691,446|[5.17/10](https://deps.dev/pypi/pygame)|10|9|0|10|10|0|0|10|10|–|5|0|0|0|0|10
 [pymisp](https://pypi.org/project/pymisp)|514,692|[5.17/10](https://deps.dev/pypi/pymisp)|10|0|0|1|10|10|0|10|10|–|7|10|0|–|0|10
-[jupyter-packaging](https://pypi.org/project/jupyter-packaging)|306,598|[5.17/10](https://deps.dev/pypi/jupyter-packaging)|10|3|0|8|10|0|0|10|10|–|7|0|10|0|0|10
-[chalice](https://pypi.org/project/chalice)|254,312|[5.17/10](https://deps.dev/pypi/chalice)|10|3|0|1|10|10|0|10|7|–|7|0|10|–|0|10
