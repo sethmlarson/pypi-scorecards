@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 19, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -614,7 +614,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [datadog-lambda](https://pypi.org/project/datadog-lambda)|357,111|[5.83/10](https://deps.dev/pypi/datadog-lambda)|10|8|0|7|10|10|0|10|10|–|0|9|0|–|0|10
 [jsonnet](https://pypi.org/project/jsonnet)|224,213|[5.83/10](https://deps.dev/pypi/jsonnet)|10|0|0|3|10|0|10|10|10|–|7|0|10|0|10|10
 [pvlib](https://pypi.org/project/pvlib)|216,938|[5.83/10](https://deps.dev/pypi/pvlib)|10|3|0|10|10|0|0|10|10|10|7|10|0|–|0|10
-[amazon-ion](https://pypi.org/project/amazon-ion)|170,667|[5.83/10](https://deps.dev/pypi/amazon-ion)|10|6|0|9|10|10|0|10|0|–|7|7|10|–|0|10
 [django-structlog](https://pypi.org/project/django-structlog)|153,929|[5.83/10](https://deps.dev/pypi/django-structlog)|10|3|0|8|10|10|0|10|10|10|5|0|0|–|0|10
 [google-cloud-pipeline-components](https://pypi.org/project/google-cloud-pipeline-components)|109,076|[5.83/10](https://deps.dev/pypi/google-cloud-pipeline-components)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [censys](https://pypi.org/project/censys)|99,960|[5.83/10](https://deps.dev/pypi/censys)|10|6|0|9|10|10|0|10|10|–|9|0|0|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cytoolz](https://pypi.org/project/cytoolz)|1,488,252|[5.17/10](https://deps.dev/pypi/cytoolz)|10|0|0|7|10|10|0|10|4|10|7|0|0|–|0|10
 [pygame](https://pypi.org/project/pygame)|691,446|[5.17/10](https://deps.dev/pypi/pygame)|10|9|0|10|10|0|0|10|10|–|5|0|0|0|0|10
 [pymisp](https://pypi.org/project/pymisp)|514,692|[5.17/10](https://deps.dev/pypi/pymisp)|10|0|0|1|10|10|0|10|10|–|7|10|0|–|0|10
+[jupyter-packaging](https://pypi.org/project/jupyter-packaging)|306,598|[5.17/10](https://deps.dev/pypi/jupyter-packaging)|10|3|0|8|10|0|0|10|10|–|7|0|10|0|0|10
