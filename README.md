@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 25, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -608,7 +608,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,339,398|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
 [playwright](https://pypi.org/project/playwright)|1,008,884|[5.83/10](https://deps.dev/pypi/playwright)|10|3|0|8|10|10|0|10|10|–|5|0|10|–|0|10
 [visions](https://pypi.org/project/visions)|860,417|[5.83/10](https://deps.dev/pypi/visions)|10|3|0|0|10|10|0|10|10|10|7|10|0|–|0|10
-[aws-sam-cli](https://pypi.org/project/aws-sam-cli)|800,167|[5.83/10](https://deps.dev/pypi/aws-sam-cli)|7|4|0|10|10|10|0|10|10|–|5|0|10|0|0|10
+[aws-sam-cli](https://pypi.org/project/aws-sam-cli)|800,167|[5.83/10](https://deps.dev/pypi/aws-sam-cli)|7|4|0|10|10|10|0|10|10|–|5|–|10|0|0|10
 [polling2](https://pypi.org/project/polling2)|493,058|[5.83/10](https://deps.dev/pypi/polling2)|10|6|0|1|10|10|0|10|10|–|7|10|4|–|0|10
 [kopf](https://pypi.org/project/kopf)|391,583|[5.83/10](https://deps.dev/pypi/kopf)|10|3|0|4|10|0|0|10|10|10|7|10|9|–|0|10
 [datadog-lambda](https://pypi.org/project/datadog-lambda)|357,111|[5.83/10](https://deps.dev/pypi/datadog-lambda)|10|8|0|7|10|10|0|10|10|–|0|9|0|–|0|10
