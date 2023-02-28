@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 25, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 28, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -772,7 +772,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [nox-poetry](https://pypi.org/project/nox-poetry)|239,429|[5.55/10](https://deps.dev/pypi/nox-poetry)|10|3|0|9|10|10|0|10|4|10|7|0|0|–|0|10
 [aiopg](https://pypi.org/project/aiopg)|192,571|[5.55/10](https://deps.dev/pypi/aiopg)|10|3|0|2|10|10|0|10|3|–|9|10|10|0|0|10
 [symspellpy](https://pypi.org/project/symspellpy)|122,836|[5.55/10](https://deps.dev/pypi/symspellpy)|10|0|0|6|10|10|0|10|10|10|7|0|0|–|0|10
-[django-two-factor-auth](https://pypi.org/project/django-two-factor-auth)|121,637|[5.55/10](https://deps.dev/pypi/django-two-factor-auth)|10|6|0|10|10|0|0|10|10|10|7|0|0|–|0|10
 [awsiotsdk](https://pypi.org/project/awsiotsdk)|86,132|[5.55/10](https://deps.dev/pypi/awsiotsdk)|10|8|0|8|10|0|0|10|10|–|7|0|10|–|0|10
 [python-vagrant](https://pypi.org/project/python-vagrant)|74,462|[5.55/10](https://deps.dev/pypi/python-vagrant)|10|6|0|10|10|0|0|10|10|10|7|0|0|–|0|10
 [pydeck](https://pypi.org/project/pydeck)|906,173|[5.53/10](https://deps.dev/pypi/pydeck)|10|8|0|9|10|10|0|10|10|–|0|0|0|–|0|10
@@ -806,7 +805,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pywatchman](https://pypi.org/project/pywatchman)|129,297|[5.50/10](https://deps.dev/pypi/pywatchman)|10|3|0|1|10|10|0|10|10|10|0|0|9|0|0|10
 [no-manylinux](https://pypi.org/project/no-manylinux)|123,891|[5.50/10](https://deps.dev/pypi/no-manylinux)|10|0|0|10|10|–|0|10|10|–|10|0|0|–|10|10
 [captum](https://pypi.org/project/captum)|121,392|[5.50/10](https://deps.dev/pypi/captum)|10|0|0|10|10|0|0|10|10|–|10|0|0|–|10|10
-[xdg](https://pypi.org/project/xdg)|114,665|[5.50/10](https://deps.dev/pypi/xdg)|10|3|0|9|10|10|0|10|10|–|7|–|0|–|0|10
 [tensorflow-ranking](https://pypi.org/project/tensorflow-ranking)|102,436|[5.50/10](https://deps.dev/pypi/tensorflow-ranking)|10|0|0|10|10|–|0|10|10|–|10|0|0|–|10|10
 [robotframework-browser](https://pypi.org/project/robotframework-browser)|81,527|[5.50/10](https://deps.dev/pypi/robotframework-browser)|10|3|0|7|10|10|0|10|10|10|0|0|0|–|0|10
 [llvmlite](https://pypi.org/project/llvmlite)|10,122,403|[5.47/10](https://deps.dev/pypi/llvmlite)|10|3|0|10|10|0|0|10|10|–|5|0|0|–|10|10
@@ -925,6 +923,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pygments](https://pypi.org/project/pygments)|40,496,198|[5.30/10](https://deps.dev/pypi/pygments)|10|0|0|4|10|0|10|10|10|–|5|0|0|–|10|10
 [zope-interface](https://pypi.org/project/zope-interface)|11,626,349|[5.30/10](https://deps.dev/pypi/zope-interface)|10|3|0|3|10|0|0|10|10|10|7|0|10|–|0|10
 [azure-kusto-data](https://pypi.org/project/azure-kusto-data)|3,629,549|[5.30/10](https://deps.dev/pypi/azure-kusto-data)|10|8|0|6|10|0|0|10|10|–|7|8|0|–|0|10
+[python-multipart](https://pypi.org/project/python-multipart)|3,041,228|[5.30/10](https://deps.dev/pypi/python-multipart)|10|0|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [cmdstanpy](https://pypi.org/project/cmdstanpy)|2,751,150|[5.30/10](https://deps.dev/pypi/cmdstanpy)|10|1|0|7|10|10|–|10|10|–|9|–|0|–|0|10
 [azure-kusto-ingest](https://pypi.org/project/azure-kusto-ingest)|2,736,742|[5.30/10](https://deps.dev/pypi/azure-kusto-ingest)|10|8|0|6|10|0|0|10|10|–|7|8|0|–|0|10
 [locust](https://pypi.org/project/locust)|1,218,254|[5.30/10](https://deps.dev/pypi/locust)|10|3|0|1|10|0|0|10|10|10|5|0|0|–|10|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pygame](https://pypi.org/project/pygame)|691,446|[5.17/10](https://deps.dev/pypi/pygame)|10|9|0|10|10|0|0|10|10|–|5|0|0|0|0|10
 [pymisp](https://pypi.org/project/pymisp)|514,692|[5.17/10](https://deps.dev/pypi/pymisp)|10|0|0|1|10|10|0|10|10|–|7|10|0|–|0|10
 [jupyter-packaging](https://pypi.org/project/jupyter-packaging)|306,598|[5.17/10](https://deps.dev/pypi/jupyter-packaging)|10|3|0|8|10|0|0|10|10|–|7|0|10|0|0|10
+[chalice](https://pypi.org/project/chalice)|254,312|[5.17/10](https://deps.dev/pypi/chalice)|10|3|0|1|10|10|0|10|7|–|7|0|10|–|0|10
