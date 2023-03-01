@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 28, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 1, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -305,6 +305,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-dataproc](https://pypi.org/project/google-cloud-dataproc)|2,567,827|[6.30/10](https://deps.dev/pypi/google-cloud-dataproc)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-bigquery-datatransfer](https://pypi.org/project/google-cloud-bigquery-datatransfer)|2,470,272|[6.30/10](https://deps.dev/pypi/google-cloud-bigquery-datatransfer)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-container](https://pypi.org/project/google-cloud-container)|2,414,310|[6.30/10](https://deps.dev/pypi/google-cloud-container)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
+[google-cloud-videointelligence](https://pypi.org/project/google-cloud-videointelligence)|2,184,993|[6.30/10](https://deps.dev/pypi/google-cloud-videointelligence)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-workflows](https://pypi.org/project/google-cloud-workflows)|2,155,418|[6.30/10](https://deps.dev/pypi/google-cloud-workflows)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-redis](https://pypi.org/project/google-cloud-redis)|2,074,717|[6.30/10](https://deps.dev/pypi/google-cloud-redis)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
 [google-cloud-os-login](https://pypi.org/project/google-cloud-os-login)|2,022,512|[6.30/10](https://deps.dev/pypi/google-cloud-os-login)|10|8|0|10|10|10|0|10|10|–|4|0|10|–|0|10
@@ -1002,7 +1003,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [gql](https://pypi.org/project/gql)|2,395,186|[5.17/10](https://deps.dev/pypi/gql)|10|8|0|3|10|0|0|10|10|10|7|0|0|–|0|10
 [azure-multiapi-storage](https://pypi.org/project/azure-multiapi-storage)|1,959,766|[5.17/10](https://deps.dev/pypi/azure-multiapi-storage)|10|0|0|7|10|0|0|10|2|–|10|0|10|0|10|10
 [cytoolz](https://pypi.org/project/cytoolz)|1,488,252|[5.17/10](https://deps.dev/pypi/cytoolz)|10|0|0|7|10|10|0|10|4|10|7|0|0|–|0|10
-[pygame](https://pypi.org/project/pygame)|691,446|[5.17/10](https://deps.dev/pypi/pygame)|10|9|0|10|10|0|0|10|10|–|5|0|0|0|0|10
 [pymisp](https://pypi.org/project/pymisp)|514,692|[5.17/10](https://deps.dev/pypi/pymisp)|10|0|0|1|10|10|0|10|10|–|7|10|0|–|0|10
 [jupyter-packaging](https://pypi.org/project/jupyter-packaging)|306,598|[5.17/10](https://deps.dev/pypi/jupyter-packaging)|10|3|0|8|10|0|0|10|10|–|7|0|10|0|0|10
 [chalice](https://pypi.org/project/chalice)|254,312|[5.17/10](https://deps.dev/pypi/chalice)|10|3|0|1|10|10|0|10|7|–|7|0|10|–|0|10
