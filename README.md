@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 4, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 7, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -615,7 +615,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyqtgraph](https://pypi.org/project/pyqtgraph)|110,381|[5.85/10](https://deps.dev/pypi/pyqtgraph)|10|3|0|7|10|10|0|10|10|–|7|10|0|–|0|10
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|83,639|[5.85/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|8|10|0|0|10|10|–|10|0|10|–|10|10
 [sphinx-toolbox](https://pypi.org/project/sphinx-toolbox)|80,969|[5.85/10](https://deps.dev/pypi/sphinx-toolbox)|10|8|0|2|10|10|0|10|10|10|7|0|0|0|0|10
-[sqlalchemy](https://pypi.org/project/sqlalchemy)|76,234,552|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|63,190,629|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|0|10|–|0|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|3,427,565|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,473,503|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [doc8](https://pypi.org/project/doc8)|164,635|[5.20/10](https://deps.dev/pypi/doc8)|10|8|0|5|10|10|0|10|3|10|–|0|0|–|0|10
 [redo](https://pypi.org/project/redo)|143,322|[5.20/10](https://deps.dev/pypi/redo)|10|8|0|10|10|–|–|10|0|–|7|0|0|–|10|10
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|139,720|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
+[rq-scheduler](https://pypi.org/project/rq-scheduler)|122,930|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
