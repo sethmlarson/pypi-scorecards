@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 7, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 10, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -282,7 +282,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [jinja2](https://pypi.org/project/jinja2)|93,234,856|[6.40/10](https://deps.dev/pypi/jinja2)|10|3|0|7|10|10|0|10|10|–|7|0|9|8|0|10
 [uvicorn](https://pypi.org/project/uvicorn)|10,605,699|[6.40/10](https://deps.dev/pypi/uvicorn)|10|6|0|10|10|10|0|10|10|–|9|0|10|–|0|10
 [xgboost](https://pypi.org/project/xgboost)|9,138,526|[6.40/10](https://deps.dev/pypi/xgboost)|10|3|0|9|10|10|0|10|10|–|0|0|10|0|10|10
-[h2o](https://pypi.org/project/h2o)|383,605|[6.40/10](https://deps.dev/pypi/h2o)|8|8|0|6|10|10|0|10|10|–|0|0|10|–|10|10
 [mozilla-version](https://pypi.org/project/mozilla-version)|147,293|[6.40/10](https://deps.dev/pypi/mozilla-version)|10|6|0|10|10|10|0|10|6|–|10|0|0|–|10|10
 [astroid](https://pypi.org/project/astroid)|12,364,306|[6.38/10](https://deps.dev/pypi/astroid)|10|3|0|8|10|10|0|10|10|–|9|8|9|–|0|10
 [jpype1](https://pypi.org/project/jpype1)|4,241,433|[6.38/10](https://deps.dev/pypi/jpype1)|5|0|0|10|10|10|0|10|10|–|10|10|0|0|10|10
@@ -531,7 +530,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-instrumentation](https://pypi.org/project/opentelemetry-instrumentation)|1,595,020|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [acryl-datahub](https://pypi.org/project/acryl-datahub)|1,519,051|[5.95/10](https://deps.dev/pypi/acryl-datahub)|0|6|0|10|10|10|0|10|10|10|5|0|10|–|0|10
 [opentelemetry-util-http](https://pypi.org/project/opentelemetry-util-http)|1,328,139|[5.95/10](https://deps.dev/pypi/opentelemetry-util-http)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
-[openai](https://pypi.org/project/openai)|1,231,157|[5.95/10](https://deps.dev/pypi/openai)|10|6|0|10|10|0|0|10|10|–|10|0|0|–|10|10
 [azure-cli-nspkg](https://pypi.org/project/azure-cli-nspkg)|1,215,534|[5.95/10](https://deps.dev/pypi/azure-cli-nspkg)|4|2|0|10|10|10|0|10|10|–|–|0|10|0|10|10
 [allure-python-commons](https://pypi.org/project/allure-python-commons)|985,386|[5.95/10](https://deps.dev/pypi/allure-python-commons)|10|8|0|10|10|10|–|10|10|–|7|0|0|–|0|10
 [allure-pytest](https://pypi.org/project/allure-pytest)|854,407|[5.95/10](https://deps.dev/pypi/allure-pytest)|10|8|0|10|10|10|–|10|10|–|7|0|0|–|0|10
@@ -615,6 +613,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyqtgraph](https://pypi.org/project/pyqtgraph)|110,381|[5.85/10](https://deps.dev/pypi/pyqtgraph)|10|3|0|7|10|10|0|10|10|–|7|10|0|–|0|10
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|83,639|[5.85/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|8|10|0|0|10|10|–|10|0|10|–|10|10
 [sphinx-toolbox](https://pypi.org/project/sphinx-toolbox)|80,969|[5.85/10](https://deps.dev/pypi/sphinx-toolbox)|10|8|0|2|10|10|0|10|10|10|7|0|0|0|0|10
+[sqlalchemy](https://pypi.org/project/sqlalchemy)|76,234,552|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|63,190,629|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|0|10|–|0|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|3,427,565|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,473,503|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [redo](https://pypi.org/project/redo)|143,322|[5.20/10](https://deps.dev/pypi/redo)|10|8|0|10|10|–|–|10|0|–|7|0|0|–|10|10
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|139,720|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [rq-scheduler](https://pypi.org/project/rq-scheduler)|122,930|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
+[pykakasi](https://pypi.org/project/pykakasi)|108,848|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
