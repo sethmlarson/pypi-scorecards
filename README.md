@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 10, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 13, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -530,6 +530,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [opentelemetry-instrumentation](https://pypi.org/project/opentelemetry-instrumentation)|1,595,020|[5.95/10](https://deps.dev/pypi/opentelemetry-instrumentation)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
 [acryl-datahub](https://pypi.org/project/acryl-datahub)|1,519,051|[5.95/10](https://deps.dev/pypi/acryl-datahub)|0|6|0|10|10|10|0|10|10|10|5|0|10|–|0|10
 [opentelemetry-util-http](https://pypi.org/project/opentelemetry-util-http)|1,328,139|[5.95/10](https://deps.dev/pypi/opentelemetry-util-http)|10|8|0|10|10|0|0|10|10|–|5|7|10|–|0|10
+[openai](https://pypi.org/project/openai)|1,231,157|[5.95/10](https://deps.dev/pypi/openai)|10|6|0|10|10|0|0|10|10|–|10|0|0|–|10|10
 [azure-cli-nspkg](https://pypi.org/project/azure-cli-nspkg)|1,215,534|[5.95/10](https://deps.dev/pypi/azure-cli-nspkg)|4|2|0|10|10|10|0|10|10|–|–|0|10|0|10|10
 [allure-python-commons](https://pypi.org/project/allure-python-commons)|985,386|[5.95/10](https://deps.dev/pypi/allure-python-commons)|10|8|0|10|10|10|–|10|10|–|7|0|0|–|0|10
 [allure-pytest](https://pypi.org/project/allure-pytest)|854,407|[5.95/10](https://deps.dev/pypi/allure-pytest)|10|8|0|10|10|10|–|10|10|–|7|0|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [redo](https://pypi.org/project/redo)|143,322|[5.20/10](https://deps.dev/pypi/redo)|10|8|0|10|10|–|–|10|0|–|7|0|0|–|10|10
 [ipyvuetify](https://pypi.org/project/ipyvuetify)|139,720|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [rq-scheduler](https://pypi.org/project/rq-scheduler)|122,930|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
-[pykakasi](https://pypi.org/project/pykakasi)|108,848|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
