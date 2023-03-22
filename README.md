@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 19, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -614,6 +614,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyqtgraph](https://pypi.org/project/pyqtgraph)|110,381|[5.85/10](https://deps.dev/pypi/pyqtgraph)|10|3|0|7|10|10|0|10|10|–|7|10|0|–|0|10
 [pre-commit-hooks](https://pypi.org/project/pre-commit-hooks)|83,639|[5.85/10](https://deps.dev/pypi/pre-commit-hooks)|10|0|0|8|10|0|0|10|10|–|10|0|10|–|10|10
 [sphinx-toolbox](https://pypi.org/project/sphinx-toolbox)|80,969|[5.85/10](https://deps.dev/pypi/sphinx-toolbox)|10|8|0|2|10|10|0|10|10|10|7|0|0|0|0|10
+[sqlalchemy](https://pypi.org/project/sqlalchemy)|76,234,552|[5.83/10](https://deps.dev/pypi/sqlalchemy)|10|3|0|0|10|10|10|10|10|–|7|0|10|0|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|63,190,629|[5.83/10](https://deps.dev/pypi/jsonschema)|10|3|0|0|10|10|0|10|10|10|7|0|10|–|0|10
 [kfp-pipeline-spec](https://pypi.org/project/kfp-pipeline-spec)|3,427,565|[5.83/10](https://deps.dev/pypi/kfp-pipeline-spec)|10|3|0|8|10|10|0|10|10|–|–|0|0|–|10|10
 [webdriver-manager](https://pypi.org/project/webdriver-manager)|1,473,503|[5.83/10](https://deps.dev/pypi/webdriver-manager)|10|3|0|2|10|10|0|10|10|10|7|7|0|–|0|10
@@ -663,7 +664,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [domdf-python-tools](https://pypi.org/project/domdf-python-tools)|197,581|[5.75/10](https://deps.dev/pypi/domdf-python-tools)|10|1|0|2|10|10|0|10|9|10|7|10|0|0|0|10
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|142,639|[5.75/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|9|10|10|0|10|10|10|5|0|0|–|0|10
 [ntc-templates](https://pypi.org/project/ntc-templates)|132,264|[5.75/10](https://deps.dev/pypi/ntc-templates)|10|0|0|10|10|10|0|10|10|10|5|0|0|0|0|10
-[qiskit-terra](https://pypi.org/project/qiskit-terra)|111,877|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
 [python-lsp-server](https://pypi.org/project/python-lsp-server)|88,062|[5.75/10](https://deps.dev/pypi/python-lsp-server)|10|6|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [traitlets](https://pypi.org/project/traitlets)|21,377,740|[5.72/10](https://deps.dev/pypi/traitlets)|10|3|0|6|10|10|0|10|10|–|7|0|9|–|0|10
 [kubernetes](https://pypi.org/project/kubernetes)|13,184,861|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|0|10|–|0|10
@@ -873,7 +873,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [gspread](https://pypi.org/project/gspread)|8,242,368|[5.40/10](https://deps.dev/pypi/gspread)|10|0|0|4|10|10|0|10|10|10|7|0|0|0|0|10
 [pyproject-api](https://pypi.org/project/pyproject-api)|4,818,106|[5.40/10](https://deps.dev/pypi/pyproject-api)|10|1|0|5|10|10|0|10|8|10|7|0|0|–|0|10
 [xyzservices](https://pypi.org/project/xyzservices)|724,985|[5.40/10](https://deps.dev/pypi/xyzservices)|10|0|0|4|10|10|0|10|10|10|7|0|0|0|0|10
-[apache-sedona](https://pypi.org/project/apache-sedona)|663,213|[5.40/10](https://deps.dev/pypi/apache-sedona)|10|0|0|4|10|10|0|10|10|–|7|0|10|0|0|10
 [editdistance](https://pypi.org/project/editdistance)|589,040|[5.40/10](https://deps.dev/pypi/editdistance)|10|0|0|5|10|10|0|10|9|10|7|0|0|–|0|10
 [port-for](https://pypi.org/project/port-for)|309,067|[5.40/10](https://deps.dev/pypi/port-for)|10|0|0|10|10|10|0|10|10|–|8|0|0|–|0|10
 [blosc2](https://pypi.org/project/blosc2)|289,365|[5.40/10](https://deps.dev/pypi/blosc2)|10|0|0|4|10|10|0|10|10|10|7|0|0|–|0|10
@@ -1003,6 +1002,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [gpytorch](https://pypi.org/project/gpytorch)|216,178|[5.20/10](https://deps.dev/pypi/gpytorch)|10|8|0|10|10|0|0|10|10|–|7|0|0|–|0|10
 [doc8](https://pypi.org/project/doc8)|164,635|[5.20/10](https://deps.dev/pypi/doc8)|10|8|0|5|10|10|0|10|3|10|–|0|0|–|0|10
 [redo](https://pypi.org/project/redo)|143,322|[5.20/10](https://deps.dev/pypi/redo)|10|8|0|10|10|–|–|10|0|–|7|0|0|–|10|10
-[ipyvuetify](https://pypi.org/project/ipyvuetify)|139,720|[5.20/10](https://deps.dev/pypi/ipyvuetify)|10|0|0|1|10|10|0|10|5|–|10|0|0|–|10|10
 [rq-scheduler](https://pypi.org/project/rq-scheduler)|122,930|[5.20/10](https://deps.dev/pypi/rq-scheduler)|10|0|0|6|10|10|0|10|0|–|10|0|0|–|10|10
 [pykakasi](https://pypi.org/project/pykakasi)|108,848|[5.20/10](https://deps.dev/pypi/pykakasi)|10|0|0|0|10|10|0|10|0|10|7|7|10|–|0|10
+[mxnet-mkl](https://pypi.org/project/mxnet-mkl)|89,281|[5.20/10](https://deps.dev/pypi/mxnet-mkl)|10|1|0|10|10|0|0|10|7|–|0|0|10|8|0|10
+[iniparse](https://pypi.org/project/iniparse)|75,644|[5.20/10](https://deps.dev/pypi/iniparse)|10|0|0|10|10|0|0|10|6|–|10|–|0|–|10|10
