@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 29, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -664,6 +664,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [domdf-python-tools](https://pypi.org/project/domdf-python-tools)|197,581|[5.75/10](https://deps.dev/pypi/domdf-python-tools)|10|1|0|2|10|10|0|10|9|10|7|10|0|0|0|10
 [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert)|142,639|[5.75/10](https://deps.dev/pypi/pytorch-pretrained-bert)|10|1|0|9|10|10|0|10|10|10|5|0|0|–|0|10
 [ntc-templates](https://pypi.org/project/ntc-templates)|132,264|[5.75/10](https://deps.dev/pypi/ntc-templates)|10|0|0|10|10|10|0|10|10|10|5|0|0|0|0|10
+[qiskit-terra](https://pypi.org/project/qiskit-terra)|111,877|[5.75/10](https://deps.dev/pypi/qiskit-terra)|10|8|2|10|10|10|0|10|10|–|2|0|0|–|0|10
 [python-lsp-server](https://pypi.org/project/python-lsp-server)|88,062|[5.75/10](https://deps.dev/pypi/python-lsp-server)|10|6|0|8|10|10|0|10|10|–|9|0|0|–|0|10
 [traitlets](https://pypi.org/project/traitlets)|21,377,740|[5.72/10](https://deps.dev/pypi/traitlets)|10|3|0|6|10|10|0|10|10|–|7|0|9|–|0|10
 [kubernetes](https://pypi.org/project/kubernetes)|13,184,861|[5.72/10](https://deps.dev/pypi/kubernetes)|10|3|0|10|10|10|0|10|10|–|0|0|10|–|0|10
@@ -895,7 +896,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [splinter](https://pypi.org/project/splinter)|83,282|[5.38/10](https://deps.dev/pypi/splinter)|10|0|0|9|10|10|0|10|10|–|9|0|0|–|0|10
 [pandas](https://pypi.org/project/pandas)|104,674,269|[5.35/10](https://deps.dev/pypi/pandas)|10|3|0|9|10|0|10|10|10|–|0|0|9|0|0|10
 [gunicorn](https://pypi.org/project/gunicorn)|23,526,888|[5.35/10](https://deps.dev/pypi/gunicorn)|10|3|0|9|10|0|10|10|10|–|9|0|0|0|0|10
-[yamllint](https://pypi.org/project/yamllint)|3,418,139|[5.35/10](https://deps.dev/pypi/yamllint)|10|3|0|7|10|0|0|10|10|–|7|0|0|–|10|10
 [marshmallow-oneofschema](https://pypi.org/project/marshmallow-oneofschema)|1,721,852|[5.35/10](https://deps.dev/pypi/marshmallow-oneofschema)|10|3|0|5|10|10|0|10|0|–|10|0|0|–|10|10
 [annoy](https://pypi.org/project/annoy)|1,143,902|[5.35/10](https://deps.dev/pypi/annoy)|10|0|0|8|10|0|0|10|10|–|10|0|0|–|10|10
 [shareplum](https://pypi.org/project/shareplum)|687,435|[5.35/10](https://deps.dev/pypi/shareplum)|10|0|0|8|10|10|0|10|0|–|10|0|0|–|10|10
