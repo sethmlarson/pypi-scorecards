@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Apr 29, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on May 1, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -150,7 +150,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [charset-normalizer](https://pypi.org/project/charset-normalizer)|249,803,967|[6.06/10](https://deps.dev/pypi/charset-normalizer)|10|–|0|10|10|10|10|–|7|10|0|0|10
 [certifi](https://pypi.org/project/certifi)|230,885,314|[6.06/10](https://deps.dev/pypi/certifi)|10|0|0|10|0|9|7|–|7|10|–|10|10
 [wheel](https://pypi.org/project/wheel)|153,233,149|[6.06/10](https://deps.dev/pypi/wheel)|10|0|0|10|10|10|10|10|7|0|–|0|10
-[sqlalchemy](https://pypi.org/project/sqlalchemy)|66,738,917|[6.06/10](https://deps.dev/pypi/sqlalchemy)|10|–|0|10|10|10|10|–|7|10|0|0|10
 [jsonschema](https://pypi.org/project/jsonschema)|64,151,673|[6.06/10](https://deps.dev/pypi/jsonschema)|10|–|0|10|0|10|10|10|7|10|–|0|10
 [platformdirs](https://pypi.org/project/platformdirs)|62,235,063|[6.06/10](https://deps.dev/pypi/platformdirs)|10|0|0|10|0|10|10|10|7|10|–|0|10
 [pymysql](https://pypi.org/project/pymysql)|33,608,074|[6.06/10](https://deps.dev/pypi/pymysql)|10|–|0|10|10|10|10|–|7|10|–|0|10
@@ -964,6 +963,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [tbats](https://pypi.org/project/tbats)|326,068|[5.28/10](https://deps.dev/pypi/tbats)|10|0|0|10|0|10|3|–|10|0|–|10|10
 [pymc3](https://pypi.org/project/pymc3)|286,451|[5.28/10](https://deps.dev/pypi/pymc3)|10|–|0|10|0|9|10|10|5|9|–|0|4
 [airflow-provider-fivetran](https://pypi.org/project/airflow-provider-fivetran)|266,072|[5.28/10](https://deps.dev/pypi/airflow-provider-fivetran)|10|–|0|10|0|10|3|–|10|0|0|10|10
+[pytype](https://pypi.org/project/pytype)|256,258|[5.28/10](https://deps.dev/pypi/pytype)|10|0|0|10|0|9|10|–|5|10|–|0|10
 [certbot-dns-azure](https://pypi.org/project/certbot-dns-azure)|203,362|[5.28/10](https://deps.dev/pypi/certbot-dns-azure)|10|0|0|10|0|9|10|10|5|0|–|0|10
 [oauth2-client](https://pypi.org/project/oauth2-client)|179,069|[5.28/10](https://deps.dev/pypi/oauth2-client)|10|0|0|10|0|10|5|–|10|0|–|10|8
 [mailchimp3](https://pypi.org/project/mailchimp3)|152,004|[5.28/10](https://deps.dev/pypi/mailchimp3)|10|0|0|10|0|10|3|–|10|0|–|10|10
