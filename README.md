@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 29, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -76,7 +76,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [astroid](https://pypi.org/project/astroid)|11,556,027|[5.95/10](https://deps.dev/pypi/astroid)|10|–|0|10|10|0|10|10|–|6|10|9|–|0|10
 [bokeh](https://pypi.org/project/bokeh)|3,184,757|[5.95/10](https://deps.dev/pypi/bokeh)|10|–|0|6|10|0|10|10|10|4|7|10|–|0|10
 [pandas](https://pypi.org/project/pandas)|118,220,370|[5.92/10](https://deps.dev/pypi/pandas)|10|–|0|9|10|10|10|10|–|0|7|9|0|0|10
-[pylint](https://pypi.org/project/pylint)|11,763,710|[5.92/10](https://deps.dev/pypi/pylint)|10|–|5|10|10|0|10|10|–|4|9|9|–|0|10
 [jinja2](https://pypi.org/project/jinja2)|92,402,128|[5.89/10](https://deps.dev/pypi/jinja2)|10|–|0|0|10|10|10|10|–|8|0|9|8|0|10
 [applicationinsights](https://pypi.org/project/applicationinsights)|8,189,550|[5.89/10](https://deps.dev/pypi/applicationinsights)|10|–|0|10|10|0|10|10|–|7|7|10|–|0|10
 [ggshield](https://pypi.org/project/ggshield)|100,560|[5.89/10](https://deps.dev/pypi/ggshield)|10|–|0|10|10|0|10|10|10|4|0|10|0|0|10
@@ -85,6 +84,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [constructs](https://pypi.org/project/constructs)|7,949,688|[5.86/10](https://deps.dev/pypi/constructs)|10|–|0|10|10|0|10|10|–|6|0|10|–|5|10
 [docker-compose](https://pypi.org/project/docker-compose)|1,757,135|[5.86/10](https://deps.dev/pypi/docker-compose)|10|–|0|10|10|0|10|10|10|–|0|0|0|10|9
 [python-hcl2](https://pypi.org/project/python-hcl2)|514,467|[5.86/10](https://deps.dev/pypi/python-hcl2)|10|–|0|9|10|0|10|10|10|6|9|0|–|0|10
+[django-ratelimit](https://pypi.org/project/django-ratelimit)|237,585|[5.86/10](https://deps.dev/pypi/django-ratelimit)|10|–|0|5|10|0|9|7|10|6|10|10|–|0|10
 [idna](https://pypi.org/project/idna)|200,541,652|[5.84/10](https://deps.dev/pypi/idna)|10|–|0|2|10|10|10|10|–|–|0|10|–|10|10
 [importlib-metadata](https://pypi.org/project/importlib-metadata)|131,849,681|[5.84/10](https://deps.dev/pypi/importlib-metadata)|8|0|0|0|10|10|10|10|–|6|0|10|–|10|10
 [cachetools](https://pypi.org/project/cachetools)|73,504,602|[5.84/10](https://deps.dev/pypi/cachetools)|10|0|0|1|10|10|10|7|–|6|0|10|–|10|10
@@ -544,7 +544,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-mgmt-hybridcompute](https://pypi.org/project/azure-mgmt-hybridcompute)|176,191|[5.30/10](https://deps.dev/pypi/azure-mgmt-hybridcompute)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-ml](https://pypi.org/project/azure-ai-ml)|172,419|[5.30/10](https://deps.dev/pypi/azure-ai-ml)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-textanalytics](https://pypi.org/project/azure-ai-textanalytics)|151,513|[5.30/10](https://deps.dev/pypi/azure-ai-textanalytics)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
-[qiskit-terra](https://pypi.org/project/qiskit-terra)|134,564|[5.30/10](https://deps.dev/pypi/qiskit-terra)|10|–|2|10|10|0|10|10|–|2|0|10|–|0|10
 [google-cloud-dialogflow-cx](https://pypi.org/project/google-cloud-dialogflow-cx)|124,775|[5.30/10](https://deps.dev/pypi/google-cloud-dialogflow-cx)|10|–|0|10|10|0|10|10|–|3|0|10|–|0|10
 [azure-containerregistry](https://pypi.org/project/azure-containerregistry)|116,006|[5.30/10](https://deps.dev/pypi/azure-containerregistry)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-language-questionanswering](https://pypi.org/project/azure-ai-language-questionanswering)|114,528|[5.30/10](https://deps.dev/pypi/azure-ai-language-questionanswering)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mlflow](https://pypi.org/project/mlflow)|11,381,498|[4.78/10](https://deps.dev/pypi/mlflow)|10|–|0|9|10|0|10|10|10|0|0|10|–|0|0
 [xlsxwriter](https://pypi.org/project/xlsxwriter)|10,618,742|[4.78/10](https://deps.dev/pypi/xlsxwriter)|10|0|0|1|10|0|10|10|–|7|10|0|–|0|10
 [tensorflow-io-gcs-filesystem](https://pypi.org/project/tensorflow-io-gcs-filesystem)|7,013,400|[4.78/10](https://deps.dev/pypi/tensorflow-io-gcs-filesystem)|10|–|0|4|10|0|10|10|10|4|0|0|–|0|9
+[email-validator](https://pypi.org/project/email-validator)|6,288,902|[4.78/10](https://deps.dev/pypi/email-validator)|10|–|0|1|10|10|10|10|–|7|0|0|–|0|10
