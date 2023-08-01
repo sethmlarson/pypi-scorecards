@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 29, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 1, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -544,6 +544,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-mgmt-hybridcompute](https://pypi.org/project/azure-mgmt-hybridcompute)|176,191|[5.30/10](https://deps.dev/pypi/azure-mgmt-hybridcompute)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-ml](https://pypi.org/project/azure-ai-ml)|172,419|[5.30/10](https://deps.dev/pypi/azure-ai-ml)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-textanalytics](https://pypi.org/project/azure-ai-textanalytics)|151,513|[5.30/10](https://deps.dev/pypi/azure-ai-textanalytics)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
+[qiskit-terra](https://pypi.org/project/qiskit-terra)|134,564|[5.30/10](https://deps.dev/pypi/qiskit-terra)|10|–|2|10|10|0|10|10|–|2|0|10|–|0|10
 [google-cloud-dialogflow-cx](https://pypi.org/project/google-cloud-dialogflow-cx)|124,775|[5.30/10](https://deps.dev/pypi/google-cloud-dialogflow-cx)|10|–|0|10|10|0|10|10|–|3|0|10|–|0|10
 [azure-containerregistry](https://pypi.org/project/azure-containerregistry)|116,006|[5.30/10](https://deps.dev/pypi/azure-containerregistry)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
 [azure-ai-language-questionanswering](https://pypi.org/project/azure-ai-language-questionanswering)|114,528|[5.30/10](https://deps.dev/pypi/azure-ai-language-questionanswering)|8|–|0|9|10|0|10|10|–|0|0|10|–|9|6
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mlflow](https://pypi.org/project/mlflow)|11,381,498|[4.78/10](https://deps.dev/pypi/mlflow)|10|–|0|9|10|0|10|10|10|0|0|10|–|0|0
 [xlsxwriter](https://pypi.org/project/xlsxwriter)|10,618,742|[4.78/10](https://deps.dev/pypi/xlsxwriter)|10|0|0|1|10|0|10|10|–|7|10|0|–|0|10
 [tensorflow-io-gcs-filesystem](https://pypi.org/project/tensorflow-io-gcs-filesystem)|7,013,400|[4.78/10](https://deps.dev/pypi/tensorflow-io-gcs-filesystem)|10|–|0|4|10|0|10|10|10|4|0|0|–|0|9
-[email-validator](https://pypi.org/project/email-validator)|6,288,902|[4.78/10](https://deps.dev/pypi/email-validator)|10|–|0|1|10|10|10|10|–|7|0|0|–|0|10
