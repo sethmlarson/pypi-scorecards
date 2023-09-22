@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 15, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -56,6 +56,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-orchestration-airflow](https://pypi.org/project/google-cloud-orchestration-airflow)|1,287,876|[6.41/10](https://deps.dev/pypi/google-cloud-orchestration-airflow)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
 [google-cloud-memcache](https://pypi.org/project/google-cloud-memcache)|1,262,584|[6.41/10](https://deps.dev/pypi/google-cloud-memcache)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
 [google-cloud-dataform](https://pypi.org/project/google-cloud-dataform)|896,548|[6.41/10](https://deps.dev/pypi/google-cloud-dataform)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
+[google-cloud-iam](https://pypi.org/project/google-cloud-iam)|279,076|[6.41/10](https://deps.dev/pypi/google-cloud-iam)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
 [google-cloud-recaptcha-enterprise](https://pypi.org/project/google-cloud-recaptcha-enterprise)|207,056|[6.41/10](https://deps.dev/pypi/google-cloud-recaptcha-enterprise)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
 [google-cloud-certificate-manager](https://pypi.org/project/google-cloud-certificate-manager)|204,340|[6.41/10](https://deps.dev/pypi/google-cloud-certificate-manager)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
 [google-cloud-artifact-registry](https://pypi.org/project/google-cloud-artifact-registry)|204,181|[6.41/10](https://deps.dev/pypi/google-cloud-artifact-registry)|10|–|0|10|10|0|10|10|–|2|8|10|–|10|9
@@ -330,6 +331,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [fastai](https://pypi.org/project/fastai)|314,193|[5.78/10](https://deps.dev/pypi/fastai)|10|0|0|10|10|0|10|10|–|7|0|0|–|10|10
 [seqio-nightly](https://pypi.org/project/seqio-nightly)|274,323|[5.78/10](https://deps.dev/pypi/seqio-nightly)|10|–|0|6|10|0|10|10|10|7|1|10|–|0|10
 [fastkml](https://pypi.org/project/fastkml)|178,284|[5.78/10](https://deps.dev/pypi/fastkml)|10|–|0|10|10|0|0|10|10|7|10|0|–|0|10
+[pulumi-aws](https://pypi.org/project/pulumi-aws)|142,369|[5.78/10](https://deps.dev/pypi/pulumi-aws)|10|–|0|10|10|0|10|10|10|5|0|10|0|0|8
 [chemprop](https://pypi.org/project/chemprop)|50,737|[5.78/10](https://deps.dev/pypi/chemprop)|10|–|0|8|10|0|10|10|10|5|10|0|–|0|10
 [cwl-utils](https://pypi.org/project/cwl-utils)|35,531|[5.78/10](https://deps.dev/pypi/cwl-utils)|10|–|0|1|10|0|10|9|10|7|10|10|–|0|10
 [dask](https://pypi.org/project/dask)|10,260,800|[5.76/10](https://deps.dev/pypi/dask)|10|0|0|7|10|10|10|10|–|7|0|9|–|0|10
@@ -341,6 +343,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [typing](https://pypi.org/project/typing)|8,347,058|[5.73/10](https://deps.dev/pypi/typing)|10|–|0|9|10|0|9|10|–|8|0|0|–|10|10
 [yt-dlp](https://pypi.org/project/yt-dlp)|1,359,036|[5.73/10](https://deps.dev/pypi/yt-dlp)|10|–|0|5|10|0|9|10|–|7|10|0|8|0|10
 [cloud-sql-python-connector](https://pypi.org/project/cloud-sql-python-connector)|932,071|[5.73/10](https://deps.dev/pypi/cloud-sql-python-connector)|10|–|5|10|0|0|10|10|–|8|7|10|–|10|9
+[snakemake](https://pypi.org/project/snakemake)|96,776|[5.73/10](https://deps.dev/pypi/snakemake)|10|–|0|8|10|0|10|10|10|5|9|0|–|0|10
 [google-benchmark](https://pypi.org/project/google-benchmark)|79,405|[5.73/10](https://deps.dev/pypi/google-benchmark)|10|–|0|6|10|0|10|10|10|7|0|10|–|0|10
 [protoc-gen-validate](https://pypi.org/project/protoc-gen-validate)|73,765|[5.73/10](https://deps.dev/pypi/protoc-gen-validate)|10|–|0|8|10|10|10|10|10|4|0|0|0|0|10
 [aws-parallelcluster](https://pypi.org/project/aws-parallelcluster)|71,951|[5.73/10](https://deps.dev/pypi/aws-parallelcluster)|9|–|0|10|10|0|10|10|–|4|10|10|–|0|9
@@ -615,7 +618,9 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mne](https://pypi.org/project/mne)|86,705|[5.32/10](https://deps.dev/pypi/mne)|10|–|2|8|10|0|10|10|–|7|9|10|–|0|3
 [keras-nlp](https://pypi.org/project/keras-nlp)|62,109|[5.32/10](https://deps.dev/pypi/keras-nlp)|10|0|0|9|10|0|10|10|10|5|0|0|–|0|10
 [google-cloud-bigquery-reservation](https://pypi.org/project/google-cloud-bigquery-reservation)|53,155|[5.32/10](https://deps.dev/pypi/google-cloud-bigquery-reservation)|10|–|0|10|10|0|10|10|–|5|0|10|–|0|9
+[pulumi-random](https://pypi.org/project/pulumi-random)|35,175|[5.32/10](https://deps.dev/pypi/pulumi-random)|10|–|0|3|10|0|10|10|10|7|0|10|0|0|8
 [amazon-textract-idp-cdk-manifest](https://pypi.org/project/amazon-textract-idp-cdk-manifest)|34,653|[5.32/10](https://deps.dev/pypi/amazon-textract-idp-cdk-manifest)|10|–|0|1|10|0|10|10|10|7|0|10|0|0|10
+[pulumi-gcp](https://pypi.org/project/pulumi-gcp)|32,911|[5.32/10](https://deps.dev/pypi/pulumi-gcp)|10|–|0|4|10|0|10|10|10|7|0|10|0|0|7
 [boto3](https://pypi.org/project/boto3)|750,231,089|[5.30/10](https://deps.dev/pypi/boto3)|10|–|0|0|10|0|10|10|–|8|10|10|–|0|10
 [apache-airflow](https://pypi.org/project/apache-airflow)|9,654,143|[5.30/10](https://deps.dev/pypi/apache-airflow)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
 [argon2-cffi-bindings](https://pypi.org/project/argon2-cffi-bindings)|8,469,626|[5.30/10](https://deps.dev/pypi/argon2-cffi-bindings)|10|–|0|0|10|0|10|10|–|8|10|10|–|0|10
@@ -625,6 +630,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [apache-airflow-providers-http](https://pypi.org/project/apache-airflow-providers-http)|3,614,494|[5.30/10](https://deps.dev/pypi/apache-airflow-providers-http)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
 [twine](https://pypi.org/project/twine)|3,416,142|[5.30/10](https://deps.dev/pypi/twine)|7|–|0|4|10|0|10|7|–|7|9|0|–|10|10
 [apache-airflow-providers-ssh](https://pypi.org/project/apache-airflow-providers-ssh)|3,072,761|[5.30/10](https://deps.dev/pypi/apache-airflow-providers-ssh)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
+[jax](https://pypi.org/project/jax)|2,737,900|[5.30/10](https://deps.dev/pypi/jax)|10|–|0|9|10|0|10|10|–|5|1|10|–|0|9
 [apache-airflow-providers-sqlite](https://pypi.org/project/apache-airflow-providers-sqlite)|2,613,496|[5.30/10](https://deps.dev/pypi/apache-airflow-providers-sqlite)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
 [apache-airflow-providers-imap](https://pypi.org/project/apache-airflow-providers-imap)|2,567,368|[5.30/10](https://deps.dev/pypi/apache-airflow-providers-imap)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
 [apache-airflow-providers-amazon](https://pypi.org/project/apache-airflow-providers-amazon)|2,550,674|[5.30/10](https://deps.dev/pypi/apache-airflow-providers-amazon)|10|–|0|10|–|10|10|10|–|7|0|10|8|–|6
@@ -788,6 +794,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [petl](https://pypi.org/project/petl)|744,591|[5.19/10](https://deps.dev/pypi/petl)|10|–|0|3|10|0|10|7|10|7|9|0|–|0|10
 [sphinxcontrib-websupport](https://pypi.org/project/sphinxcontrib-websupport)|616,742|[5.19/10](https://deps.dev/pypi/sphinxcontrib-websupport)|10|0|0|3|10|0|9|10|–|7|0|0|–|10|10
 [pyhanko-certvalidator](https://pypi.org/project/pyhanko-certvalidator)|584,793|[5.19/10](https://deps.dev/pypi/pyhanko-certvalidator)|10|–|0|0|10|0|10|3|10|7|0|0|4|9|10
+[urwid](https://pypi.org/project/urwid)|554,707|[5.19/10](https://deps.dev/pypi/urwid)|10|0|0|6|10|0|10|10|10|7|0|0|–|0|10
 [numpy-financial](https://pypi.org/project/numpy-financial)|507,190|[5.19/10](https://deps.dev/pypi/numpy-financial)|10|–|0|6|10|0|10|10|–|8|0|9|–|0|10
 [pytest-playwright](https://pypi.org/project/pytest-playwright)|436,440|[5.19/10](https://deps.dev/pypi/pytest-playwright)|10|–|0|6|10|0|10|10|–|7|0|10|–|0|10
 [param](https://pypi.org/project/param)|345,510|[5.19/10](https://deps.dev/pypi/param)|10|0|0|6|10|0|10|10|10|7|0|0|–|0|10
@@ -999,10 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [markdown-it-py](https://pypi.org/project/markdown-it-py)|29,661,112|[4.92/10](https://deps.dev/pypi/markdown-it-py)|10|–|0|1|10|10|10|5|–|7|0|10|–|0|10
 [marshmallow](https://pypi.org/project/marshmallow)|25,456,090|[4.92/10](https://deps.dev/pypi/marshmallow)|10|–|0|2|10|0|10|10|–|8|0|10|–|0|10
 [isort](https://pypi.org/project/isort)|22,340,433|[4.92/10](https://deps.dev/pypi/isort)|8|0|0|10|10|0|10|10|10|5|0|0|–|0|6
-[imageio](https://pypi.org/project/imageio)|15,057,051|[4.92/10](https://deps.dev/pypi/imageio)|10|–|2|4|10|10|10|10|–|4|0|0|0|0|10
-[semver](https://pypi.org/project/semver)|10,850,532|[4.92/10](https://deps.dev/pypi/semver)|10|–|0|2|10|0|10|10|–|8|10|0|–|0|10
-[dataclasses-json](https://pypi.org/project/dataclasses-json)|9,666,804|[4.92/10](https://deps.dev/pypi/dataclasses-json)|10|–|0|9|10|0|10|10|10|5|0|0|–|0|5
-[yapf](https://pypi.org/project/yapf)|4,709,778|[4.92/10](https://deps.dev/pypi/yapf)|10|–|0|2|10|0|10|10|–|8|0|10|–|0|10
-[wtforms](https://pypi.org/project/wtforms)|3,623,810|[4.92/10](https://deps.dev/pypi/wtforms)|10|–|0|2|10|10|10|10|–|8|0|0|–|0|10
-[py-spy](https://pypi.org/project/py-spy)|2,849,053|[4.92/10](https://deps.dev/pypi/py-spy)|10|–|0|3|10|0|10|7|10|7|0|10|0|0|6
-[diff-cover](https://pypi.org/project/diff-cover)|1,866,775|[4.92/10](https://deps.dev/pypi/diff-cover)|10|–|0|2|10|0|10|10|–|8|10|0|–|0|10
