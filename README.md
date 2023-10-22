@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 15, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 22, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -12,6 +12,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [charset-normalizer](https://pypi.org/project/charset-normalizer)|277,662,353|[7.54/10](https://deps.dev/pypi/charset-normalizer)|10|–|0|2|10|10|10|10|10|4|10|10|5|10|10
 [requests](https://pypi.org/project/requests)|321,150,859|[7.51/10](https://deps.dev/pypi/requests)|10|–|0|10|10|10|10|10|–|10|9|10|0|10|10
 [pyhanko](https://pypi.org/project/pyhanko)|499,865|[6.95/10](https://deps.dev/pypi/pyhanko)|10|–|0|2|10|0|10|10|10|0|10|10|8|9|10
+[numpy](https://pypi.org/project/numpy)|169,212,007|[6.92/10](https://deps.dev/pypi/numpy)|10|–|0|10|10|10|10|10|–|–|9|9|0|10|10
 [defusedxml](https://pypi.org/project/defusedxml)|22,131,021|[6.84/10](https://deps.dev/pypi/defusedxml)|10|0|0|0|10|10|9|10|10|0|0|10|8|10|10
 [pybind11](https://pypi.org/project/pybind11)|6,467,782|[6.84/10](https://deps.dev/pypi/pybind11)|10|–|0|8|10|10|9|10|10|0|0|10|–|10|10
 [pybind11-global](https://pypi.org/project/pybind11-global)|54,493|[6.84/10](https://deps.dev/pypi/pybind11-global)|10|–|0|8|10|10|9|10|10|0|0|10|–|10|10
@@ -320,6 +321,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [constructs](https://pypi.org/project/constructs)|5,270,930|[5.54/10](https://deps.dev/pypi/constructs)|10|–|0|10|10|0|10|10|–|0|0|10|–|5|10
 [connexion](https://pypi.org/project/connexion)|3,134,361|[5.54/10](https://deps.dev/pypi/connexion)|10|–|0|9|10|10|9|8|10|0|0|10|–|0|5
 [mediapipe](https://pypi.org/project/mediapipe)|991,333|[5.54/10](https://deps.dev/pypi/mediapipe)|9|0|0|10|10|0|10|10|–|0|0|10|–|10|6
+[keras-nightly](https://pypi.org/project/keras-nightly)|294,621|[5.54/10](https://deps.dev/pypi/keras-nightly)|10|–|0|6|10|10|10|10|–|0|0|0|–|9|10
 [importlib-metadata](https://pypi.org/project/importlib-metadata)|163,018,206|[5.51/10](https://deps.dev/pypi/importlib-metadata)|8|0|0|0|10|10|10|10|–|0|0|10|–|10|10
 [grpcio](https://pypi.org/project/grpcio)|73,374,450|[5.51/10](https://deps.dev/pypi/grpcio)|8|–|5|9|10|10|10|10|–|–|0|9|–|10|0
 [grpcio-tools](https://pypi.org/project/grpcio-tools)|33,233,673|[5.51/10](https://deps.dev/pypi/grpcio-tools)|8|–|5|9|10|10|10|10|–|–|0|9|–|10|0
@@ -562,7 +564,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [certbot-dns-cloudflare](https://pypi.org/project/certbot-dns-cloudflare)|54,532|[5.11/10](https://deps.dev/pypi/certbot-dns-cloudflare)|10|–|0|10|10|0|9|10|–|0|0|10|0|0|10
 [fastapi-cache2](https://pypi.org/project/fastapi-cache2)|51,767|[5.11/10](https://deps.dev/pypi/fastapi-cache2)|10|–|0|10|10|0|10|10|10|0|10|0|–|0|3
 [msgpack](https://pypi.org/project/msgpack)|37,533,140|[5.08/10](https://deps.dev/pypi/msgpack)|10|0|0|3|10|10|9|10|–|0|0|10|0|0|10
-[websockets](https://pypi.org/project/websockets)|16,652,050|[5.08/10](https://deps.dev/pypi/websockets)|10|0|5|1|10|0|10|10|10|0|0|10|–|0|10
 [cdk-nag](https://pypi.org/project/cdk-nag)|4,166,931|[5.08/10](https://deps.dev/pypi/cdk-nag)|10|–|0|10|10|0|10|10|–|0|0|0|–|7|9
 [jax](https://pypi.org/project/jax)|3,207,061|[5.08/10](https://deps.dev/pypi/jax)|10|–|0|9|10|0|10|10|–|1|1|10|–|0|9
 [jaxlib](https://pypi.org/project/jaxlib)|2,944,397|[5.08/10](https://deps.dev/pypi/jaxlib)|10|–|0|9|10|0|10|10|–|1|1|10|–|0|9
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [django-model-utils](https://pypi.org/project/django-model-utils)|884,572|[4.62/10](https://deps.dev/pypi/django-model-utils)|10|0|0|7|10|0|10|0|10|0|0|10|–|0|10
 [aiokafka](https://pypi.org/project/aiokafka)|707,456|[4.62/10](https://deps.dev/pypi/aiokafka)|2|0|0|6|10|0|10|7|10|0|3|10|–|0|10
 [pytest-socket](https://pypi.org/project/pytest-socket)|415,720|[4.62/10](https://deps.dev/pypi/pytest-socket)|10|–|0|1|10|0|10|10|–|0|7|10|–|0|8
-[pyts](https://pypi.org/project/pyts)|146,831|[4.62/10](https://deps.dev/pypi/pyts)|10|–|0|1|10|0|10|1|10|0|7|0|–|9|8
