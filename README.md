@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 29, 2023 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 1, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -425,6 +425,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [scylla-driver](https://pypi.org/project/scylla-driver)|296,930|[5.35/10](https://deps.dev/pypi/scylla-driver)|10|–|0|6|10|0|10|10|10|0|0|10|–|0|10
 [google-cloud-dns](https://pypi.org/project/google-cloud-dns)|183,052|[5.35/10](https://deps.dev/pypi/google-cloud-dns)|10|–|0|10|10|0|10|10|–|0|4|10|–|0|10
 [dbt-duckdb](https://pypi.org/project/dbt-duckdb)|119,847|[5.35/10](https://deps.dev/pypi/dbt-duckdb)|10|–|0|4|10|0|10|10|–|0|8|0|–|10|10
+[django-cms](https://pypi.org/project/django-cms)|67,312|[5.35/10](https://deps.dev/pypi/django-cms)|10|–|0|10|10|0|10|10|10|0|10|9|–|0|0
 [aws-parallelcluster](https://pypi.org/project/aws-parallelcluster)|59,112|[5.35/10](https://deps.dev/pypi/aws-parallelcluster)|9|–|0|10|10|0|10|10|–|0|10|10|–|0|7
 [django-push-notifications](https://pypi.org/project/django-push-notifications)|58,831|[5.35/10](https://deps.dev/pypi/django-push-notifications)|10|0|0|6|10|0|10|10|10|0|0|10|0|0|10
 [packaging](https://pypi.org/project/packaging)|231,939,288|[5.32/10](https://deps.dev/pypi/packaging)|4|–|0|9|10|10|9|10|–|0|7|9|0|0|9
@@ -828,7 +829,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [asn1crypto](https://pypi.org/project/asn1crypto)|56,914,696|[4.86/10](https://deps.dev/pypi/asn1crypto)|10|0|0|1|10|10|10|9|–|0|0|10|–|0|10
 [google-cloud-storage](https://pypi.org/project/google-cloud-storage)|55,979,944|[4.86/10](https://deps.dev/pypi/google-cloud-storage)|10|–|0|10|–|10|10|10|–|5|0|10|–|–|10
 [pyrsistent](https://pypi.org/project/pyrsistent)|35,956,486|[4.86/10](https://deps.dev/pypi/pyrsistent)|10|0|0|2|10|10|10|10|10|0|0|0|–|0|8
-[rapidfuzz](https://pypi.org/project/rapidfuzz)|33,329,034|[4.86/10](https://deps.dev/pypi/rapidfuzz)|10|–|0|0|10|0|10|10|10|0|0|10|–|0|10
 [google-auth-httplib2](https://pypi.org/project/google-auth-httplib2)|30,697,592|[4.86/10](https://deps.dev/pypi/google-auth-httplib2)|10|–|0|10|–|10|10|8|–|5|3|10|–|–|10
 [fastapi](https://pypi.org/project/fastapi)|22,903,608|[4.86/10](https://deps.dev/pypi/fastapi)|10|–|0|0|10|0|10|10|10|0|0|10|–|0|10
 [transformers](https://pypi.org/project/transformers)|17,537,832|[4.86/10](https://deps.dev/pypi/transformers)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|0
