@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 8, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 15, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -600,6 +600,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cartopy](https://pypi.org/project/cartopy)|166,447|[5.14/10](https://deps.dev/pypi/cartopy)|10|0|0|10|10|0|10|10|10|0|0|0|–|0|10
 [solc-select](https://pypi.org/project/solc-select)|163,313|[5.14/10](https://deps.dev/pypi/solc-select)|10|–|0|7|10|0|10|5|10|0|0|0|8|0|10
 [dbt-duckdb](https://pypi.org/project/dbt-duckdb)|157,950|[5.14/10](https://deps.dev/pypi/dbt-duckdb)|10|–|0|2|10|0|10|10|–|0|7|0|–|10|10
+[qiskit-aer](https://pypi.org/project/qiskit-aer)|121,568|[5.14/10](https://deps.dev/pypi/qiskit-aer)|10|–|0|10|10|0|10|10|10|0|0|0|0|0|10
 [kedro-datasets](https://pypi.org/project/kedro-datasets)|102,439|[5.14/10](https://deps.dev/pypi/kedro-datasets)|10|–|0|10|10|0|10|10|10|0|0|0|0|0|10
 [easypost](https://pypi.org/project/easypost)|97,184|[5.14/10](https://deps.dev/pypi/easypost)|10|–|0|10|10|0|10|10|–|0|0|10|0|0|10
 [neptune](https://pypi.org/project/neptune)|95,936|[5.14/10](https://deps.dev/pypi/neptune)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mypy-boto3-kinesisanalyticsv2](https://pypi.org/project/mypy-boto3-kinesisanalyticsv2)|136,591|[4.86/10](https://deps.dev/pypi/mypy-boto3-kinesisanalyticsv2)|10|0|0|0|10|0|10|10|–|0|10|10|–|0|10
 [mypy-boto3-opsworkscm](https://pypi.org/project/mypy-boto3-opsworkscm)|136,591|[4.86/10](https://deps.dev/pypi/mypy-boto3-opsworkscm)|10|0|0|0|10|0|10|10|–|0|10|10|–|0|10
 [mypy-boto3-marketplace-catalog](https://pypi.org/project/mypy-boto3-marketplace-catalog)|136,565|[4.86/10](https://deps.dev/pypi/mypy-boto3-marketplace-catalog)|10|0|0|0|10|0|10|10|–|0|10|10|–|0|10
-[mypy-boto3-managedblockchain](https://pypi.org/project/mypy-boto3-managedblockchain)|136,563|[4.86/10](https://deps.dev/pypi/mypy-boto3-managedblockchain)|10|0|0|0|10|0|10|10|–|0|10|10|–|0|10
