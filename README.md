@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 15, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 22, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -537,8 +537,10 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [omegaconf](https://pypi.org/project/omegaconf)|7,296,730|[5.24/10](https://deps.dev/pypi/omegaconf)|9|–|0|4|10|0|10|10|–|0|9|0|–|9|10
 [py7zr](https://pypi.org/project/py7zr)|1,692,643|[5.24/10](https://deps.dev/pypi/py7zr)|6|–|0|2|10|0|10|10|10|0|10|10|–|0|10
 [jupyterhub](https://pypi.org/project/jupyterhub)|217,643|[5.24/10](https://deps.dev/pypi/jupyterhub)|10|–|0|10|10|0|9|10|10|0|0|10|–|0|5
+[chemprop](https://pypi.org/project/chemprop)|163,839|[5.24/10](https://deps.dev/pypi/chemprop)|10|–|0|5|10|0|9|10|10|0|10|0|–|0|10
 [causalml](https://pypi.org/project/causalml)|81,346|[5.24/10](https://deps.dev/pypi/causalml)|10|–|5|10|10|0|9|10|–|0|0|10|–|0|10
 [neomodel](https://pypi.org/project/neomodel)|67,565|[5.24/10](https://deps.dev/pypi/neomodel)|10|–|0|4|10|0|10|10|10|1|10|0|0|0|10
+[faust-streaming](https://pypi.org/project/faust-streaming)|67,317|[5.24/10](https://deps.dev/pypi/faust-streaming)|10|–|0|5|10|0|9|10|10|0|10|0|–|0|10
 [pyodbc](https://pypi.org/project/pyodbc)|24,612,306|[5.22/10](https://deps.dev/pypi/pyodbc)|10|0|0|5|10|10|10|10|–|0|9|0|–|0|10
 [authlib](https://pypi.org/project/authlib)|7,496,413|[5.22/10](https://deps.dev/pypi/authlib)|10|–|0|6|10|0|10|10|–|0|9|10|–|0|9
 [streamlit](https://pypi.org/project/streamlit)|4,781,697|[5.22/10](https://deps.dev/pypi/streamlit)|9|–|0|10|10|0|10|10|–|2|10|10|–|0|4
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [virtualenv](https://pypi.org/project/virtualenv)|110,595,691|[4.70/10](https://deps.dev/pypi/virtualenv)|5|–|0|3|10|0|10|10|10|0|0|10|–|0|10
 [google-cloud-storage](https://pypi.org/project/google-cloud-storage)|59,648,818|[4.70/10](https://deps.dev/pypi/google-cloud-storage)|10|–|0|10|–|10|10|10|–|5|0|10|–|–|8
 [bcrypt](https://pypi.org/project/bcrypt)|51,441,168|[4.70/10](https://deps.dev/pypi/bcrypt)|10|–|0|10|10|0|10|10|–|2|0|0|–|0|10
-[jupyter-core](https://pypi.org/project/jupyter-core)|26,754,554|[4.70/10](https://deps.dev/pypi/jupyter-core)|10|–|0|0|10|0|10|10|–|0|7|10|0|0|10
-[cattrs](https://pypi.org/project/cattrs)|18,801,662|[4.70/10](https://deps.dev/pypi/cattrs)|10|0|0|1|10|0|10|10|10|0|0|10|–|0|7
