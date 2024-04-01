@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 29, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Apr 1, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -298,7 +298,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytest](https://pypi.org/project/pytest)|92,853,947|[5.86/10](https://deps.dev/pypi/pytest)|10|–|0|10|10|0|10|10|10|0|0|0|0|9|10
 [launchdarkly-server-sdk](https://pypi.org/project/launchdarkly-server-sdk)|2,616,169|[5.86/10](https://deps.dev/pypi/launchdarkly-server-sdk)|10|–|0|10|10|0|9|10|–|0|0|9|10|0|10
 [packaging](https://pypi.org/project/packaging)|266,830,043|[5.84/10](https://deps.dev/pypi/packaging)|4|–|0|8|10|10|9|10|–|10|8|9|–|0|9
-[lxml](https://pypi.org/project/lxml)|79,070,020|[5.84/10](https://deps.dev/pypi/lxml)|10|–|0|1|10|10|9|10|–|2|0|10|0|10|10
 [gvm-tools](https://pypi.org/project/gvm-tools)|170,834|[5.84/10](https://deps.dev/pypi/gvm-tools)|10|–|0|4|10|0|10|10|10|0|10|0|8|0|10
 [ddtrace](https://pypi.org/project/ddtrace)|6,770,779|[5.81/10](https://deps.dev/pypi/ddtrace)|10|–|0|10|10|10|9|10|10|0|9|0|–|0|6
 [bokeh](https://pypi.org/project/bokeh)|4,341,867|[5.81/10](https://deps.dev/pypi/bokeh)|10|–|0|7|10|0|10|10|10|0|7|10|–|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [prompt-toolkit](https://pypi.org/project/prompt-toolkit)|40,335,425|[4.73/10](https://deps.dev/pypi/prompt-toolkit)|10|–|0|5|10|10|10|10|–|0|0|0|–|0|10
 [setuptools-scm](https://pypi.org/project/setuptools-scm)|25,956,046|[4.73/10](https://deps.dev/pypi/setuptools-scm)|10|–|0|5|10|0|10|10|10|0|0|0|–|0|10
 [huggingface-hub](https://pypi.org/project/huggingface-hub)|25,618,906|[4.73/10](https://deps.dev/pypi/huggingface-hub)|10|–|0|7|10|0|10|10|–|0|7|0|–|0|10
+[tox](https://pypi.org/project/tox)|12,841,093|[4.73/10](https://deps.dev/pypi/tox)|10|–|0|5|10|0|10|10|10|0|0|0|–|0|10
