@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on May 29, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jun 1, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -14,7 +14,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [requests](https://pypi.org/project/requests)|423,152,996|[7.57/10](https://deps.dev/pypi/requests)|10|–|0|10|10|10|10|10|–|10|10|10|0|10|10
 [flatbuffers](https://pypi.org/project/flatbuffers)|18,016,168|[7.41/10](https://deps.dev/pypi/flatbuffers)|8|–|0|4|10|10|10|10|10|0|7|10|8|10|10
 [in-toto](https://pypi.org/project/in-toto)|114,969|[7.19/10](https://deps.dev/pypi/in-toto)|10|–|10|10|10|0|9|10|10|4|0|10|3|10|10
-[google-re2](https://pypi.org/project/google-re2)|5,051,801|[7.11/10](https://deps.dev/pypi/google-re2)|10|0|0|10|10|10|10|10|10|0|0|10|1|10|10
 [numpy](https://pypi.org/project/numpy)|245,757,478|[7.05/10](https://deps.dev/pypi/numpy)|10|–|0|10|10|10|9|10|–|3|9|9|0|10|10
 [sentencepiece](https://pypi.org/project/sentencepiece)|21,271,891|[7.03/10](https://deps.dev/pypi/sentencepiece)|10|0|0|4|10|10|10|10|–|8|5|10|4|10|10
 [pillow](https://pypi.org/project/pillow)|88,756,600|[6.97/10](https://deps.dev/pypi/pillow)|10|0|2|9|10|10|9|10|10|0|0|10|–|10|10
@@ -696,7 +695,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cookiecutter](https://pypi.org/project/cookiecutter)|3,433,178|[5.05/10](https://deps.dev/pypi/cookiecutter)|10|–|0|9|10|0|10|10|10|0|0|0|–|0|10
 [stripe](https://pypi.org/project/stripe)|2,804,953|[5.05/10](https://deps.dev/pypi/stripe)|10|–|0|9|10|0|10|10|–|0|0|10|–|0|10
 [sqlfluff](https://pypi.org/project/sqlfluff)|1,532,658|[5.05/10](https://deps.dev/pypi/sqlfluff)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|9
-[python-arango](https://pypi.org/project/python-arango)|1,509,952|[5.05/10](https://deps.dev/pypi/python-arango)|10|–|0|9|10|0|10|10|–|0|10|0|–|0|10
 [locust](https://pypi.org/project/locust)|1,436,288|[5.05/10](https://deps.dev/pypi/locust)|10|–|0|1|10|0|10|10|10|0|0|3|–|10|6
 [itemloaders](https://pypi.org/project/itemloaders)|1,129,896|[5.05/10](https://deps.dev/pypi/itemloaders)|10|0|0|9|10|0|10|10|10|0|0|0|–|0|10
 [sqlfluff-templater-dbt](https://pypi.org/project/sqlfluff-templater-dbt)|716,685|[5.05/10](https://deps.dev/pypi/sqlfluff-templater-dbt)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|9
@@ -837,7 +835,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [autopep8](https://pypi.org/project/autopep8)|3,841,406|[4.86/10](https://deps.dev/pypi/autopep8)|10|–|0|0|10|10|10|10|–|0|10|0|–|0|10
 [django-environ](https://pypi.org/project/django-environ)|2,173,397|[4.86/10](https://deps.dev/pypi/django-environ)|10|–|0|10|10|0|10|0|–|0|10|10|0|0|10
 [pymemcache](https://pypi.org/project/pymemcache)|1,476,819|[4.86/10](https://deps.dev/pypi/pymemcache)|10|–|0|10|10|0|10|2|–|0|8|9|0|0|10
-[pikepdf](https://pypi.org/project/pikepdf)|1,326,302|[4.86/10](https://deps.dev/pypi/pikepdf)|10|–|0|0|10|0|10|10|10|0|10|0|0|0|10
 [py-serializable](https://pypi.org/project/py-serializable)|1,282,030|[4.86/10](https://deps.dev/pypi/py-serializable)|10|–|0|0|10|0|10|10|10|0|0|10|0|0|10
 [django-import-export](https://pypi.org/project/django-import-export)|1,064,914|[4.86/10](https://deps.dev/pypi/django-import-export)|10|0|0|0|10|0|10|10|10|0|0|10|–|0|10
 [cvxpy](https://pypi.org/project/cvxpy)|962,151|[4.86/10](https://deps.dev/pypi/cvxpy)|10|–|0|10|10|0|10|10|–|0|5|0|–|0|10
@@ -1006,3 +1003,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [behave](https://pypi.org/project/behave)|1,478,607|[4.76/10](https://deps.dev/pypi/behave)|10|0|0|1|10|0|9|10|–|0|7|10|–|0|10
 [petl](https://pypi.org/project/petl)|269,158|[4.76/10](https://deps.dev/pypi/petl)|10|–|0|0|10|0|10|10|10|0|8|0|–|0|10
 [kafka](https://pypi.org/project/kafka)|255,132|[4.76/10](https://deps.dev/pypi/kafka)|10|0|0|5|10|0|10|5|10|0|8|0|–|0|10
+[cogapp](https://pypi.org/project/cogapp)|97,113|[4.76/10](https://deps.dev/pypi/cogapp)|10|0|0|2|10|0|10|10|–|0|0|0|–|10|10
+[anyio](https://pypi.org/project/anyio)|61,336,574|[4.73/10](https://deps.dev/pypi/anyio)|10|–|0|5|10|0|10|10|10|0|0|0|–|0|10
+[ipykernel](https://pypi.org/project/ipykernel)|24,837,351|[4.73/10](https://deps.dev/pypi/ipykernel)|10|–|0|5|10|10|10|10|–|0|0|0|0|0|10
