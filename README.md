@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jun 22, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jun 29, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -310,7 +310,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [truststore](https://pypi.org/project/truststore)|787,300|[5.81/10](https://deps.dev/pypi/truststore)|10|–|2|9|10|0|10|10|10|3|0|10|0|0|10
 [pymatgen](https://pypi.org/project/pymatgen)|411,217|[5.81/10](https://deps.dev/pypi/pymatgen)|10|–|0|2|10|0|9|10|10|0|0|10|–|10|10
 [pyautogen](https://pypi.org/project/pyautogen)|140,831|[5.81/10](https://deps.dev/pypi/pyautogen)|10|–|0|10|10|0|10|10|10|0|7|10|–|0|7
-[aiodocker](https://pypi.org/project/aiodocker)|104,800|[5.81/10](https://deps.dev/pypi/aiodocker)|10|–|0|4|10|0|9|10|10|0|0|10|8|0|10
 [pytest](https://pypi.org/project/pytest)|108,210,588|[5.78/10](https://deps.dev/pypi/pytest)|10|–|0|9|10|0|10|10|10|0|0|0|0|9|10
 [google-cloud-bigquery-storage](https://pypi.org/project/google-cloud-bigquery-storage)|19,443,929|[5.78/10](https://deps.dev/pypi/google-cloud-bigquery-storage)|10|–|0|10|10|10|10|10|–|1|4|10|–|0|8
 [seaborn](https://pypi.org/project/seaborn)|16,341,920|[5.78/10](https://deps.dev/pypi/seaborn)|10|0|0|4|10|0|10|10|–|2|4|10|0|10|10
@@ -605,6 +604,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [numpyro](https://pypi.org/project/numpyro)|122,622|[5.14/10](https://deps.dev/pypi/numpyro)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
 [meilisearch](https://pypi.org/project/meilisearch)|113,861|[5.14/10](https://deps.dev/pypi/meilisearch)|10|–|0|10|10|0|10|10|–|0|0|10|–|0|10
 [kedro-datasets](https://pypi.org/project/kedro-datasets)|111,252|[5.14/10](https://deps.dev/pypi/kedro-datasets)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
+[pyscf](https://pypi.org/project/pyscf)|94,846|[5.14/10](https://deps.dev/pypi/pyscf)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
 [ops](https://pypi.org/project/ops)|94,126|[5.14/10](https://deps.dev/pypi/ops)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
 [nvitop](https://pypi.org/project/nvitop)|85,506|[5.14/10](https://deps.dev/pypi/nvitop)|10|–|0|0|10|0|10|10|10|0|0|0|–|10|10
 [supervisely](https://pypi.org/project/supervisely)|71,040|[5.14/10](https://deps.dev/pypi/supervisely)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
@@ -692,7 +692,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [rq](https://pypi.org/project/rq)|1,218,084|[5.08/10](https://deps.dev/pypi/rq)|10|0|0|3|10|0|9|10|10|0|10|0|–|0|10
 [python-miio](https://pypi.org/project/python-miio)|787,204|[5.08/10](https://deps.dev/pypi/python-miio)|10|–|2|4|10|0|10|10|10|0|10|0|–|0|8
 [opencensus-ext-requests](https://pypi.org/project/opencensus-ext-requests)|727,914|[5.08/10](https://deps.dev/pypi/opencensus-ext-requests)|10|–|0|9|10|10|10|0|–|0|7|10|–|0|9
-[bayesian-optimization](https://pypi.org/project/bayesian-optimization)|532,493|[5.08/10](https://deps.dev/pypi/bayesian-optimization)|10|–|0|8|10|0|10|9|–|0|0|0|–|9|10
 [opencensus-ext-threading](https://pypi.org/project/opencensus-ext-threading)|401,309|[5.08/10](https://deps.dev/pypi/opencensus-ext-threading)|10|–|0|9|10|10|10|0|–|0|7|10|–|0|9
 [opencensus-ext-postgresql](https://pypi.org/project/opencensus-ext-postgresql)|359,966|[5.08/10](https://deps.dev/pypi/opencensus-ext-postgresql)|10|–|0|9|10|10|10|0|–|0|7|10|–|0|9
 [opencensus-ext-httplib](https://pypi.org/project/opencensus-ext-httplib)|345,699|[5.08/10](https://deps.dev/pypi/opencensus-ext-httplib)|10|–|0|9|10|10|10|0|–|0|7|10|–|0|9
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [apache-airflow-providers-asana](https://pypi.org/project/apache-airflow-providers-asana)|58,451|[4.76/10](https://deps.dev/pypi/apache-airflow-providers-asana)|10|–|0|10|–|10|10|10|–|0|0|10|8|–|4
 [apache-airflow-providers-zendesk](https://pypi.org/project/apache-airflow-providers-zendesk)|58,135|[4.76/10](https://deps.dev/pypi/apache-airflow-providers-zendesk)|10|–|0|10|–|10|10|10|–|0|0|10|8|–|4
 [fake-factory](https://pypi.org/project/fake-factory)|57,225|[4.76/10](https://deps.dev/pypi/fake-factory)|10|0|0|3|10|0|10|10|–|0|0|0|–|9|10
+[apache-airflow-providers-apache-cassandra](https://pypi.org/project/apache-airflow-providers-apache-cassandra)|56,310|[4.76/10](https://deps.dev/pypi/apache-airflow-providers-apache-cassandra)|10|–|0|10|–|10|10|10|–|0|0|10|8|–|4
