@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 15, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -271,6 +271,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-mgmt-kubernetesconfiguration](https://pypi.org/project/azure-mgmt-kubernetesconfiguration)|1,078,013|[6.14/10](https://deps.dev/pypi/azure-mgmt-kubernetesconfiguration)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
 [azure-mgmt-resourcegraph](https://pypi.org/project/azure-mgmt-resourcegraph)|762,873|[6.14/10](https://deps.dev/pypi/azure-mgmt-resourcegraph)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
 [azure-ai-formrecognizer](https://pypi.org/project/azure-ai-formrecognizer)|730,245|[6.14/10](https://deps.dev/pypi/azure-ai-formrecognizer)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
+[pymatgen](https://pypi.org/project/pymatgen)|610,611|[6.14/10](https://deps.dev/pypi/pymatgen)|10|–|0|7|10|0|9|10|10|0|0|10|–|10|9
 [azure-schemaregistry](https://pypi.org/project/azure-schemaregistry)|502,710|[6.14/10](https://deps.dev/pypi/azure-schemaregistry)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
 [azure-mgmt-costmanagement](https://pypi.org/project/azure-mgmt-costmanagement)|468,462|[6.14/10](https://deps.dev/pypi/azure-mgmt-costmanagement)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
 [azure-ai-documentintelligence](https://pypi.org/project/azure-ai-documentintelligence)|453,427|[6.14/10](https://deps.dev/pypi/azure-ai-documentintelligence)|8|4|5|10|10|10|10|10|–|0|0|10|–|10|2
@@ -390,6 +391,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cog](https://pypi.org/project/cog)|3,708,550|[5.59/10](https://deps.dev/pypi/cog)|10|1|0|8|10|0|10|10|10|0|10|0|0|0|10
 [aiokafka](https://pypi.org/project/aiokafka)|924,986|[5.59/10](https://deps.dev/pypi/aiokafka)|10|0|0|3|10|0|10|10|10|0|9|10|–|0|10
 [algoliasearch](https://pypi.org/project/algoliasearch)|526,169|[5.59/10](https://deps.dev/pypi/algoliasearch)|10|–|0|0|10|0|10|10|10|0|0|10|–|9|10
+[pysolr](https://pypi.org/project/pysolr)|290,214|[5.59/10](https://deps.dev/pypi/pysolr)|10|–|0|10|10|0|10|9|10|0|10|0|–|0|10
 [homeassistant](https://pypi.org/project/homeassistant)|258,843|[5.59/10](https://deps.dev/pypi/homeassistant)|10|–|0|10|10|0|10|10|10|0|7|9|–|0|5
 [sorl-thumbnail](https://pypi.org/project/sorl-thumbnail)|239,127|[5.59/10](https://deps.dev/pypi/sorl-thumbnail)|10|–|0|10|10|0|10|9|10|0|0|10|–|0|10
 [pulumi-kubernetes](https://pypi.org/project/pulumi-kubernetes)|91,551|[5.59/10](https://deps.dev/pypi/pulumi-kubernetes)|10|–|0|10|10|0|10|10|10|0|0|10|0|0|9
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [types-ujson](https://pypi.org/project/types-ujson)|550,936|[4.81/10](https://deps.dev/pypi/types-ujson)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
 [types-markdown](https://pypi.org/project/types-markdown)|533,869|[4.81/10](https://deps.dev/pypi/types-markdown)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
 [types-croniter](https://pypi.org/project/types-croniter)|505,677|[4.81/10](https://deps.dev/pypi/types-croniter)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
-[types-pymysql](https://pypi.org/project/types-pymysql)|497,021|[4.81/10](https://deps.dev/pypi/types-pymysql)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
-[types-click](https://pypi.org/project/types-click)|489,535|[4.81/10](https://deps.dev/pypi/types-click)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
