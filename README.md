@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 29, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -914,7 +914,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [napari-svg](https://pypi.org/project/napari-svg)|64,839|[4.89/10](https://deps.dev/pypi/napari-svg)|10|0|0|7|10|0|10|10|10|0|0|0|–|0|10
 [wheel](https://pypi.org/project/wheel)|247,986,115|[4.86/10](https://deps.dev/pypi/wheel)|10|0|0|3|10|10|10|5|10|0|3|0|–|0|10
 [aiosignal](https://pypi.org/project/aiosignal)|95,429,673|[4.86/10](https://deps.dev/pypi/aiosignal)|10|–|0|–|10|0|10|10|–|0|10|10|0|0|10
-[rapidfuzz](https://pypi.org/project/rapidfuzz)|52,620,326|[4.86/10](https://deps.dev/pypi/rapidfuzz)|10|–|0|0|10|0|10|10|10|0|0|10|–|0|10
 [apispec](https://pypi.org/project/apispec)|9,064,254|[4.86/10](https://deps.dev/pypi/apispec)|10|–|0|0|10|0|10|10|10|0|0|10|–|0|10
 [moto](https://pypi.org/project/moto)|8,169,195|[4.86/10](https://deps.dev/pypi/moto)|10|0|0|5|10|0|10|10|10|0|7|0|0|0|7
 [polars](https://pypi.org/project/polars)|5,596,334|[4.86/10](https://deps.dev/pypi/polars)|9|–|0|8|10|0|9|10|10|0|0|0|0|0|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [types-ujson](https://pypi.org/project/types-ujson)|550,936|[4.81/10](https://deps.dev/pypi/types-ujson)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
 [types-markdown](https://pypi.org/project/types-markdown)|533,869|[4.81/10](https://deps.dev/pypi/types-markdown)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
 [types-croniter](https://pypi.org/project/types-croniter)|505,677|[4.81/10](https://deps.dev/pypi/types-croniter)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
+[types-pymysql](https://pypi.org/project/types-pymysql)|497,021|[4.81/10](https://deps.dev/pypi/types-pymysql)|10|3|0|10|10|0|9|10|–|0|0|0|–|0|10
