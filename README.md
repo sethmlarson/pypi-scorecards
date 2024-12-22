@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 15, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Dec 22, 2024 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -42,7 +42,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [urllib3-future](https://pypi.org/project/urllib3-future)|125,297|[6.70/10](https://deps.dev/pypi/urllib3-future)|10|–|0|0|10|0|10|10|10|3|10|10|10|10|4
 [botocore](https://pypi.org/project/botocore)|717,863,698|[6.65/10](https://deps.dev/pypi/botocore)|10|–|0|0|10|10|10|10|–|8|10|10|–|10|10
 [certifi](https://pypi.org/project/certifi)|512,454,548|[6.65/10](https://deps.dev/pypi/certifi)|10|3|0|6|10|0|9|10|10|5|0|10|–|10|10
-[numpy](https://pypi.org/project/numpy)|337,247,510|[6.65/10](https://deps.dev/pypi/numpy)|10|3|0|8|10|10|9|10|–|3|9|9|0|9|5
 [docker-compose](https://pypi.org/project/docker-compose)|1,779,121|[6.65/10](https://deps.dev/pypi/docker-compose)|10|8|0|10|10|0|10|10|–|0|1|10|0|10|10
 [sentencepiece](https://pypi.org/project/sentencepiece)|21,346,772|[6.62/10](https://deps.dev/pypi/sentencepiece)|10|0|0|4|10|10|10|5|–|7|6|10|4|10|10
 [bigdl-nano](https://pypi.org/project/bigdl-nano)|196,835|[6.62/10](https://deps.dev/pypi/bigdl-nano)|10|–|0|9|10|0|10|10|10|0|7|10|8|10|0
@@ -239,6 +238,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [libcst](https://pypi.org/project/libcst)|15,267,295|[5.65/10](https://deps.dev/pypi/libcst)|10|–|0|6|10|10|9|10|10|0|0|9|–|0|8
 [fiona](https://pypi.org/project/fiona)|4,728,176|[5.65/10](https://deps.dev/pypi/fiona)|10|–|0|5|10|0|10|10|–|2|0|10|–|10|10
 [flyteidl](https://pypi.org/project/flyteidl)|638,969|[5.65/10](https://deps.dev/pypi/flyteidl)|10|–|5|9|10|0|10|10|10|0|0|10|0|0|9
+[aiodocker](https://pypi.org/project/aiodocker)|279,107|[5.65/10](https://deps.dev/pypi/aiodocker)|10|–|0|2|10|0|9|10|10|0|0|10|8|0|10
 [arrow](https://pypi.org/project/arrow)|38,827,992|[5.62/10](https://deps.dev/pypi/arrow)|10|8|0|8|10|10|10|10|–|0|0|0|–|0|10
 [django](https://pypi.org/project/django)|30,670,007|[5.62/10](https://deps.dev/pypi/django)|10|–|0|10|10|10|10|10|–|0|0|9|–|0|10
 [biopython](https://pypi.org/project/biopython)|3,634,838|[5.62/10](https://deps.dev/pypi/biopython)|10|–|0|7|10|0|9|10|–|0|0|9|–|10|10
@@ -308,6 +308,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyroute2](https://pypi.org/project/pyroute2)|646,920|[5.46/10](https://deps.dev/pypi/pyroute2)|10|–|0|6|10|0|9|10|–|0|9|0|0|9|10
 [filesplit](https://pypi.org/project/filesplit)|250,583|[5.46/10](https://deps.dev/pypi/filesplit)|10|5|0|0|10|0|10|10|10|0|0|0|–|9|10
 [cdk-ecr-deployment](https://pypi.org/project/cdk-ecr-deployment)|152,012|[5.46/10](https://deps.dev/pypi/cdk-ecr-deployment)|10|–|0|10|10|0|10|10|–|0|0|10|0|5|9
+[schema-salad](https://pypi.org/project/schema-salad)|150,329|[5.46/10](https://deps.dev/pypi/schema-salad)|10|–|2|1|10|0|10|10|10|0|10|10|–|0|9
 [httpcore](https://pypi.org/project/httpcore)|103,318,744|[5.43/10](https://deps.dev/pypi/httpcore)|10|–|0|8|10|10|10|10|–|0|0|10|–|0|9
 [babel](https://pypi.org/project/babel)|56,525,365|[5.43/10](https://deps.dev/pypi/babel)|10|–|0|7|10|10|10|10|10|0|0|0|0|0|10
 [uvloop](https://pypi.org/project/uvloop)|27,257,233|[5.43/10](https://deps.dev/pypi/uvloop)|10|–|0|9|10|0|10|10|10|7|0|0|–|0|10
@@ -901,6 +902,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [shapely](https://pypi.org/project/shapely)|32,650,052|[4.97/10](https://deps.dev/pypi/shapely)|10|0|0|8|10|0|10|10|10|0|0|0|0|0|10
 [tox](https://pypi.org/project/tox)|30,446,271|[4.97/10](https://deps.dev/pypi/tox)|10|4|0|4|10|0|10|10|10|0|0|0|–|0|10
 [h5py](https://pypi.org/project/h5py)|21,508,088|[4.97/10](https://deps.dev/pypi/h5py)|10|–|0|8|10|10|10|10|–|0|0|0|0|0|10
+[great-expectations](https://pypi.org/project/great-expectations)|17,647,437|[4.97/10](https://deps.dev/pypi/great-expectations)|10|8|0|10|10|0|10|10|10|0|0|0|–|0|0
 [flask-session](https://pypi.org/project/flask-session)|17,091,088|[4.97/10](https://deps.dev/pypi/flask-session)|10|–|0|0|10|0|10|0|10|2|0|10|10|0|10
 [msgspec](https://pypi.org/project/msgspec)|8,226,243|[4.97/10](https://deps.dev/pypi/msgspec)|10|0|0|2|10|0|10|10|10|0|0|9|–|0|10
 [geopandas](https://pypi.org/project/geopandas)|7,134,014|[4.97/10](https://deps.dev/pypi/geopandas)|10|–|0|9|10|0|10|10|10|0|0|0|0|0|9
@@ -975,6 +977,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pytest-localserver](https://pypi.org/project/pytest-localserver)|5,604,000|[4.89/10](https://deps.dev/pypi/pytest-localserver)|10|3|0|4|10|0|10|10|10|0|0|0|–|0|10
 [pydata-sphinx-theme](https://pypi.org/project/pydata-sphinx-theme)|3,043,404|[4.89/10](https://deps.dev/pypi/pydata-sphinx-theme)|10|–|0|8|10|0|10|10|10|0|0|0|–|0|9
 [sudachipy](https://pypi.org/project/sudachipy)|1,871,585|[4.89/10](https://deps.dev/pypi/sudachipy)|10|0|0|8|10|0|10|10|10|0|0|0|–|0|9
+[moviepy](https://pypi.org/project/moviepy)|1,709,622|[4.89/10](https://deps.dev/pypi/moviepy)|10|0|0|1|10|0|10|10|10|0|9|0|–|0|10
 [pyvisa](https://pypi.org/project/pyvisa)|1,440,901|[4.89/10](https://deps.dev/pypi/pyvisa)|10|–|0|7|10|0|10|10|10|0|0|0|0|0|10
 [pytest-bdd](https://pypi.org/project/pytest-bdd)|1,385,980|[4.89/10](https://deps.dev/pypi/pytest-bdd)|10|–|0|7|10|0|10|10|10|0|0|0|–|0|10
 [statsforecast](https://pypi.org/project/statsforecast)|1,184,670|[4.89/10](https://deps.dev/pypi/statsforecast)|10|–|0|3|10|0|10|10|10|6|0|0|–|0|10
@@ -1001,8 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [psutil](https://pypi.org/project/psutil)|139,530,653|[4.86/10](https://deps.dev/pypi/psutil)|10|0|0|0|10|10|10|10|–|0|0|10|–|0|10
 [aiosignal](https://pypi.org/project/aiosignal)|123,152,580|[4.86/10](https://deps.dev/pypi/aiosignal)|10|–|0|–|10|0|10|10|–|0|10|10|0|0|10
 [async-timeout](https://pypi.org/project/async-timeout)|119,314,652|[4.86/10](https://deps.dev/pypi/async-timeout)|10|–|0|1|10|0|9|10|–|0|9|10|0|0|10
+[rapidfuzz](https://pypi.org/project/rapidfuzz)|62,040,414|[4.86/10](https://deps.dev/pypi/rapidfuzz)|10|–|0|0|10|0|10|10|10|0|0|10|–|0|10
 [argcomplete](https://pypi.org/project/argcomplete)|50,720,093|[4.86/10](https://deps.dev/pypi/argcomplete)|10|0|0|3|10|10|10|7|–|0|0|10|0|0|10
-[orjson](https://pypi.org/project/orjson)|43,320,046|[4.86/10](https://deps.dev/pypi/orjson)|10|0|0|0|10|10|10|10|10|0|0|0|–|0|10
-[loguru](https://pypi.org/project/loguru)|37,031,361|[4.86/10](https://deps.dev/pypi/loguru)|10|–|0|0|10|0|10|10|–|0|10|10|–|0|10
-[jsonpickle](https://pypi.org/project/jsonpickle)|11,472,786|[4.86/10](https://deps.dev/pypi/jsonpickle)|10|0|0|0|10|10|10|10|–|0|0|10|–|0|10
-[cloudformation-cli-python-plugin](https://pypi.org/project/cloudformation-cli-python-plugin)|5,276,708|[4.86/10](https://deps.dev/pypi/cloudformation-cli-python-plugin)|10|–|0|10|10|0|10|0|10|0|0|10|–|0|10
