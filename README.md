@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 29, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 1, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -263,6 +263,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pysolr](https://pypi.org/project/pysolr)|304,146|[5.51/10](https://deps.dev/pypi/pysolr)|10|6|0|10|10|0|10|2|10|0|10|0|–|0|10
 [ops](https://pypi.org/project/ops)|227,561|[5.51/10](https://deps.dev/pypi/ops)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|8
 [keras-nlp](https://pypi.org/project/keras-nlp)|209,427|[5.51/10](https://deps.dev/pypi/keras-nlp)|10|–|0|9|10|0|10|10|10|0|0|10|–|9|0
+[ops-scenario](https://pypi.org/project/ops-scenario)|140,953|[5.51/10](https://deps.dev/pypi/ops-scenario)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|8
 [jsonschema](https://pypi.org/project/jsonschema)|179,463,533|[5.49/10](https://deps.dev/pypi/jsonschema)|10|–|0|1|10|10|10|10|10|0|0|10|0|0|10
 [argcomplete](https://pypi.org/project/argcomplete)|50,720,093|[5.49/10](https://deps.dev/pypi/argcomplete)|10|0|0|1|10|10|10|10|10|0|0|10|0|0|10
 [pycryptodome](https://pypi.org/project/pycryptodome)|41,398,985|[5.49/10](https://deps.dev/pypi/pycryptodome)|10|0|0|0|10|10|9|10|–|0|10|0|8|0|10
@@ -997,6 +998,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [xlsx2csv](https://pypi.org/project/xlsx2csv)|298,161|[4.73/10](https://deps.dev/pypi/xlsx2csv)|10|0|0|5|10|0|10|10|10|0|0|0|0|0|10
 [lm-eval](https://pypi.org/project/lm-eval)|204,999|[4.73/10](https://deps.dev/pypi/lm-eval)|10|–|0|5|10|0|10|10|10|0|0|0|–|0|10
 [pykdtree](https://pypi.org/project/pykdtree)|163,227|[4.73/10](https://deps.dev/pypi/pykdtree)|10|0|0|5|10|0|10|10|10|0|0|0|–|0|10
+[pytz](https://pypi.org/project/pytz)|235,064,030|[4.70/10](https://deps.dev/pypi/pytz)|10|0|0|1|10|10|10|1|10|0|0|9|0|0|10
 [grpcio](https://pypi.org/project/grpcio)|121,934,522|[4.70/10](https://deps.dev/pypi/grpcio)|8|–|5|9|10|10|10|10|–|0|0|9|–|0|0
 [httpcore](https://pypi.org/project/httpcore)|103,318,744|[4.70/10](https://deps.dev/pypi/httpcore)|10|–|0|8|10|10|10|3|–|0|0|10|–|0|7
 [opentelemetry-sdk](https://pypi.org/project/opentelemetry-sdk)|86,981,776|[4.70/10](https://deps.dev/pypi/opentelemetry-sdk)|10|–|0|10|10|0|10|10|–|0|7|10|–|0|0
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [grpcio-tools](https://pypi.org/project/grpcio-tools)|76,280,580|[4.70/10](https://deps.dev/pypi/grpcio-tools)|8|–|5|9|10|10|10|10|–|0|0|9|–|0|0
 [opentelemetry-api](https://pypi.org/project/opentelemetry-api)|73,291,498|[4.70/10](https://deps.dev/pypi/opentelemetry-api)|10|–|0|10|10|0|10|10|–|0|7|10|–|0|0
 [opentelemetry-semantic-conventions](https://pypi.org/project/opentelemetry-semantic-conventions)|52,683,011|[4.70/10](https://deps.dev/pypi/opentelemetry-semantic-conventions)|10|–|0|10|10|0|10|10|–|0|7|10|–|0|0
-[opentelemetry-proto](https://pypi.org/project/opentelemetry-proto)|37,370,695|[4.70/10](https://deps.dev/pypi/opentelemetry-proto)|10|–|0|10|10|0|10|10|–|0|7|10|–|0|0
-[opentelemetry-exporter-otlp-proto-grpc](https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc)|32,577,579|[4.70/10](https://deps.dev/pypi/opentelemetry-exporter-otlp-proto-grpc)|10|–|0|10|10|0|10|10|–|0|7|10|–|0|0
