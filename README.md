@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 22, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Mar 1, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -353,7 +353,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [streamlit](https://pypi.org/project/streamlit)|6,575,310|[5.46/10](https://deps.dev/pypi/streamlit)|10|–|0|10|10|0|10|10|10|1|10|10|–|0|0
 [djangorestframework-stubs](https://pypi.org/project/djangorestframework-stubs)|1,070,579|[5.46/10](https://deps.dev/pypi/djangorestframework-stubs)|10|0|0|6|10|0|10|10|10|0|0|0|–|9|9
 [datadog-lambda](https://pypi.org/project/datadog-lambda)|726,355|[5.46/10](https://deps.dev/pypi/datadog-lambda)|10|5|0|9|10|0|10|10|–|0|10|0|–|0|10
-[breathe](https://pypi.org/project/breathe)|657,941|[5.46/10](https://deps.dev/pypi/breathe)|10|–|0|3|10|0|9|10|–|0|0|0|8|10|10
 [sqlalchemy-hana](https://pypi.org/project/sqlalchemy-hana)|599,132|[5.46/10](https://deps.dev/pypi/sqlalchemy-hana)|10|6|0|8|0|0|10|10|10|0|10|10|0|0|10
 [cdk8s](https://pypi.org/project/cdk8s)|242,498|[5.46/10](https://deps.dev/pypi/cdk8s)|10|–|2|10|10|0|10|10|–|0|0|9|–|4|10
 [cdk-ecr-deployment](https://pypi.org/project/cdk-ecr-deployment)|141,377|[5.46/10](https://deps.dev/pypi/cdk-ecr-deployment)|10|–|0|10|10|0|10|10|–|0|0|10|0|5|9
@@ -899,6 +898,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [ipykernel](https://pypi.org/project/ipykernel)|33,209,725|[5.05/10](https://deps.dev/pypi/ipykernel)|10|–|0|9|10|10|10|10|–|0|0|0|0|0|10
 [absl-py](https://pypi.org/project/absl-py)|23,969,557|[5.05/10](https://deps.dev/pypi/absl-py)|10|–|0|1|10|10|10|6|–|0|3|0|–|10|10
 [ecdsa](https://pypi.org/project/ecdsa)|12,623,695|[5.05/10](https://deps.dev/pypi/ecdsa)|10|0|0|4|10|10|9|2|–|0|10|10|–|0|10
+[tensorstore](https://pypi.org/project/tensorstore)|1,755,245|[5.05/10](https://deps.dev/pypi/tensorstore)|10|0|0|10|10|0|9|10|10|4|0|10|–|0|0
 [pytest-playwright](https://pypi.org/project/pytest-playwright)|1,631,766|[5.05/10](https://deps.dev/pypi/pytest-playwright)|10|–|0|9|10|0|10|10|–|0|0|10|–|0|10
 [versioneer](https://pypi.org/project/versioneer)|1,059,412|[5.05/10](https://deps.dev/pypi/versioneer)|10|0|0|9|10|0|10|10|10|0|0|0|–|0|10
 [versioneer-518](https://pypi.org/project/versioneer-518)|701,341|[5.05/10](https://deps.dev/pypi/versioneer-518)|10|0|0|9|10|0|10|10|10|0|0|0|–|0|10
