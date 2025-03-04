@@ -17,7 +17,7 @@ http = urllib3.PoolManager(
     )
 )
 thread_pool = ThreadPoolExecutor()
-top_pypi_packages_url = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages-30-days.min.json"
+top_pypi_packages_url = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages.min.json"
 today = datetime.date.today().strftime("%Y-%m-%d")
 base_dir = Path(__file__).absolute().parent
 
