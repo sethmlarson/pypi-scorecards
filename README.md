@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on May 15, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on May 22, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -499,7 +499,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [bcrypt](https://pypi.org/project/bcrypt)|71,700,374|[5.30/10](https://deps.dev/pypi/bcrypt)|10|–|0|10|10|0|10|10|10|3|0|0|–|0|10
 [pybind11](https://pypi.org/project/pybind11)|14,791,886|[5.30/10](https://deps.dev/pypi/pybind11)|10|–|0|9|10|10|9|10|10|0|0|10|–|0|0
 [usaddress](https://pypi.org/project/usaddress)|1,324,920|[5.30/10](https://deps.dev/pypi/usaddress)|10|0|0|2|10|0|10|10|10|0|0|0|–|10|10
-[prospector](https://pypi.org/project/prospector)|243,698|[5.30/10](https://deps.dev/pypi/prospector)|10|–|0|10|10|0|10|10|–|0|7|9|–|0|8
 [pybind11-global](https://pypi.org/project/pybind11-global)|160,217|[5.30/10](https://deps.dev/pypi/pybind11-global)|10|–|0|9|10|10|9|10|10|0|0|10|–|0|0
 [polygon-api-client](https://pypi.org/project/polygon-api-client)|151,692|[5.30/10](https://deps.dev/pypi/polygon-api-client)|10|–|0|10|10|0|10|4|–|0|10|0|–|9|9
 [pulumi-aws-native](https://pypi.org/project/pulumi-aws-native)|95,778|[5.30/10](https://deps.dev/pypi/pulumi-aws-native)|10|–|0|6|10|0|10|10|10|8|0|10|0|0|4
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [apache-airflow-providers-apache-drill](https://pypi.org/project/apache-airflow-providers-apache-drill)|116,250|[4.97/10](https://deps.dev/pypi/apache-airflow-providers-apache-drill)|10|–|0|10|–|10|10|10|–|0|10|10|8|–|0
 [apache-airflow-providers-segment](https://pypi.org/project/apache-airflow-providers-segment)|114,486|[4.97/10](https://deps.dev/pypi/apache-airflow-providers-segment)|10|–|0|10|–|10|10|10|–|0|10|10|8|–|0
 [apache-airflow-providers-openfaas](https://pypi.org/project/apache-airflow-providers-openfaas)|114,153|[4.97/10](https://deps.dev/pypi/apache-airflow-providers-openfaas)|10|–|0|10|–|10|10|10|–|0|10|10|8|–|0
+[apache-airflow-providers-apache-kylin](https://pypi.org/project/apache-airflow-providers-apache-kylin)|114,057|[4.97/10](https://deps.dev/pypi/apache-airflow-providers-apache-kylin)|10|–|0|10|–|10|10|10|–|0|10|10|8|–|0
