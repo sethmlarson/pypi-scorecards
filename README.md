@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 22, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jul 29, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -380,7 +380,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [zope-testrunner](https://pypi.org/project/zope-testrunner)|59,901|[5.57/10](https://deps.dev/pypi/zope-testrunner)|10|–|0|3|10|0|9|7|–|2|8|10|–|9|10
 [lefthook](https://pypi.org/project/lefthook)|56,397|[5.57/10](https://deps.dev/pypi/lefthook)|10|0|0|2|10|0|10|10|10|0|10|10|0|0|10
 [pallets-sphinx-themes](https://pypi.org/project/pallets-sphinx-themes)|42,140|[5.57/10](https://deps.dev/pypi/pallets-sphinx-themes)|10|3|0|0|10|0|10|1|10|8|0|9|10|0|10
-[bdkpython](https://pypi.org/project/bdkpython)|34,910|[5.57/10](https://deps.dev/pypi/bdkpython)|7|6|0|10|10|0|9|10|10|0|10|0|–|0|6
 [pip](https://pypi.org/project/pip)|374,930,172|[5.54/10](https://deps.dev/pypi/pip)|0|3|2|8|10|10|10|10|10|1|0|9|–|0|10
 [humanize](https://pypi.org/project/humanize)|20,823,371|[5.54/10](https://deps.dev/pypi/humanize)|10|–|0|5|10|0|10|7|10|0|0|9|–|8|9
 [django-stubs-ext](https://pypi.org/project/django-stubs-ext)|3,157,650|[5.54/10](https://deps.dev/pypi/django-stubs-ext)|10|0|0|6|10|0|10|10|10|0|0|0|–|9|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [param](https://pypi.org/project/param)|1,083,163|[4.89/10](https://deps.dev/pypi/param)|10|–|0|7|10|0|10|10|10|0|0|0|–|0|10
 [langchain-chroma](https://pypi.org/project/langchain-chroma)|797,987|[4.89/10](https://deps.dev/pypi/langchain-chroma)|10|3|0|4|10|0|10|10|10|0|5|10|–|0|0
 [langchain-groq](https://pypi.org/project/langchain-groq)|775,466|[4.89/10](https://deps.dev/pypi/langchain-groq)|10|3|0|4|10|0|10|10|10|0|5|10|–|0|0
+[langchain-huggingface](https://pypi.org/project/langchain-huggingface)|698,408|[4.89/10](https://deps.dev/pypi/langchain-huggingface)|10|3|0|4|10|0|10|10|10|0|5|10|–|0|0
