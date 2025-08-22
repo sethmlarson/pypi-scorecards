@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 15, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Aug 22, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -346,7 +346,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [torchgeo](https://pypi.org/project/torchgeo)|46,706|[5.68/10](https://deps.dev/pypi/torchgeo)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|10
 [autohooks](https://pypi.org/project/autohooks)|41,323|[5.68/10](https://deps.dev/pypi/autohooks)|10|–|0|2|10|0|10|10|–|0|10|10|8|0|10
 [autohooks-plugin-black](https://pypi.org/project/autohooks-plugin-black)|38,082|[5.68/10](https://deps.dev/pypi/autohooks-plugin-black)|10|–|0|2|10|0|10|10|–|0|10|10|8|0|10
-[craft-providers](https://pypi.org/project/craft-providers)|38,039|[5.68/10](https://deps.dev/pypi/craft-providers)|10|–|0|10|10|0|10|10|10|0|0|10|0|0|10
 [frozenlist](https://pypi.org/project/frozenlist)|196,086,846|[5.65/10](https://deps.dev/pypi/frozenlist)|10|–|0|2|10|0|10|10|10|0|10|10|1|0|10
 [tensorflow-io-gcs-filesystem](https://pypi.org/project/tensorflow-io-gcs-filesystem)|9,133,937|[5.65/10](https://deps.dev/pypi/tensorflow-io-gcs-filesystem)|10|–|0|5|10|0|10|0|10|5|2|10|–|10|10
 [pytest-aiohttp](https://pypi.org/project/pytest-aiohttp)|1,840,160|[5.65/10](https://deps.dev/pypi/pytest-aiohttp)|10|3|0|0|10|0|10|10|10|0|10|10|0|0|10
@@ -833,7 +832,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [skia-python](https://pypi.org/project/skia-python)|51,807|[5.14/10](https://deps.dev/pypi/skia-python)|10|–|0|10|10|0|10|10|10|0|0|0|–|0|10
 [sparklines](https://pypi.org/project/sparklines)|47,410|[5.14/10](https://deps.dev/pypi/sparklines)|10|0|0|1|10|0|10|10|10|0|0|0|–|9|10
 [mollie-api-python](https://pypi.org/project/mollie-api-python)|45,234|[5.14/10](https://deps.dev/pypi/mollie-api-python)|10|5|0|10|10|0|10|0|–|0|10|9|0|0|9
-[capellambse](https://pypi.org/project/capellambse)|41,298|[5.14/10](https://deps.dev/pypi/capellambse)|10|8|0|2|10|0|10|10|10|0|0|0|–|0|10
 [netbox-topology-views](https://pypi.org/project/netbox-topology-views)|36,699|[5.14/10](https://deps.dev/pypi/netbox-topology-views)|10|–|0|6|10|0|10|10|10|1|7|4|–|0|6
 [dsp-tools](https://pypi.org/project/dsp-tools)|36,098|[5.14/10](https://deps.dev/pypi/dsp-tools)|10|–|0|10|10|0|10|10|–|0|10|0|–|0|10
 [psutil](https://pypi.org/project/psutil)|195,823,983|[5.11/10](https://deps.dev/pypi/psutil)|10|0|0|3|10|10|10|10|–|0|0|10|–|0|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [gymnasium](https://pypi.org/project/gymnasium)|3,901,085|[4.89/10](https://deps.dev/pypi/gymnasium)|10|–|0|7|10|0|10|10|10|0|0|0|–|0|10
 [langchain-anthropic](https://pypi.org/project/langchain-anthropic)|3,696,340|[4.89/10](https://deps.dev/pypi/langchain-anthropic)|10|3|0|4|10|0|10|10|10|0|5|10|–|0|0
 [pytest-subtests](https://pypi.org/project/pytest-subtests)|3,680,876|[4.89/10](https://deps.dev/pypi/pytest-subtests)|10|0|0|8|10|0|10|9|10|0|0|0|–|0|10
+[xsdata](https://pypi.org/project/xsdata)|1,574,661|[4.89/10](https://deps.dev/pypi/xsdata)|10|–|0|1|10|0|10|10|10|0|9|0|–|0|10
+[tox-gh-actions](https://pypi.org/project/tox-gh-actions)|1,396,540|[4.89/10](https://deps.dev/pypi/tox-gh-actions)|10|–|0|0|10|0|10|0|10|2|10|0|0|9|10
