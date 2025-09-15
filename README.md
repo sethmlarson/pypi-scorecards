@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 8, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 15, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -351,6 +351,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [torchgeo](https://pypi.org/project/torchgeo)|79,183|[5.68/10](https://deps.dev/pypi/torchgeo)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|10
 [django-analytical](https://pypi.org/project/django-analytical)|61,414|[5.68/10](https://deps.dev/pypi/django-analytical)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|10
 [ert](https://pypi.org/project/ert)|55,084|[5.68/10](https://deps.dev/pypi/ert)|10|–|0|10|10|0|10|10|10|0|0|10|–|0|10
+[craft-providers](https://pypi.org/project/craft-providers)|51,413|[5.68/10](https://deps.dev/pypi/craft-providers)|10|–|0|10|10|0|10|10|10|0|0|10|0|0|10
 [pytraccar](https://pypi.org/project/pytraccar)|42,283|[5.68/10](https://deps.dev/pypi/pytraccar)|10|4|0|10|10|0|10|10|10|3|1|0|0|0|10
 [autohooks](https://pypi.org/project/autohooks)|36,608|[5.68/10](https://deps.dev/pypi/autohooks)|10|–|0|2|10|0|10|10|–|0|10|10|8|0|10
 [frozenlist](https://pypi.org/project/frozenlist)|214,106,056|[5.65/10](https://deps.dev/pypi/frozenlist)|10|–|0|2|10|0|10|10|10|0|10|10|1|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [oasislmf](https://pypi.org/project/oasislmf)|61,228|[4.92/10](https://deps.dev/pypi/oasislmf)|10|–|0|8|10|0|10|10|–|0|8|10|0|0|4
 [pvo](https://pypi.org/project/pvo)|42,686|[4.92/10](https://deps.dev/pypi/pvo)|10|–|0|0|10|0|0|10|10|0|10|0|4|0|10
 [wheel](https://pypi.org/project/wheel)|288,866,753|[4.89/10](https://deps.dev/pypi/wheel)|10|0|0|2|10|10|10|5|10|0|5|0|–|0|10
-[trove-classifiers](https://pypi.org/project/trove-classifiers)|163,576,582|[4.89/10](https://deps.dev/pypi/trove-classifiers)|10|–|0|10|10|0|10|7|10|0|0|0|–|0|10
