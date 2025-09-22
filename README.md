@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 15, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -51,7 +51,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [idna](https://pypi.org/project/idna)|730,961,280|[6.84/10](https://deps.dev/pypi/idna)|10|–|0|0|10|10|10|7|10|8|8|10|0|10|10
 [jinja2](https://pypi.org/project/jinja2)|335,043,268|[6.84/10](https://deps.dev/pypi/jinja2)|10|3|0|0|10|10|10|10|10|8|0|9|10|0|10
 [mne](https://pypi.org/project/mne)|345,518|[6.84/10](https://deps.dev/pypi/mne)|10|–|7|8|10|0|10|10|10|0|9|10|–|8|10
-[xtgeo](https://pypi.org/project/xtgeo)|83,771|[6.78/10](https://deps.dev/pypi/xtgeo)|10|–|0|10|10|0|10|10|10|0|7|10|–|9|10
 [flexget](https://pypi.org/project/flexget)|56,373|[6.78/10](https://deps.dev/pypi/flexget)|10|3|0|5|10|0|10|10|10|10|10|0|0|10|9
 [niquests](https://pypi.org/project/niquests)|1,506,275|[6.76/10](https://deps.dev/pypi/niquests)|10|–|5|3|10|0|10|10|10|4|9|10|10|10|0
 [newrelic-telemetry-sdk](https://pypi.org/project/newrelic-telemetry-sdk)|1,269,635|[6.76/10](https://deps.dev/pypi/newrelic-telemetry-sdk)|10|5|0|7|10|0|10|8|10|4|4|10|–|8|10
@@ -839,7 +838,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [tskit](https://pypi.org/project/tskit)|42,466|[5.14/10](https://deps.dev/pypi/tskit)|10|–|0|10|10|0|10|10|10|0|0|0|0|0|10
 [psutil](https://pypi.org/project/psutil)|202,663,656|[5.11/10](https://deps.dev/pypi/psutil)|10|0|0|3|10|10|10|10|–|0|0|10|–|0|10
 [mypy-extensions](https://pypi.org/project/mypy-extensions)|147,223,564|[5.11/10](https://deps.dev/pypi/mypy-extensions)|10|–|0|6|10|0|9|4|–|0|0|10|–|10|10
-[uvicorn](https://pypi.org/project/uvicorn)|136,597,842|[5.11/10](https://deps.dev/pypi/uvicorn)|10|–|0|3|10|0|10|10|10|0|0|10|–|0|10
 [uvloop](https://pypi.org/project/uvloop)|52,693,765|[5.11/10](https://deps.dev/pypi/uvloop)|10|–|0|9|10|0|10|6|10|7|0|0|–|0|10
 [freezegun](https://pypi.org/project/freezegun)|24,673,534|[5.11/10](https://deps.dev/pypi/freezegun)|10|0|0|3|10|0|10|10|10|0|0|10|0|0|10
 [zope-event](https://pypi.org/project/zope-event)|22,492,520|[5.11/10](https://deps.dev/pypi/zope-event)|10|–|0|3|10|0|9|4|–|5|1|10|–|9|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [oasislmf](https://pypi.org/project/oasislmf)|61,228|[4.92/10](https://deps.dev/pypi/oasislmf)|10|–|0|8|10|0|10|10|–|0|8|10|0|0|4
 [pvo](https://pypi.org/project/pvo)|42,686|[4.92/10](https://deps.dev/pypi/pvo)|10|–|0|0|10|0|0|10|10|0|10|0|4|0|10
 [wheel](https://pypi.org/project/wheel)|288,866,753|[4.89/10](https://deps.dev/pypi/wheel)|10|0|0|2|10|10|10|5|10|0|5|0|–|0|10
+[trove-classifiers](https://pypi.org/project/trove-classifiers)|163,576,582|[4.89/10](https://deps.dev/pypi/trove-classifiers)|10|–|0|10|10|0|10|7|10|0|0|0|–|0|10
+[huggingface-hub](https://pypi.org/project/huggingface-hub)|120,757,729|[4.89/10](https://deps.dev/pypi/huggingface-hub)|10|–|0|9|10|0|10|10|–|0|7|0|–|0|10
