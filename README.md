@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 29, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 1, 2025 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -962,6 +962,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pyvisa-sim](https://pypi.org/project/pyvisa-sim)|87,271|[4.97/10](https://deps.dev/pypi/pyvisa-sim)|10|–|0|0|10|0|10|10|10|0|0|0|8|0|10
 [pingparsing](https://pypi.org/project/pingparsing)|74,796|[4.97/10](https://deps.dev/pypi/pingparsing)|10|–|0|0|10|0|10|0|10|0|0|0|8|10|10
 [sphinxcontrib-needs](https://pypi.org/project/sphinxcontrib-needs)|69,366|[4.97/10](https://deps.dev/pypi/sphinxcontrib-needs)|8|–|0|10|10|0|10|10|10|0|0|0|–|0|10
+[rapidyaml](https://pypi.org/project/rapidyaml)|48,935|[4.97/10](https://deps.dev/pypi/rapidyaml)|10|0|0|0|10|10|10|7|10|1|10|0|0|0|7
 [brax](https://pypi.org/project/brax)|46,393|[4.97/10](https://deps.dev/pypi/brax)|10|0|0|8|10|0|10|10|–|0|0|10|–|0|10
 [pymeasure](https://pypi.org/project/pymeasure)|43,480|[4.97/10](https://deps.dev/pypi/pymeasure)|10|–|0|8|10|0|10|10|10|0|0|0|–|0|10
 [gftools](https://pypi.org/project/gftools)|40,119|[4.97/10](https://deps.dev/pypi/gftools)|10|0|0|2|10|0|10|10|10|0|9|0|–|0|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pvo](https://pypi.org/project/pvo)|42,686|[4.92/10](https://deps.dev/pypi/pvo)|10|–|0|0|10|0|0|10|10|0|10|0|4|0|10
 [wheel](https://pypi.org/project/wheel)|288,866,753|[4.89/10](https://deps.dev/pypi/wheel)|10|0|0|2|10|10|10|5|10|0|5|0|–|0|10
 [trove-classifiers](https://pypi.org/project/trove-classifiers)|163,576,582|[4.89/10](https://deps.dev/pypi/trove-classifiers)|10|–|0|10|10|0|10|7|10|0|0|0|–|0|10
-[huggingface-hub](https://pypi.org/project/huggingface-hub)|120,757,729|[4.89/10](https://deps.dev/pypi/huggingface-hub)|10|–|0|9|10|0|10|10|–|0|7|0|–|0|10
