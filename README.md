@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Jan 29, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 1, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -963,6 +963,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-batch](https://pypi.org/project/azure-batch)|21,781,256|[5.24/10](https://deps.dev/pypi/azure-batch)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-resource](https://pypi.org/project/azure-mgmt-resource)|20,295,803|[5.24/10](https://deps.dev/pypi/azure-mgmt-resource)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-storage](https://pypi.org/project/azure-mgmt-storage)|19,305,824|[5.24/10](https://deps.dev/pypi/azure-mgmt-storage)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
+[deltalake](https://pypi.org/project/deltalake)|18,319,275|[5.24/10](https://deps.dev/pypi/deltalake)|10|8|0|10|10|0|10|10|–|0|0|0|–|0|10
 [azure-servicebus](https://pypi.org/project/azure-servicebus)|16,530,896|[5.24/10](https://deps.dev/pypi/azure-servicebus)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-monitor-opentelemetry-exporter](https://pypi.org/project/azure-monitor-opentelemetry-exporter)|15,802,743|[5.24/10](https://deps.dev/pypi/azure-monitor-opentelemetry-exporter)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [pytest-html](https://pypi.org/project/pytest-html)|15,450,137|[5.24/10](https://deps.dev/pypi/pytest-html)|10|6|0|10|10|0|9|10|10|1|0|0|–|0|5
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-mgmt-batch](https://pypi.org/project/azure-mgmt-batch)|7,135,437|[5.24/10](https://deps.dev/pypi/azure-mgmt-batch)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-managementgroups](https://pypi.org/project/azure-mgmt-managementgroups)|7,114,437|[5.24/10](https://deps.dev/pypi/azure-mgmt-managementgroups)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-recoveryservices](https://pypi.org/project/azure-mgmt-recoveryservices)|7,072,343|[5.24/10](https://deps.dev/pypi/azure-mgmt-recoveryservices)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
-[azure-mgmt-recoveryservicesbackup](https://pypi.org/project/azure-mgmt-recoveryservicesbackup)|7,057,563|[5.24/10](https://deps.dev/pypi/azure-mgmt-recoveryservicesbackup)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
