@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 8, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Feb 15, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -504,6 +504,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [aqtinstall](https://pypi.org/project/aqtinstall)|354,392|[5.78/10](https://deps.dev/pypi/aqtinstall)|9|–|0|5|10|0|10|10|10|2|9|10|0|0|10
 [pytd](https://pypi.org/project/pytd)|351,621|[5.78/10](https://deps.dev/pypi/pytd)|10|0|0|8|10|0|10|10|–|0|6|10|–|10|6
 [jupyterhub](https://pypi.org/project/jupyterhub)|172,868|[5.78/10](https://deps.dev/pypi/jupyterhub)|10|–|2|10|10|0|10|10|10|1|0|10|–|10|0
+[libcuml-cu12](https://pypi.org/project/libcuml-cu12)|124,342|[5.78/10](https://deps.dev/pypi/libcuml-cu12)|10|8|0|10|10|0|10|10|–|0|0|10|–|0|10
 [pyppmd](https://pypi.org/project/pyppmd)|4,393,149|[5.76/10](https://deps.dev/pypi/pyppmd)|10|3|0|0|10|10|10|10|10|2|0|10|–|0|10
 [cdk-ecr-deployment](https://pypi.org/project/cdk-ecr-deployment)|504,629|[5.76/10](https://deps.dev/pypi/cdk-ecr-deployment)|10|–|0|10|10|0|10|10|–|0|10|10|–|5|6
 [rocketchat-api](https://pypi.org/project/rocketchat-api)|222,447|[5.76/10](https://deps.dev/pypi/rocketchat-api)|10|3|0|0|10|0|10|10|10|0|10|0|–|8|10
@@ -1005,4 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-mgmt-marketplaceordering](https://pypi.org/project/azure-mgmt-marketplaceordering)|7,103,127|[5.24/10](https://deps.dev/pypi/azure-mgmt-marketplaceordering)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-advisor](https://pypi.org/project/azure-mgmt-advisor)|7,094,026|[5.24/10](https://deps.dev/pypi/azure-mgmt-advisor)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
 [azure-mgmt-billing](https://pypi.org/project/azure-mgmt-billing)|6,944,242|[5.24/10](https://deps.dev/pypi/azure-mgmt-billing)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
-[azure-mgmt-policyinsights](https://pypi.org/project/azure-mgmt-policyinsights)|6,921,496|[5.24/10](https://deps.dev/pypi/azure-mgmt-policyinsights)|8|5|5|10|10|10|10|10|–|0|0|10|–|0|0
