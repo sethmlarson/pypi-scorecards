@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Apr 29, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on May 1, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -690,6 +690,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [azure-storage-blob-changefeed](https://pypi.org/project/azure-storage-blob-changefeed)|71,017|[5.71/10](https://deps.dev/pypi/azure-storage-blob-changefeed)|8|5|5|10|10|10|10|10|–|0|0|10|–|0
 [azure-communication-rooms](https://pypi.org/project/azure-communication-rooms)|70,666|[5.71/10](https://deps.dev/pypi/azure-communication-rooms)|8|5|5|10|10|10|10|10|–|0|0|10|–|0
 [azure-mgmt-securityinsight](https://pypi.org/project/azure-mgmt-securityinsight)|66,954|[5.71/10](https://deps.dev/pypi/azure-mgmt-securityinsight)|8|5|5|10|10|10|10|10|–|0|0|10|–|0
+[azure-postgresql-auth](https://pypi.org/project/azure-postgresql-auth)|64,380|[5.71/10](https://deps.dev/pypi/azure-postgresql-auth)|8|5|5|10|10|10|10|10|–|0|0|10|–|0
 [pypdf](https://pypi.org/project/pypdf)|49,230,127|[5.68/10](https://deps.dev/pypi/pypdf)|10|6|0|2|10|10|9|10|10|0|0|10|–|0
 [pypdf2](https://pypi.org/project/pypdf2)|25,347,289|[5.68/10](https://deps.dev/pypi/pypdf2)|10|6|0|2|10|10|9|10|10|0|0|10|–|0
 [bottleneck](https://pypi.org/project/bottleneck)|9,162,303|[5.68/10](https://deps.dev/pypi/bottleneck)|10|–|0|3|10|10|10|10|10|2|0|0|–|10
@@ -916,6 +917,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [google-cloud-webrisk](https://pypi.org/project/google-cloud-webrisk)|327,206|[5.29/10](https://deps.dev/pypi/google-cloud-webrisk)|10|–|0|10|10|10|10|10|–|0|0|10|–|0
 [google-cloud-datacatalog-lineage](https://pypi.org/project/google-cloud-datacatalog-lineage)|310,000|[5.29/10](https://deps.dev/pypi/google-cloud-datacatalog-lineage)|10|–|0|10|10|10|10|10|–|0|0|10|–|0
 [google-cloud-service-usage](https://pypi.org/project/google-cloud-service-usage)|291,127|[5.29/10](https://deps.dev/pypi/google-cloud-service-usage)|10|–|0|10|10|10|10|10|–|0|0|10|–|0
+[stim](https://pypi.org/project/stim)|268,153|[5.29/10](https://deps.dev/pypi/stim)|10|–|0|4|10|0|10|10|10|6|3|10|0|0
 [google-geo-type](https://pypi.org/project/google-geo-type)|262,503|[5.29/10](https://deps.dev/pypi/google-geo-type)|10|–|0|10|10|10|10|10|–|0|0|10|–|0
 [pylibiio](https://pypi.org/project/pylibiio)|221,804|[5.29/10](https://deps.dev/pypi/pylibiio)|10|6|0|10|10|0|10|10|–|3|8|0|0|0
 [google-cloud-parametermanager](https://pypi.org/project/google-cloud-parametermanager)|220,141|[5.29/10](https://deps.dev/pypi/google-cloud-parametermanager)|10|–|0|10|10|10|10|10|–|0|0|10|–|0
@@ -1004,5 +1006,3 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mkdocs-rss-plugin](https://pypi.org/project/mkdocs-rss-plugin)|171,027|[5.21/10](https://deps.dev/pypi/mkdocs-rss-plugin)|10|–|0|0|10|0|10|10|10|0|10|0|0|9
 [polars-runtime-64](https://pypi.org/project/polars-runtime-64)|166,899|[5.21/10](https://deps.dev/pypi/polars-runtime-64)|10|–|0|9|10|0|10|10|10|0|0|10|–|0
 [polars-u64-idx](https://pypi.org/project/polars-u64-idx)|120,432|[5.21/10](https://deps.dev/pypi/polars-u64-idx)|10|–|0|9|10|0|10|10|10|0|0|10|–|0
-[bittensor](https://pypi.org/project/bittensor)|119,919|[5.21/10](https://deps.dev/pypi/bittensor)|10|–|0|9|10|0|10|10|10|0|0|10|–|0
-[aws-parallelcluster](https://pypi.org/project/aws-parallelcluster)|106,599|[5.21/10](https://deps.dev/pypi/aws-parallelcluster)|9|–|0|10|10|0|10|10|–|0|10|10|–|0
