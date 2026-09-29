@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 22, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 29, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -544,6 +544,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [plotly](https://pypi.org/project/plotly)|66,720,907|[6.12/10](https://deps.dev/pypi/plotly)|10|4|0|10|10|0|10|10|10|8|0|10|0|0
 [pyrfc3339](https://pypi.org/project/pyrfc3339)|15,209,357|[6.12/10](https://deps.dev/pypi/pyrfc3339)|10|0|0|–|10|0|10|10|10|8|10|0|4|10
 [strawberry-graphql](https://pypi.org/project/strawberry-graphql)|7,082,147|[6.12/10](https://deps.dev/pypi/strawberry-graphql)|10|–|0|5|10|0|10|10|–|8|10|10|0|9
+[cftime](https://pypi.org/project/cftime)|4,880,245|[6.12/10](https://deps.dev/pypi/cftime)|10|0|0|8|10|0|10|5|10|5|6|10|–|9
 [panel](https://pypi.org/project/panel)|3,195,767|[6.12/10](https://deps.dev/pypi/panel)|10|–|0|4|10|0|10|10|10|9|9|0|0|10
 [django-treebeard](https://pypi.org/project/django-treebeard)|1,513,867|[6.12/10](https://deps.dev/pypi/django-treebeard)|10|3|0|1|10|0|10|10|10|0|8|10|–|10
 [squawk-cli](https://pypi.org/project/squawk-cli)|672,149|[6.12/10](https://deps.dev/pypi/squawk-cli)|10|–|0|10|10|0|10|10|10|9|0|0|0|10
@@ -825,7 +826,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [model-bakery](https://pypi.org/project/model-bakery)|1,988,125|[5.88/10](https://deps.dev/pypi/model-bakery)|10|0|0|1|10|0|10|10|10|10|0|10|–|9
 [cog](https://pypi.org/project/cog)|1,861,990|[5.88/10](https://deps.dev/pypi/cog)|10|–|0|10|10|10|10|10|10|0|10|0|0|0
 [open3d](https://pypi.org/project/open3d)|1,503,501|[5.88/10](https://deps.dev/pypi/open3d)|10|5|0|6|10|0|9|10|–|0|4|10|0|10
-[ably](https://pypi.org/project/ably)|1,155,002|[5.88/10](https://deps.dev/pypi/ably)|10|1|0|10|10|0|10|7|10|8|0|0|–|10
 [technical](https://pypi.org/project/technical)|268,513|[5.88/10](https://deps.dev/pypi/technical)|10|–|0|–|10|0|10|10|10|10|10|0|–|10
 [language-tool-python](https://pypi.org/project/language-tool-python)|245,243|[5.88/10](https://deps.dev/pypi/language-tool-python)|10|0|0|0|10|0|10|10|–|10|10|10|0|10
 [siphashc](https://pypi.org/project/siphashc)|137,104|[5.88/10](https://deps.dev/pypi/siphashc)|10|–|0|0|10|0|10|10|–|10|10|10|–|10
