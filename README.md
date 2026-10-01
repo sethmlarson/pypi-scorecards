@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Sep 29, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 1, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -185,7 +185,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [dspy-ai](https://pypi.org/project/dspy-ai)|676,642|[6.65/10](https://deps.dev/pypi/dspy-ai)|10|0|0|6|10|0|10|10|10|7|7|10|–|10
 [zmq](https://pypi.org/project/zmq)|583,350|[6.65/10](https://deps.dev/pypi/zmq)|10|3|0|5|10|10|10|10|10|1|0|10|–|10
 [docker](https://pypi.org/project/docker)|189,303,912|[6.62/10](https://deps.dev/pypi/docker)|10|1|0|10|10|0|10|10|10|3|3|10|0|10
-[tritonclient](https://pypi.org/project/tritonclient)|11,990,311|[6.62/10](https://deps.dev/pypi/tritonclient)|10|6|0|10|10|0|10|10|–|0|10|10|0|9
 [scrapy](https://pypi.org/project/scrapy)|4,577,058|[6.62/10](https://deps.dev/pypi/scrapy)|10|0|0|9|10|0|10|10|10|9|0|10|–|10
 [django-axes](https://pypi.org/project/django-axes)|3,879,028|[6.62/10](https://deps.dev/pypi/django-axes)|10|0|0|10|10|0|10|10|10|0|9|10|–|9
 [pymc](https://pypi.org/project/pymc)|2,630,286|[6.62/10](https://deps.dev/pypi/pymc)|10|–|0|10|10|0|9|10|10|8|10|0|–|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [zodb](https://pypi.org/project/zodb)|171,485|[5.50/10](https://deps.dev/pypi/zodb)|10|8|0|3|10|0|9|0|–|8|6|10|–|9
 [archivebox](https://pypi.org/project/archivebox)|83,006|[5.50/10](https://deps.dev/pypi/archivebox)|10|1|0|0|10|0|10|10|10|7|10|10|0|0
 [crystal-toolkit](https://pypi.org/project/crystal-toolkit)|70,388|[5.50/10](https://deps.dev/pypi/crystal-toolkit)|10|–|0|6|10|0|9|10|10|0|10|10|–|0
+[sentry-sdk](https://pypi.org/project/sentry-sdk)|169,319,258|[5.47/10](https://deps.dev/pypi/sentry-sdk)|10|4|0|8|10|0|10|10|–|10|0|10|0|0
