@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 15, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 22, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -26,7 +26,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [pylint](https://pypi.org/project/pylint)|38,815,379|[8.09/10](https://deps.dev/pypi/pylint)|10|8|5|7|10|0|10|10|10|3|10|9|8|9
 [pypdf](https://pypi.org/project/pypdf)|125,401,529|[7.94/10](https://deps.dev/pypi/pypdf)|10|6|0|9|10|10|9|10|10|3|10|10|–|10
 [pypdf2](https://pypi.org/project/pypdf2)|15,485,786|[7.94/10](https://deps.dev/pypi/pypdf2)|10|6|0|9|10|10|9|10|10|3|10|10|–|10
-[langsmith](https://pypi.org/project/langsmith)|79,060,995|[7.91/10](https://deps.dev/pypi/langsmith)|10|8|0|10|10|0|10|10|10|10|10|9|–|9
 [matplotlib](https://pypi.org/project/matplotlib)|162,125,416|[7.79/10](https://deps.dev/pypi/matplotlib)|10|8|0|10|10|10|9|10|–|6|10|10|–|10
 [yt-dlp](https://pypi.org/project/yt-dlp)|12,687,900|[7.76/10](https://deps.dev/pypi/yt-dlp)|10|8|0|6|10|0|10|10|10|9|10|0|8|10
 [idna](https://pypi.org/project/idna)|1,339,499,236|[7.71/10](https://deps.dev/pypi/idna)|10|–|0|0|10|10|10|10|10|9|10|10|8|10
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [geemap](https://pypi.org/project/geemap)|80,818|[5.47/10](https://deps.dev/pypi/geemap)|10|6|0|6|10|0|10|10|10|0|10|0|–|0
 [cmake](https://pypi.org/project/cmake)|12,620,030|[5.44/10](https://deps.dev/pypi/cmake)|10|–|0|3|10|0|10|10|10|8|0|0|–|10
 [eventlet](https://pypi.org/project/eventlet)|2,618,794|[5.44/10](https://deps.dev/pypi/eventlet)|10|6|0|10|10|0|9|6|10|0|0|10|–|0
+[tensorstore](https://pypi.org/project/tensorstore)|2,541,666|[5.44/10](https://deps.dev/pypi/tensorstore)|10|0|0|10|10|0|9|10|10|3|0|10|–|0
