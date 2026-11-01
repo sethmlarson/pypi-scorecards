@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Oct 29, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 1, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -178,7 +178,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [dspy-ai](https://pypi.org/project/dspy-ai)|469,970|[6.65/10](https://deps.dev/pypi/dspy-ai)|10|0|0|6|10|0|10|10|10|7|7|10|–|10
 [docker](https://pypi.org/project/docker)|131,858,211|[6.62/10](https://deps.dev/pypi/docker)|10|1|0|10|10|0|10|10|10|3|3|10|0|10
 [scrapy](https://pypi.org/project/scrapy)|4,350,762|[6.62/10](https://deps.dev/pypi/scrapy)|10|0|0|9|10|0|10|10|10|9|0|10|–|10
-[django-axes](https://pypi.org/project/django-axes)|3,718,962|[6.62/10](https://deps.dev/pypi/django-axes)|10|0|0|10|10|0|10|10|10|0|9|10|–|9
 [pymc](https://pypi.org/project/pymc)|1,335,615|[6.62/10](https://deps.dev/pypi/pymc)|10|–|0|10|10|0|9|10|10|8|10|0|–|10
 [docker-py](https://pypi.org/project/docker-py)|1,144,488|[6.62/10](https://deps.dev/pypi/docker-py)|10|1|0|10|10|0|10|10|10|3|3|10|0|10
 [pyoxigraph](https://pypi.org/project/pyoxigraph)|284,640|[6.62/10](https://deps.dev/pypi/pyoxigraph)|10|1|0|2|10|10|10|10|10|8|10|0|0|10
@@ -221,7 +220,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [mutagen](https://pypi.org/project/mutagen)|6,867,077|[6.44/10](https://deps.dev/pypi/mutagen)|10|–|0|5|10|10|10|10|–|10|0|0|8|10
 [sphinx-autodoc-typehints](https://pypi.org/project/sphinx-autodoc-typehints)|2,458,046|[6.44/10](https://deps.dev/pypi/sphinx-autodoc-typehints)|10|3|0|0|10|0|10|10|10|10|5|10|–|10
 [cwl-utils](https://pypi.org/project/cwl-utils)|123,399|[6.44/10](https://deps.dev/pypi/cwl-utils)|10|3|0|5|10|0|10|10|10|1|8|10|–|9
-[filelock](https://pypi.org/project/filelock)|499,529,209|[6.41/10](https://deps.dev/pypi/filelock)|10|3|0|1|10|0|10|10|10|8|5|10|–|10
 [humanize](https://pypi.org/project/humanize)|47,964,245|[6.41/10](https://deps.dev/pypi/humanize)|10|–|0|6|10|0|10|10|10|9|5|9|–|8
 [geoip2](https://pypi.org/project/geoip2)|12,816,263|[6.41/10](https://deps.dev/pypi/geoip2)|10|6|0|–|10|0|10|10|10|10|10|0|–|10
 [donfig](https://pypi.org/project/donfig)|3,988,818|[6.41/10](https://deps.dev/pypi/donfig)|10|0|0|10|10|0|10|10|10|7|7|0|–|10
@@ -1006,3 +1004,5 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cmake](https://pypi.org/project/cmake)|12,620,030|[5.44/10](https://deps.dev/pypi/cmake)|10|–|0|3|10|0|10|10|10|8|0|0|–|10
 [eventlet](https://pypi.org/project/eventlet)|2,618,794|[5.44/10](https://deps.dev/pypi/eventlet)|10|6|0|10|10|0|9|6|10|0|0|10|–|0
 [tensorstore](https://pypi.org/project/tensorstore)|2,541,666|[5.44/10](https://deps.dev/pypi/tensorstore)|10|0|0|10|10|0|9|10|10|3|0|10|–|0
+[branca](https://pypi.org/project/branca)|2,183,294|[5.44/10](https://deps.dev/pypi/branca)|10|–|0|5|10|0|10|8|10|8|0|0|–|10
+[anndata](https://pypi.org/project/anndata)|1,310,229|[5.44/10](https://deps.dev/pypi/anndata)|10|3|0|3|10|0|10|10|10|8|0|0|–|7
