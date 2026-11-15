@@ -1,6 +1,6 @@
 # OpenSSF Scorecards for top Python packages
 
-Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 8, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
+Top 5,000 Python packages by downloads and their [OpenSSF Scorecard values](https://github.com/ossf/scorecard). Data gathered from [deps.dev public dataset](https://deps.dev) on Nov 15, 2026 and is updated weekly. Historical data can be found [under `data/`](https://github.com/sethmlarson/pypi-scorecards/tree/main/data). For more information about individual Scorecard checks you can [read the documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md). 
 
 **NOTE:** All missing values are scored as a zero. deps.dev doesn't take missing values into account for their scoring of packages. This is the likely reason why you may see a difference in the value reported here versus the one on deps.dev for a package.
 
@@ -306,6 +306,7 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [microsoft-kiota-authentication-azure](https://pypi.org/project/microsoft-kiota-authentication-azure)|9,331,303|[6.35/10](https://deps.dev/pypi/microsoft-kiota-authentication-azure)|10|8|0|10|10|0|10|10|–|6|10|10|0|0
 [microsoft-kiota-abstractions](https://pypi.org/project/microsoft-kiota-abstractions)|9,276,286|[6.35/10](https://deps.dev/pypi/microsoft-kiota-abstractions)|10|8|0|10|10|0|10|10|–|6|10|10|0|0
 [opentelemetry-instrumentation-psycopg](https://pypi.org/project/opentelemetry-instrumentation-psycopg)|9,224,906|[6.35/10](https://deps.dev/pypi/opentelemetry-instrumentation-psycopg)|10|4|0|10|10|0|10|10|–|0|7|10|–|10
+[sqlalchemy-spanner](https://pypi.org/project/sqlalchemy-spanner)|9,022,779|[6.35/10](https://deps.dev/pypi/sqlalchemy-spanner)|10|–|0|10|10|10|10|10|–|3|0|10|–|10
 [google-cloud-trace](https://pypi.org/project/google-cloud-trace)|8,929,954|[6.35/10](https://deps.dev/pypi/google-cloud-trace)|10|–|0|10|10|10|10|10|–|3|0|10|–|10
 [microsoft-kiota-serialization-json](https://pypi.org/project/microsoft-kiota-serialization-json)|8,873,458|[6.35/10](https://deps.dev/pypi/microsoft-kiota-serialization-json)|10|8|0|10|10|0|10|10|–|6|10|10|0|0
 [microsoft-kiota-serialization-text](https://pypi.org/project/microsoft-kiota-serialization-text)|8,851,103|[6.35/10](https://deps.dev/pypi/microsoft-kiota-serialization-text)|10|8|0|10|10|0|10|10|–|6|10|10|0|0
@@ -838,8 +839,6 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [autograd](https://pypi.org/project/autograd)|3,819,889|[5.82/10](https://deps.dev/pypi/autograd)|10|0|0|6|10|0|10|10|10|10|0|0|–|10
 [pyerfa](https://pypi.org/project/pyerfa)|3,344,407|[5.82/10](https://deps.dev/pypi/pyerfa)|10|0|0|10|10|0|10|10|–|4|10|0|–|10
 [webargs](https://pypi.org/project/webargs)|1,885,961|[5.82/10](https://deps.dev/pypi/webargs)|10|–|0|4|10|0|10|10|10|3|0|10|–|10
-[awkward-cpp](https://pypi.org/project/awkward-cpp)|1,572,101|[5.82/10](https://deps.dev/pypi/awkward-cpp)|10|–|0|8|10|0|10|10|10|7|0|0|0|10
-[awkward](https://pypi.org/project/awkward)|1,568,854|[5.82/10](https://deps.dev/pypi/awkward)|10|–|0|8|10|0|10|10|10|7|0|0|0|10
 [cartopy](https://pypi.org/project/cartopy)|1,038,355|[5.82/10](https://deps.dev/pypi/cartopy)|10|–|0|10|10|0|10|10|10|4|0|0|–|10
 [rudder-sdk-python](https://pypi.org/project/rudder-sdk-python)|430,159|[5.82/10](https://deps.dev/pypi/rudder-sdk-python)|10|5|0|6|10|0|9|4|–|6|6|10|–|10
 [flaml](https://pypi.org/project/flaml)|380,191|[5.82/10](https://deps.dev/pypi/flaml)|10|8|0|10|10|0|10|10|–|2|5|10|–|0
@@ -1006,3 +1005,4 @@ Package|Downloads|Overall|Binary-Artifacts|Branch-Protection|CII-Best-Practices|
 [cantools](https://pypi.org/project/cantools)|1,148,785|[5.44/10](https://deps.dev/pypi/cantools)|10|0|0|7|10|0|10|10|10|2|0|0|–|10
 [django-cms](https://pypi.org/project/django-cms)|105,518|[5.44/10](https://deps.dev/pypi/django-cms)|10|–|0|8|10|0|9|10|10|0|7|9|–|0
 [glances](https://pypi.org/project/glances)|94,558|[5.44/10](https://deps.dev/pypi/glances)|10|0|2|7|10|0|9|10|–|3|9|4|–|7
+[nixtla](https://pypi.org/project/nixtla)|93,257|[5.44/10](https://deps.dev/pypi/nixtla)|10|–|0|10|10|0|9|10|10|3|10|0|–|0
